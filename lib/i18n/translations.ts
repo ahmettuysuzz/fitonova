@@ -16,6 +16,7 @@ const translations = {
     navGallery: "Galeri",
     navAppointment: "Randevu Al",
     makeAppointment: "Randevu Al",
+    navDocuments: "Belgelerimiz", // Added documents menu link
 
     // Hero
     heroTitle: "Fitoterapi'de Bitkisel Yaşam Merkezi",
@@ -118,7 +119,7 @@ const translations = {
     // Footer
     footerTagline: "Bütünsel sağlık ve zindelikte güvenilir ortağınız.",
     footerAddress: "Adres",
-    footerAddressText: "Murat Reis Mah. Nuhkuyu Cad. No: 255/2 Üsküdar/İstanbul",
+    footerAddressText: "Murat Reis Mah. Nuhkuyu Cad. No:255/2 Bağlarbaşı/Üsküdar",
     footerContact: "İletişim",
     footerSocialMedia: "Sosyal Medya",
     footerCopyright: "© 2025 Fitonova Sağlık Hizmet Birimi. Tüm hakları saklıdır.",
@@ -149,6 +150,7 @@ const translations = {
     navGallery: "Gallery",
     navAppointment: "Book Appointment",
     makeAppointment: "Book Appointment",
+    navDocuments: "Our Documents", // Added documents menu link
 
     // Hero
     heroTitle: "Herbal Life Center in Phytotherapy",
@@ -251,7 +253,7 @@ const translations = {
     // Footer
     footerTagline: "Your trusted partner in holistic health and wellness.",
     footerAddress: "Address",
-    footerAddressText: "Murat Reis Mah. Nuhkuyu Cad. No: 255/2 Üsküdar/Istanbul",
+    footerAddressText: "Murat Reis Mah. Nuhkuyu Cad. No:255/2 Bağlarbaşı/Üsküdar",
     footerContact: "Contact",
     footerSocialMedia: "Social Media",
     footerCopyright: "© 2025 Fitonova Health Service Unit. All rights reserved.",
@@ -285,6 +287,7 @@ const translations = {
     navGallery: "المعرض",
     navAppointment: "احجز موعد",
     makeAppointment: "احجز موعد",
+    navDocuments: "وثائقنا", // Added documents menu link
 
     // Hero
     heroTitle: "مركز الحياة العشبية في العلاج النباتي",
@@ -383,7 +386,7 @@ const translations = {
     // Footer
     footerTagline: "شريكك الموثوق في الصحة والعافية الشاملة.",
     footerAddress: "العنوان",
-    footerAddressText: "مراد رئيس ماه. نوهكويو كاد. رقم: 255/2 أوسكودار/اسطنبول",
+    footerAddressText: "مراد رئيس ماه. نوهكويو كاد. رقم:255/2 باغلار باشي/أوسكودار",
     footerContact: "اتصل",
     footerSocialMedia: "وسائل التواصل الاجتماعي",
     footerCopyright: "© 2025 وحدة خدمة فيتونوفا الصحية. جميع الحقوق محفوظة.",
@@ -414,6 +417,7 @@ const translations = {
     navGallery: "Galerie",
     navAppointment: "Termin buchen",
     makeAppointment: "Termin buchen",
+    navDocuments: "Unsere Dokumente", // Added documents menu link
 
     // Hero
     heroTitle: "Kräuterlebenszentrum in der Phytotherapie",
@@ -517,7 +521,7 @@ const translations = {
     // Footer
     footerTagline: "Ihr vertrauenswürdiger Partner für ganzheitliche Gesundheit und Wohlbefinden.",
     footerAddress: "Adresse",
-    footerAddressText: "Murat Reis Mah. Nuhkuyu Cad. Nr: 255/2 Üsküdar/Istanbul",
+    footerAddressText: "Murat Reis Mah. Nuhkuyu Cad. Nr:255/2 Bağlarbaşı/Üsküdar",
     footerContact: "Kontakt",
     footerSocialMedia: "Soziale Medien",
     footerCopyright: "© 2025 Fitonova Gesundheitsdiensteinheit. Alle Rechte vorbehalten.",
@@ -548,6 +552,7 @@ const translations = {
     navGallery: "Galerie",
     navAppointment: "Prendre rendez-vous",
     makeAppointment: "Prendre rendez-vous",
+    navDocuments: "Nos documents", // Added documents menu link
 
     // Hero
     heroTitle: "Centre de vie à base de plantes en phytothérapie",
@@ -650,7 +655,7 @@ const translations = {
     // Footer
     footerTagline: "Votre partenaire de confiance en santé et bien-être holistiques.",
     footerAddress: "Adresse",
-    footerAddressText: "Murat Reis Mah. Nuhkuyu Cad. No: 255/2 Üsküdar/Istanbul",
+    footerAddressText: "Murat Reis Mah. Nuhkuyu Cad. No:255/2 Bağlarbaşı/Üsküdar",
     footerContact: "Contact",
     footerSocialMedia: "Réseaux sociaux",
     footerCopyright: "© 2025 Unité de service de santé Fitonova. Tous droits réservés.",
@@ -681,6 +686,7 @@ const translations = {
     navGallery: "画廊",
     navAppointment: "预约",
     makeAppointment: "预约",
+    navDocuments: "我们的文件", // Added documents menu link
 
     // Hero
     heroTitle: "植物疗法中的草本生活中心",
@@ -767,7 +773,7 @@ const translations = {
     // Footer
     footerTagline: "您在整体健康和福祉方面值得信赖的合作伙伴。",
     footerAddress: "地址",
-    footerAddressText: "穆拉特雷斯街努赫库尤街255/2号于斯屈达尔/伊斯坦布尔",
+    footerAddressText: "穆拉特雷斯街努赫库尤街255/2号巴拉尔巴什/于斯屈达尔",
     footerContact: "联系",
     footerSocialMedia: "社交媒体",
     footerCopyright: "© 2025 Fitonova健康服务单位。保留所有权利。",
@@ -797,6 +803,7 @@ const translations = {
     navGallery: "ギャラリー",
     navAppointment: "予約する",
     makeAppointment: "予約する",
+    navDocuments: "私たちの文書", // Added documents menu link
 
     // Hero
     heroTitle: "植物療法におけるハーブライフセンター",
@@ -896,7 +903,7 @@ const translations = {
     // Footer
     footerTagline: "総合的な健康と幸福における信頼できるパートナー。",
     footerAddress: "住所",
-    footerAddressText: "ムラットレイスマハヌフクユカド255/2ユスキュダル/イスタンブール",
+    footerAddressText: "ムラットレイスマハヌフクユカド255/2バーラルバシュ/ユスキュダル",
     footerContact: "お問い合わせ",
     footerSocialMedia: "ソーシャルメディア",
     footerCopyright: "© 2025 Fitonova健康サービスユニット。全著作権所有。",
@@ -927,6 +934,7 @@ const translations = {
     navGallery: "Галерея",
     navAppointment: "Записаться на прием",
     makeAppointment: "Записаться на прием",
+    navDocuments: "Наши документы", // Added documents menu link
 
     // Hero
     heroTitle: "Центр травяной жизни в фитотерапии",
@@ -1029,7 +1037,7 @@ const translations = {
     // Footer
     footerTagline: "Ваш надежный партнер в целостном здоровье и благополучии.",
     footerAddress: "Адрес",
-    footerAddressText: "Мурат Рейс Мах. Нухкую Кад. № 255/2 Ускюдар/Стамбул",
+    footerAddressText: "Мурат Рейс Мах. Нухкую Кад. №255/2 Багларбаши/Ускюдар",
     footerContact: "Контакты",
     footerSocialMedia: "Социальные сети",
     footerCopyright: "© 2025 Подразделение здравоохранения Fitonova. Все права защищены.",

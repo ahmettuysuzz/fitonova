@@ -1,6 +1,6 @@
 "use client"
 
-import { Phone } from "lucide-react"
+import { Phone } from 'lucide-react'
 import { useTranslation } from "@/lib/i18n/translations"
 
 export function CTASection() {
@@ -15,7 +15,7 @@ export function CTASection() {
 
           <div className="flex flex-col items-center gap-6">
             <div className="grid md:grid-cols-2 gap-4 w-full max-w-2xl">
-              <div className="flex items-center gap-4 p-6 bg-primary/10 rounded-2xl border-2 border-primary/20">
+              <div className="flex items-center gap-4 p-6 bg-white rounded-2xl border-2 border-emerald-100 shadow-sm">
                 <div className="p-3 bg-primary rounded-full">
                   <Phone className="w-8 h-8 text-primary-foreground" />
                 </div>
@@ -30,7 +30,7 @@ export function CTASection() {
                 </div>
               </div>
 
-              <div className="flex items-center gap-4 p-6 bg-primary/10 rounded-2xl border-2 border-primary/20">
+              <div className="flex items-center gap-4 p-6 bg-white rounded-2xl border-2 border-emerald-100 shadow-sm">
                 <div className="p-3 bg-primary rounded-full">
                   <Phone className="w-8 h-8 text-primary-foreground" />
                 </div>

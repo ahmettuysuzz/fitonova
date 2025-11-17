@@ -52,6 +52,13 @@ export function Header() {
               {t.navGallery}
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-600 transition-all duration-300 group-hover:w-full"></span>
             </a>
+            <a
+              href="/belgelerimiz"
+              className="relative text-sm font-semibold text-gray-700 hover:text-green-700 transition-colors group py-2"
+            >
+              {t.navDocuments}
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-600 transition-all duration-300 group-hover:w-full"></span>
+            </a>
           </nav>
 
           <div className="flex items-center gap-3">
@@ -120,6 +127,13 @@ export function Header() {
                 className="text-sm font-semibold text-gray-700 hover:text-green-700 transition-colors py-2"
               >
                 {t.navGallery}
+              </a>
+              <a
+                href="/belgelerimiz"
+                onClick={() => setMobileMenuOpen(false)}
+                className="text-sm font-semibold text-gray-700 hover:text-green-700 transition-colors py-2"
+              >
+                {t.navDocuments}
               </a>
               <Button
                 asChild

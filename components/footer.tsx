@@ -1,6 +1,6 @@
 "use client"
 
-import { Instagram, Youtube, Twitter, Linkedin, Phone, MapPin } from "lucide-react"
+import { Instagram, Youtube, Twitter, Linkedin, Phone, MapPin, Mail } from 'lucide-react'
 import { useTranslation } from "@/lib/i18n/translations"
 import Image from "next/image"
 
@@ -46,6 +46,13 @@ export function Footer() {
                   <Phone className="w-5 h-5 flex-shrink-0 text-emerald-600" />
                   <span>+90 216 515 81 55</span>
                 </a>
+                <a
+                  href="mailto:info@fitonovasaglik.com"
+                  className="flex items-center gap-3 text-gray-700 hover:text-emerald-600 transition-colors"
+                >
+                  <Mail className="w-5 h-5 flex-shrink-0 text-emerald-600" />
+                  <span>info@fitonovasaglik.com</span>
+                </a>
                 <div className="flex items-start gap-3 text-gray-700">
                   <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5 text-emerald-600" />
                   <span className="break-words leading-relaxed">{t.footerAddressText}</span>
@@ -61,9 +68,6 @@ export function Footer() {
               <div className="space-y-4">
                 <a href="/gizlilik-politikasi" className="block text-gray-700 hover:text-emerald-600 transition-colors">
                   {t.footerPrivacy}
-                </a>
-                <a href="/belgelerimiz" className="block text-gray-700 hover:text-emerald-600 transition-colors">
-                  {t.footerTerms}
                 </a>
                 <a
                   href="/kvkk-aydinlatma-metni"
