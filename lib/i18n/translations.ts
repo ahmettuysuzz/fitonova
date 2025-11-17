@@ -23,6 +23,16 @@ const translations = {
     heroSubtitle: "Bedeninizi, zihninizi ve ruhunuzu besleyen bütünsel bir sağlık yaklaşımını keşfedin",
     startJourney: "Yolculuğunuza Başlayın",
     learnMore: "Daha Fazla Bilgi",
+    heroSlides: {
+      slide1: {
+        title: "Geçmişten Bugüne",
+        subtitle: "Talat Mollaoğlu",
+      },
+      slide2: {
+        title: "Fitonova Sağlık Hizmet Birimi",
+        subtitle: "Doğadan Gelen Yeni Umut",
+      },
+    },
 
     // Services
     servicesTitle: "Tedavi Ettiğimiz Hastalıklar",
@@ -157,6 +167,16 @@ const translations = {
     heroSubtitle: "Discover a holistic health approach that nourishes your body, mind, and spirit",
     startJourney: "Start Your Journey",
     learnMore: "Learn More",
+    heroSlides: {
+      slide1: {
+        title: "From Past to Present",
+        subtitle: "Talat Mollaoğlu",
+      },
+      slide2: {
+        title: "Fitonova Health Service Unit",
+        subtitle: "New Hope from Nature",
+      },
+    },
 
     // Services
     servicesTitle: "Diseases We Treat",
@@ -294,6 +314,16 @@ const translations = {
     heroSubtitle: "اكتشف نهجًا صحيًا شاملاً يغذي جسمك وعقلك وروحك",
     startJourney: "ابدأ رحلتك",
     learnMore: "اعرف المزيد",
+    heroSlides: {
+      slide1: {
+        title: "من الماضي إلى الحاضر",
+        subtitle: "طلعت ملا أوغلو",
+      },
+      slide2: {
+        title: "وحدة خدمات فيتونوفا الصحية",
+        subtitle: "أمل جديد من الطبيعة",
+      },
+    },
 
     // Services
     servicesTitle: "الأمراض التي نعالجها",
@@ -424,6 +454,16 @@ const translations = {
     heroSubtitle: "Entdecken Sie einen ganzheitlichen Gesundheitsansatz, der Ihren Körper, Geist und Seele nährt",
     startJourney: "Beginnen Sie Ihre Reise",
     learnMore: "Mehr erfahren",
+    heroSlides: {
+      slide1: {
+        title: "Von der Vergangenheit bis Heute",
+        subtitle: "Talat Mollaoğlu",
+      },
+      slide2: {
+        title: "Fitonova Gesundheitsdienstleistung",
+        subtitle: "Neue Hoffnung aus der Natur",
+      },
+    },
 
     // Services
     servicesTitle: "Krankheiten, die wir behandeln",
@@ -559,6 +599,16 @@ const translations = {
     heroSubtitle: "Découvrez une approche de santé holistique qui nourrit votre corps, votre esprit et votre âme",
     startJourney: "Commencez votre voyage",
     learnMore: "En savoir plus",
+    heroSlides: {
+      slide1: {
+        title: "Du Passé à Aujourd'hui",
+        subtitle: "Talat Mollaoğlu",
+      },
+      slide2: {
+        title: "Unité de Services de Santé Fitonova",
+        subtitle: "Nouvel Espoir de la Nature",
+      },
+    },
 
     // Services
     servicesTitle: "Maladies que nous traitons",
@@ -658,7 +708,7 @@ const translations = {
     footerAddressText: "Murat Reis Mah. Nuhkuyu Cad. No:255/2 Bağlarbaşı/Üsküdar",
     footerContact: "Contact",
     footerSocialMedia: "Réseaux sociaux",
-    footerCopyright: "© 2025 Unité de service de santé Fitonova. Tous droits réservés.",
+    footerCopyright: "© 2025 Unité de Services de Santé Fitonova. Tous droits réservés.",
     footerLegal: "Documents légaux et politiques",
     footerPrivacy: "Politique de confidentialité", // Added missing footer link translations
     footerTerms: "Nos documents", // Added missing footer link translations
@@ -693,6 +743,16 @@ const translations = {
     heroSubtitle: "发现滋养您的身体、思想和灵魂的整体健康方法",
     startJourney: "开始您的旅程",
     learnMore: "了解更多",
+    heroSlides: {
+      slide1: {
+        title: "从过去到现在",
+        subtitle: "塔拉特·莫拉奥卢",
+      },
+      slide2: {
+        title: "Fitonova健康服务单位",
+        subtitle: "来自自然的新希望",
+      },
+    },
 
     // Services
     servicesTitle: "我们治疗的疾病",
@@ -810,6 +870,16 @@ const translations = {
     heroSubtitle: "あなたの体、心、魂を養う総合的な健康アプローチを発見してください",
     startJourney: "あなたの旅を始めましょう",
     learnMore: "もっと詳しく",
+    heroSlides: {
+      slide1: {
+        title: "過去から現在まで",
+        subtitle: "タラット・モラオール",
+      },
+      slide2: {
+        title: "Fitonova健康サービスユニット",
+        subtitle: "自然からの新しい希望",
+      },
+    },
 
     // Services
     servicesTitle: "私たちが治療する病気",
@@ -941,6 +1011,16 @@ const translations = {
     heroSubtitle: "Откройте для себя целостный подход к здоровью, который питает ваше тело, разум и душу",
     startJourney: "Начните свое путешествие",
     learnMore: "Узнать больше",
+    heroSlides: {
+      slide1: {
+        title: "От прошлого к настоящему",
+        subtitle: "Талат Моллаоглу",
+      },
+      slide2: {
+        title: "Подразделение здравоохранения Fitonova",
+        subtitle: "Новая надежда от природы",
+      },
+    },
 
     // Services
     servicesTitle: "Болезни, которые мы лечим",
