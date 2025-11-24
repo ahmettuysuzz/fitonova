@@ -19,7 +19,30 @@ const translations = {
     navDocuments: "Belgelerimiz", // Added documents menu link
 
     // Hero
-    heroTitle: "Fitoterapi'de Bitkisel Yaşam Merkezi",
+    heroTitle: "Bir Yolculuğun Adı: Talat Mollaoğlu",
+    heroParagraph1:
+      'Bazı insanlar vardır... Hayattan bir çizgi değildir; merakla başlayan, mücadeleyle şekillenen, başarıyla parlayan bir yolculuktur. Talat Mollaoğlu\'nun hikâyesi de tam olarak böyledir. Genç yaşlarında, insanların ve dünyanın ihtiyaçlarını anlamaya çalışan bir gözlemciydi o. Kimi zaman bir laboratuvar masasında, kimi zaman atölyede, kimi zaman ise sadece doğanın sessizliğinde... Çözümler aradı. Sorular sordu: "Neden böyle olmak zorunda? Daha iyi bir yol yok mu?"',
+    heroParagraph2:
+      "Bu sorular, onu yıllar içinde yeni icatlara, yüzlerce deneye, sayısız araştırmaya götürdü. Her adımı, yalnızca bir problemi çözmek için değil, insanlık için daha iyisini bulma arzusuyla atıldı. Bir dönem yüksek teknoloji ve mühendisliğe yöneldi; çevreyi koruyan icatlar geliştirdi, yakıt tüketimini azaltan yeniliklerle adını duyurdu. Bu başarılar ona bir şey gösterdi: Eğer doğayı koruyabiliyorsak, insanı da koruyabiliriz. Ve tam burada yolculuğunun yeni bir kapısı açıldı.",
+    heroSectionTitle: "Bilimin Işığından Doğanın Şifa Kaynağına",
+    heroParagraph3:
+      "Uzun yıllar boyunca yaptığı çalışmalar, onu en sade ama en derin gerçeğe götürdü: İnsan, doğanın bir parçasıdır — ve doğanın sunduğu iyiliği, insana şifa olarak sunmak mümkündür. Böylece Talat Mollaoğlu; tüm birikimini, tecrübesini ve araştırmalarını bu kez fitoterapi ve doğal tedavi yöntemlerine adadı.",
+    heroParagraph4: "Bu alanda geçen 30 yıl aşkın süre boyunca:",
+    heroListItem1: "Bitkisel tedavilerin bilimsel yönünü pekiştirdi,",
+    heroListItem2: "Araştırmalarını modern tıp anlayışıyla uyumlu hâle getirdi,",
+    heroListItem3: "Binlerce insanın yaşamına umut, konfor ve şifa taşıdı.",
+    heroParagraph5:
+      "Artık onun ismi, yalnızca bir mucitle değil; şifayı bilimin ışığıyla harmanlayan bir bilgeyle özdeşleşti.",
+    // ADDED CONTENT START
+    heroFitonovaTitle: "Bugün: Fitonova ile Yeni Bir Umut",
+    heroFitonovaParagraph:
+      "Tüm bu yolculuk, bugün Fitonova Sağlık Hizmet Birimi ile devam ediyor. Fitonova; bir klinikten fazlası… Talat Mollaoğlu'nun yıllar boyunca taşıdığı inancın, arayışın ve keşfin vücut bulmuş hâli. Burada, her danışan yalnızca bir hasta olarak değil; kendine özgü bir hikâyeye sahip bir insan olarak görülüyor. Çözümler ezberden değil; kişiye özel, bilimsel, doğal ve güvenilir yaklaşımlarla tasarlanıyor. Fitonova'nın mottosu da bunun özüdür: \"Doğadan Gelen Yeni Umut.\" Çünkü umut; bir bitkinin yaprağında da bulunabilir, bir insanın gözlerinde de… Önemli olan onu doğru bilgiyle, doğru yöntemle bulabilmek.",
+    // ADDED CONTENT END
+    heroJourneyTitle: "Yolculuk Devam Ediyor",
+    heroJourneyParagraph:
+      "Bugün Talat Mollaoğlu, hâlâ aynı merakla araştırıyor, öğreniyor ve geliştiriyor. Her yeni çalışmasında tek bir hedef var: Daha fazla insana yaşam kalitesi, sağlık ve umut sunmak. Geçmişin birikimi, bugünün uzmanlığı ve geleceğin vizyonuyla; hikâyesi devam ediyor… Ve bu hikâyeye şahit olan herkes, bir noktada aynı şeyi fark ediyor:",
+    heroJourneyQuote: "Bazen en büyük yenilik, doğaya yeniden kulak vermektir.",
+    // </CHANGE>
     heroSubtitle: "Bedeninizi, zihninizi ve ruhunuzu besleyen bütünsel bir sağlık yaklaşımını keşfedin",
     startJourney: "Yolculuğunuza Başlayın",
     learnMore: "Daha Fazla Bilgi",
@@ -153,7 +176,30 @@ const translations = {
     navDocuments: "Our Documents", // Added documents menu link
 
     // Hero
-    heroTitle: "Herbal Life Center in Phytotherapy",
+    heroTitle: "The Name of a Journey: Talat Mollaoğlu",
+    heroParagraph1:
+      "Some people exist... Life is not a line; it is a journey that begins with curiosity, is shaped by struggle, and shines with success. This is exactly Talat Mollaoğlu's story. In his youth, he was an observer trying to understand the needs of people and the world. Sometimes at a laboratory desk, sometimes in a workshop, sometimes just in the silence of nature... He sought solutions. He asked questions: \"Why does it have to be this way? Isn't there a better way?\"",
+    heroParagraph2:
+      "These questions led him to new inventions, hundreds of experiments, and countless research over the years. Each step was taken not just to solve a problem, but with the desire to find something better for humanity. At one point, he turned to high technology and engineering; he developed inventions that protect the environment and made a name for himself with innovations that reduce fuel consumption. These successes showed him something: If we can protect nature, we can also protect humans. And right here, a new door opened in his journey.",
+    heroSectionTitle: "From the Light of Science to Nature's Source of Healing",
+    heroParagraph3:
+      "His work over many years led him to the simplest yet deepest truth: Humans are part of nature — and it is possible to offer the goodness that nature provides as healing to humans. Thus, Talat Mollaoğlu dedicated all his knowledge, experience, and research to phytotherapy and natural treatment methods.",
+    heroParagraph4: "During more than 30 years in this field:",
+    heroListItem1: "He strengthened the scientific aspect of herbal treatments,",
+    heroListItem2: "He made his research compatible with modern medical understanding,",
+    heroListItem3: "He brought hope, comfort, and healing to the lives of thousands of people.",
+    heroParagraph5:
+      "Now his name is identified not only with an inventor, but with a sage who harmonizes healing with the light of science.",
+    // ADDED CONTENT START
+    heroFitonovaTitle: "Today: New Hope with Fitonova",
+    heroFitonovaParagraph:
+      "This whole journey continues today with Fitonova Health Service Unit. Fitonova is more than a clinic… It is the embodiment of the belief, quest, and discovery that Talat Mollaoğlu has carried for years. Here, every client is seen not just as a patient, but as a human being with a unique story. Solutions are designed not by rote; but with personalized, scientific, natural, and reliable approaches. Fitonova's motto is the essence of this: 'New Hope from Nature.' Because hope can be found in the leaf of a plant, and in the eyes of a human... What matters is to find it with the right knowledge, the right method.",
+    // ADDED CONTENT END
+    heroJourneyTitle: "The Journey Continues",
+    heroJourneyParagraph:
+      "Today, Talat Mollaoğlu continues to research, learn, and develop with the same curiosity. In his every new endeavor, there is but one goal: to offer quality of life, health, and hope to more people. With the accumulation of the past, the expertise of today, and the vision of the future; his story continues… And everyone who witnesses this story realizes the same thing at some point:",
+    heroJourneyQuote: "Sometimes the greatest innovation is listening to nature again.",
+    // </CHANGE>
     heroSubtitle: "Discover a holistic health approach that nourishes your body, mind, and spirit",
     startJourney: "Start Your Journey",
     learnMore: "Learn More",
@@ -290,7 +336,29 @@ const translations = {
     navDocuments: "وثائقنا", // Added documents menu link
 
     // Hero
-    heroTitle: "مركز الحياة العشبية في العلاج النباتي",
+    heroTitle: "اسم الرحلة: طلعت ملا أوغلو",
+    heroParagraph1:
+      'بعض الناس موجودون... الحياة ليست خطًا؛ إنها رحلة تبدأ بالفضول، تتشكل بالنضال، وتتألق بالنجاح. هذه هي بالضبط قصة طلعت ملا أوغلو. في شبابه، كان مراقبًا يحاول فهم احتياجات الناس والعالم. أحيانًا على طاولة المختبر، وأحيانًا في ورشة العمل، وأحيانًا فقط في صمت الطبيعة... لقد بحث عن حلول. طرح أسئلة: "لماذا يجب أن يكون الأمر كذلك؟ أليس هناك طريقة أفضل؟"',
+    heroParagraph2:
+      "قادته هذه الأسئلة إلى اختراعات جديدة ومئات التجارب وأبحاث لا حصر لها على مر السنين. كانت كل خطوة تُتخذ ليس فقط لحل مشكلة، ولكن برغبة في إيجاد شيء أفضل للإنسانية. وهنا بالضبط، فتح باب جديد في رحلته.",
+    heroSectionTitle: "من نور العلم إلى مصدر الشفاء الطبيعي",
+    heroParagraph3:
+      "عمله على مدى سنوات عديدة قاده إلى الحقيقة الأبسط والأعمق: البشر جزء من الطبيعة — ومن الممكن تقديم الخير الذي توفره الطبيعة كعلاج للبشر. وهكذا، كرس طلعت ملا أوغلو كل معرفته وخبرته وأبحاثه في هذه المرة للعلاج النباتي وطرق العلاج الطبيعي.",
+    heroParagraph4: "خلال أكثر من 30 عامًا في هذا المجال:",
+    heroListItem1: "عزز الجانب العلمي للعلاجات العشبية،",
+    heroListItem2: "جعل أبحاثه متوافقة مع الفهم الطبي الحديث،",
+    heroListItem3: "جلب الأمل والراحة والشفاء لحياة آلاف الناس.",
+    heroParagraph5: "الآن اسمه يُعرف ليس فقط بالمخترع، ولكن بالحكيم الذي ينسق الشفاء مع نور العلم.",
+    // ADDED CONTENT START
+    heroFitonovaTitle: "اليوم: أمل جديد مع فيتونوفا",
+    heroFitonovaParagraph:
+      "تستمر هذه الرحلة بأكملها اليوم مع وحدة خدمة فيتونوفا الصحية. فيتونوفا أكثر من مجرد عيادة... إنها تجسيد للإيمان والبحث والاكتشاف الذي حمله طلعت ملا أوغلو لسنوات. هنا، يُنظر إلى كل عميل ليس فقط كمريض، ولكن كإنسان له قصة فريدة. يتم تصميم الحلول ليس بشكل تلقيدي؛ ولكن بنهج شخصي وعلمي وطبيعي وموثوق. شعار فيتونوفا هو جوهر هذا: 'أمل جديد من الطبيعة.' لأن الأمل يمكن العثور عليه في ورقة النبات، وفي عيون الإنسان... المهم هو العثور عليه بالمعرفة الصحيحة، بالطريقة الصحيحة.",
+    // ADDED CONTENT END
+    heroJourneyTitle: "الرحلة مستمرة",
+    heroJourneyParagraph:
+      "اليوم، لا يزال طلعت ملا أوغلو يبحث ويتعلم ويطور بنفس الفضول. في كل مسعى جديد له، هناك هدف واحد فقط: تقديم جودة الحياة والصحة والأمل لمزيد من الناس. مع تراكم الماضي، وخبرة اليوم، ورؤية المستقبل؛ تستمر قصته… وكل من يشهد هذه القصة يدرك الشيء نفسه في مرحلة ما:",
+    heroJourneyQuote: "أحيانًا يكون أكبر ابتكار هو الاستماع إلى الطبيعة مرة أخرى.",
+    // </CHANGE>
     heroSubtitle: "اكتشف نهجًا صحيًا شاملاً يغذي جسمك وعقلك وروحك",
     startJourney: "ابدأ رحلتك",
     learnMore: "اعرف المزيد",
@@ -323,7 +391,7 @@ const translations = {
     // Doctors
     doctorsTitle: "أعضاء فريقنا",
     doctorsSubtitle: "متخصصون خبراء في العلاج النباتي مكرسون لصحتك وعافيتك",
-    doctor1Name: "طلعت مولا أوغلو",
+    doctor1Name: "طلعت ملا أوغلو",
     doctor1Specialty: "مساعد",
     doctor1Badge1: "أكثر من 30 عامًا",
     doctor1Badge2: "نجاحات عديدة",
@@ -420,7 +488,30 @@ const translations = {
     navDocuments: "Unsere Dokumente", // Added documents menu link
 
     // Hero
-    heroTitle: "Kräuterlebenszentrum in der Phytotherapie",
+    heroTitle: "Der Name einer Reise: Talat Mollaoğlu",
+    heroParagraph1:
+      'Manche Menschen existieren... Das Leben ist keine Linie; es ist eine Reise, die mit Neugier beginnt, durch Kampf geformt wird und mit Erfolg glänzt. Das ist genau die Geschichte von Talat Mollaoğlu. In seiner Jugend war er ein Beobachter, der versuchte, die Bedürfnisse der Menschen und der Welt zu verstehen. Manchmal am Labortisch, manchmal in der Werkstatt, manchmal einfach in der Stille der Natur... Er suchte nach Lösungen. Er stellte Fragen: "Warum muss es so sein? Gibt es keinen besseren Weg?"',
+    heroParagraph2:
+      "Diese Fragen führten ihn über die Jahre zu neuen Erfindungen, Hunderten von Experimenten und unzähligen Forschungen. Jeder Schritt wurde nicht nur unternommen, um ein Problem zu lösen, sondern mit dem Wunsch, etwas Besseres für die Menschheit zu finden. An einem Punkt wandte er sich der Hochtechnologie und dem Ingenieurwesen zu; er entwickelte Erfindungen, die die Umwelt schützen, und machte sich mit Innovationen, die den Kraftstoffverbrauch senken, einen Namen. Diese Erfolge zeigten ihm etwas: Wenn wir die Natur schützen können, können wir auch Menschen schützen. Und genau hier öffnete sich eine neue Tür in seiner Reise.",
+    heroSectionTitle: "Vom Licht der Wissenschaft zur Quelle der Heilung der Natur",
+    heroParagraph3:
+      "Seine Arbeit über viele Jahre führte ihn zur einfachsten und doch tiefsten Wahrheit: Menschen sind Teil der Natur — und es ist möglich, die Güte, die die Natur bietet, als Heilung für Menschen anzubieten. So widmete Talat Mollaoğlu sein gesamtes Wissen, seine Erfahrung und seine Forschung diesmal der Phytotherapie und den natürlichen Behandlungsmethoden.",
+    heroParagraph4: "Während mehr als 30 Jahren in diesem Bereich:",
+    heroListItem1: "Stärkte er den wissenschaftlichen Aspekt pflanzlicher Behandlungen,",
+    heroListItem2: "Machte er seine Forschung mit modernem medizinischem Verständnis kompatibel,",
+    heroListItem3: "Brachte er Hoffnung, Trost und Heilung in das Leben Tausender Menschen.",
+    heroParagraph5:
+      "Jetzt ist sein Name nicht nur mit einem Erfinder identifiziert, sondern mit einem Weisen, der Heilung mit dem Licht der Wissenschaft harmonisiert.",
+    // ADDED CONTENT START
+    heroFitonovaTitle: "Heute: Neue Hoffnung mit Fitonova",
+    heroFitonovaParagraph:
+      "Diese gesamte Reise wird heute mit der Fitonova Gesundheitsdienstleistungseinheit fortgesetzt. Fitonova ist mehr als eine Klinik... Es ist die Verkörperung des Glaubens, der Suche und der Entdeckung, die Talat Mollaoğlu jahrelang in sich trug. Hier wird jeder Klient nicht nur als Patient betrachtet, sondern als Mensch mit einer einzigartigen Geschichte. Lösungen werden nicht auswendig entworfen; sondern mit personalisierten, wissenschaftlichen, natürlichen und zuverlässigen Ansätzen. Das Motto von Fitonova ist die Essenz davon: 'Neue Hoffnung aus der Natur.' Denn Hoffnung kann im Blatt einer Pflanze gefunden werden, und in den Augen eines Menschen... Wichtig ist, sie mit dem richtigen Wissen, der richtigen Methode zu finden.",
+    // ADDED CONTENT END
+    heroJourneyTitle: "Die Reise geht weiter",
+    heroJourneyParagraph:
+      "Heute forscht Talat Mollaoğlu weiterhin mit der gleichen Neugier, lernt und entwickelt sich weiter. In jedem neuen Unterfangen gibt es nur ein Ziel: mehr Menschen Lebensqualität, Gesundheit und Hoffnung zu bieten. Mit der Anhäufung der Vergangenheit, der Expertise von heute und der Vision der Zukunft; seine Geschichte geht weiter… Und jeder, der Zeuge dieser Geschichte wird, erkennt irgendwann dasselbe:",
+    heroJourneyQuote: "Manchmal ist die größte Innovation, wieder auf die Natur zu hören.",
+    // </CHANGE>
     heroSubtitle: "Entdecken Sie einen ganzheitlichen Gesundheitsansatz, der Ihren Körper, Geist und Seele nährt",
     startJourney: "Beginnen Sie Ihre Reise",
     learnMore: "Mehr erfahren",
@@ -478,7 +569,7 @@ const translations = {
     doctor5Name: "Ercan Demir",
     doctor5Specialty: "Schröpfen, Blutegeltherapie & Massage-Spezialist",
     doctor5Bio:
-      "Facharzt für Schröpftherapie (Hijama), Blutegeltherapie (Hirudotherapie) und therapeutische Massage. Kombiniert traditionelle Behandlungsmethoden mit modernen medizinischen Ansätzen zur Verbesserung des Schmerzmanagements, der Durchblutungsprobleme und des allgemeinen Gesundheitszustands der Patienten.",
+      "Facharzt für Schröpftherapie (Hijama), Blutegeltherapie (Hirudotherapie) und therapeutische Massage. Kombiniert traditionelle Behandlungsmethoden mit modernem medizinischen Ansätzen zur Verbesserung des Schmerzmanagements, der Durchblutungsprobleme und des allgemeinen Gesundheitszustands der Patienten.",
 
     // Gallery
     galleryTitle: "Unsere Galerie",
@@ -555,7 +646,30 @@ const translations = {
     navDocuments: "Nos documents", // Added documents menu link
 
     // Hero
-    heroTitle: "Centre de vie à base de plantes en phytothérapie",
+    heroTitle: "Le nom d'un voyage : Talat Mollaoğlu",
+    heroParagraph1:
+      "Certaines personnes existent... La vie n'est pas une ligne ; c'est un voyage qui commence par la curiosité, est façonné par la lutte et brille par le succès. C'est exactement l'histoire de Talat Mollaoğlu. Dans sa jeunesse, il était un observateur qui essayait de comprendre les besoins des gens et du monde. Parfois à un bureau de laboratoire, parfois dans un atelier, parfois juste dans le silence de la nature... Il cherchait des solutions. Il posait des questions : \"Pourquoi cela doit-il être ainsi ? N'y a-t-il pas un meilleur moyen ?\"",
+    heroParagraph2:
+      "Ces questions l'ont conduit à de nouvelles inventions, des centaines d'expériences et d'innombrables recherches au fil des ans. Chaque pas a été fait non seulement pour résoudre un problème, mais avec le désir de trouver quelque chose de meilleur pour l'humanité. À un moment donné, il s'est tourné vers la haute technologie et l'ingénierie ; il a développé des inventions qui protègent l'environnement et s'est fait connaître par des innovations qui réduisent la consommation de carburant. Ces succès lui ont montré quelque chose : Si nous pouvons protéger la nature, nous pouvons aussi protéger les humains. Et juste ici, une nouvelle porte s'est ouverte dans son voyage.",
+    heroSectionTitle: "De la lumière de la science à la source de guérison de la nature",
+    heroParagraph3:
+      "Son travail sur de nombreuses années l'a conduit à la vérité la plus simple mais la plus profonde : Les humains font partie de la nature — et il est possible d'offrir la bonté que la nature offre comme guérison aux humains. Ainsi, Talat Mollaoğlu a dédié toutes ses connaissances, son expérience et ses recherches cette fois à la phytothérapie et aux méthodes de traitement naturelles.",
+    heroParagraph4: "Pendant plus de 30 ans dans ce domaine :",
+    heroListItem1: "Il a renforcé l'aspect scientifique des traitements à base de plantes,",
+    heroListItem2: "Il a rendu ses recherches compatibles avec la compréhension médicale moderne,",
+    heroListItem3: "Il a apporté espoir, confort et guérison dans la vie de milliers de personnes.",
+    heroParagraph5:
+      "Maintenant, son nom est identifié non seulement avec un inventeur, mais avec un sage qui harmonise la guérison avec la lumière de la science.",
+    // ADDED CONTENT START
+    heroFitonovaTitle: "Aujourd'hui : Un nouvel espoir avec Fitonova",
+    heroFitonovaParagraph:
+      "Ce voyage continue aujourd'hui avec l'Unité de Service de Santé Fitonova. Fitonova est plus qu'une clinique... C'est l'incarnation de la croyance, de la quête et de la découverte que Talat Mollaoğlu a portées pendant des années. Ici, chaque client est vu non pas seulement comme un patient, mais comme un être humain avec une histoire unique. Les solutions sont conçues non pas par cœur ; mais avec des approches personnalisées, scientifiques, naturelles et fiables. La devise de Fitonova en est l'essence : 'Un Nouvel Espoir Vient de la Nature.' Car l'espoir peut être trouvé dans la feuille d'une plante, et dans les yeux d'un humain... L'important est de le trouver avec les bonnes connaissances, la bonne méthode.",
+    // ADDED CONTENT END
+    heroJourneyTitle: "Le voyage continue",
+    heroJourneyParagraph:
+      "Aujourd'hui, Talat Mollaoğlu continue de rechercher, d'apprendre et de développer avec la même curiosité. Dans chacun de ses nouveaux efforts, il n'y a qu'un seul objectif : offrir une meilleure qualité de vie, la santé et l'espoir à plus de personnes. Avec l'accumulation du passé, l'expertise d'aujourd'hui et la vision de l'avenir; son histoire continue… Et tous ceux qui sont témoins de cette histoire réalisent la même chose à un moment donné :",
+    heroJourneyQuote: "Parfois, la plus grande innovation est de réécouter la nature.",
+    // </CHANGE>
     heroSubtitle: "Découvrez une approche de santé holistique qui nourrit votre corps, votre esprit et votre âme",
     startJourney: "Commencez votre voyage",
     learnMore: "En savoir plus",
@@ -689,7 +803,29 @@ const translations = {
     navDocuments: "我们的文件", // Added documents menu link
 
     // Hero
-    heroTitle: "植物疗法中的草本生活中心",
+    heroTitle: "一段旅程的名字：塔拉特·莫拉奥卢",
+    heroParagraph1:
+      "有些人的存在...生活不是一条线；它是一段始于好奇、由奋斗塑造、以成功闪耀的旅程。这正是塔拉特·莫拉奥卢的故事。在他年轻时，他是一位试图了解人们和世界需求的观察者。有时在实验室桌前，有时在车间里，有时仅仅在大自然的寂静中... 他寻找解决方案。他提出问题：“为什么非得这样？难道没有更好的办法吗？”",
+    heroParagraph2:
+      "这些问题使他在多年中发明了新东西，进行了数百次实验和无数的研究。每一步都不仅仅是为了解决问题，而是希望为人类找到更好的东西。在某个阶段，他转向了高科技和工程领域；他发明了保护环境的发明，并以减少燃料消耗的创新而闻名。这些成功让他明白了一件事：如果我们能保护自然，我们也能保护人类。就在这时，他的旅程开启了一个新的篇章。",
+    heroSectionTitle: "从科学之光到自然疗愈之源",
+    heroParagraph3:
+      "他多年的工作使他认识到最简单但最深刻的真理：人类是自然的一部分——可以将自然提供的美好作为治疗提供给人类。因此，塔拉特·莫拉奥卢将他所有的知识、经验和研究，这一次都献给了植物疗法和自然治疗方法。",
+    heroParagraph4: "在这个领域超过30年的时间里：",
+    heroListItem1: "他加强了草药治疗的科学方面，",
+    heroListItem2: "他使他的研究与现代医学理解相兼容，",
+    heroListItem3: "他为成千上万的人带来了希望、安慰和治愈。",
+    heroParagraph5: "现在他的名字不仅与发明家有关，还与一位将治愈与科学之光和谐统一的智者有关。",
+    // ADDED CONTENT START
+    heroFitonovaTitle: "今天：菲托诺瓦带来新的希望",
+    heroFitonovaParagraph:
+      "这一切旅程今天仍在菲托诺瓦健康服务部继续。菲托诺瓦不仅仅是一家诊所……它是塔拉特·莫拉奥卢多年来所承载的信念、探索和发现的体现。在这里，每一位客户不仅仅被视为一名患者，而是一位拥有独特故事的人。解决方案并非凭空设计；而是以个性化、科学、自然和可靠的方法进行。菲托诺瓦的座右铭是其精髓：“来自自然的希望”。因为希望可以在植物的叶片中找到，也可以在人的眼中找到……重要的是要用正确的知识、正确的方法来找到它。",
+    // ADDED CONTENT END
+    heroJourneyTitle: "旅程仍在继续",
+    heroJourneyParagraph:
+      "如今，塔拉特·莫拉奥卢仍然怀着同样的好奇心进行研究、学习和发展。在他每一次新的努力中，只有一个目标：为更多人提供生活质量、健康和希望。凭借过去的积累、今天的专业知识和未来的愿景；他的故事还在继续……而每一个见证这个故事的人，在某个时刻都会意识到同一件事：",
+    heroJourneyQuote: "有时，最大的创新就是再次倾听自然。",
+    // </CHANGE>
     heroSubtitle: "发现滋养您的身体、思想和灵魂的整体健康方法",
     startJourney: "开始您的旅程",
     learnMore: "了解更多",
@@ -806,7 +942,29 @@ const translations = {
     navDocuments: "私たちの文書", // Added documents menu link
 
     // Hero
-    heroTitle: "植物療法におけるハーブライフセンター",
+    heroTitle: "旅の名前：タラト・モラオール",
+    heroParagraph1:
+      "ある人々は存在します...人生は線ではありません。それは好奇心から始まり、闘争によって形成され、成功によって輝く旅です。これがまさにタラト・モラオールの物語です。若い頃、彼は人々と世界のニーズを理解しようとする観察者でした。時には実験室の机で、時には工房で、時にはただ自然の静寂の中で... 彼は解決策を探しました。彼は質問をしました：「なぜこうならなければならないのですか？ もっと良い方法はありませんか？」",
+    heroParagraph2:
+      "これらの質問は、彼を何年にもわたって新しい発明、何百もの実験、そして無数の研究へと導きました。各ステップは、問題を解決するためだけでなく、人類のためにより良いものを見つけたいという願望から踏み出されました。ある時点で、彼はハイテクとエンジニアリングに転向しました。環境を保護する発明を開発し、燃料消費を削減する革新で名を馳せました。これらの成功は彼に何かを示しました：自然を保護できるなら、人間も保護できる。そしてまさにここで、彼の旅に新しい扉が開かれました。",
+    heroSectionTitle: "科学の光から自然の癒しの源へ",
+    heroParagraph3:
+      "長年にわたる彼の仕事は、彼を最も単純でありながら最も深い真実へと導きました：人間は自然の一部であり、自然が提供する善を人間に癒しとして提供することは可能です。こうして、タラト・モラオールは、彼のすべての知識、経験、そして研究を、今回は植物療法と自然療法に捧げました。",
+    heroParagraph4: "この分野で30年以上の間：",
+    heroListItem1: "彼はハーブ治療の科学的側面を強化し、",
+    heroListItem2: "彼は彼の研究を現代の医学的理解と互換性のあるものにし、",
+    heroListItem3: "彼は何千人もの人々の生活に希望、快適さ、そして癒しをもたらしました。",
+    heroParagraph5: "今や彼の名前は発明家だけでなく、癒しを科学の光と調和させる賢者と同一視されています。",
+    // ADDED CONTENT START
+    heroFitonovaTitle: "今日：Fitonovaによる新たな希望",
+    heroFitonovaParagraph:
+      "この旅は本日、Fitonova健康サービスユニットで続いています。Fitonovaは単なるクリニックではありません… それはタラト・モラオールが長年抱いてきた信念、探求、そして発見の具現化です。ここでは、すべてのクライアントは単なる患者としてではなく、ユニークな物語を持つ人間として見られます。解決策は定型的に設計されるのではなく、個別化され、科学的、自然的、そして信頼できるアプローチで設計されます。Fitonovaのモットーはその本質です：「自然からの新たな希望」。希望は植物の葉にも、人間の目にも見出されるからです… 重要なのは、正しい知識、正しい方法で見つけることです。",
+    // ADDED CONTENT END
+    heroJourneyTitle: "旅は続く",
+    heroJourneyParagraph:
+      "今日、タラト・モラオールは、同じ好奇心を持って研究、学習、そして開発を続けています。彼のすべての新しい努力において、ただ一つの目標があります：より多くの人々に生活の質、健康、そして希望を提供すること。過去の蓄積、今日の専門知識、そして未来のビジョンをもって；彼の物語は続いています… そして、この物語を目撃したすべての人は、ある時点で同じことに気づきます：",
+    heroJourneyQuote: "時には、最も偉大な革新は、再び自然に耳を傾けることです。",
+    // </CHANGE>
     heroSubtitle: "あなたの体、心、魂を養う総合的な健康アプローチを発見してください",
     startJourney: "あなたの旅を始めましょう",
     learnMore: "もっと詳しく",
@@ -840,7 +998,7 @@ const translations = {
     // Doctors
     doctorsTitle: "私たちのチームメンバー",
     doctorsSubtitle: "あなたの健康と幸福に専念する専門の植物療法専門家",
-    doctor1Name: "タラット・モラオール",
+    doctor1Name: "タラト・モラオール",
     doctor1Specialty: "アシスタント",
     doctor1Badge1: "30年以上",
     doctor1Badge2: "多数の成功",
@@ -937,7 +1095,30 @@ const translations = {
     navDocuments: "Наши документы", // Added documents menu link
 
     // Hero
-    heroTitle: "Центр травяной жизни в фитотерапии",
+    heroTitle: "Название путешествия: Талат Моллаоглу",
+    heroParagraph1:
+      "Некоторые люди существуют... Жизнь — это не линия; это путешествие, которое начинается с любопытства, формируется борьбой и сияет успехом. Это именно история Талата Моллаоглу. В молодости он был наблюдателем, пытавшимся понять потребности людей и мира. Иногда за лабораторным столом, иногда в мастерской, иногда просто в тишине природы... Он искал решения. Он задавал вопросы: «Почему так должно быть? Нет ли лучшего пути?»",
+    heroParagraph2:
+      "Эти вопросы привели его к новым изобретениям, сотням экспериментов и бесчисленным исследованиям на протяжении многих лет. Каждый шаг был сделан не только для решения проблемы, но и с желанием найти что-то лучшее для человечества. В какой-то момент он занялся высокими технологиями и инженерией; он разработал изобретения, защищающие окружающую среду, и прославился инновациями, снижающими расход топлива. Эти успехи показали ему кое-что: если мы можем защитить природу, мы можем защитить и людей. И именно здесь открылась новая дверь в его путешествии.",
+    heroSectionTitle: "От света науки к источнику исцеления природы",
+    heroParagraph3:
+      "Его работа на протяжении многих лет привела его к самой простой, но самой глубокой истине: люди — часть природы, и можно предложить то благо, которое предлагает природа, как исцеление для людей. Таким образом, Талат Моллаоглу посвятил все свои знания, опыт и исследования в этот раз фитотерапии и методам естественного лечения.",
+    heroParagraph4: "За более чем 30 лет в этой области:",
+    heroListItem1: "Он усилил научный аспект травяных процедур,",
+    heroListItem2: "Он сделал свои исследования совместимыми с современным медицинским пониманием,",
+    heroListItem3: "Он принес надежду, комфорт и исцеление в жизни тысяч людей.",
+    heroParagraph5:
+      "Теперь его имя ассоциируется не только с изобретателем, но и с мудрецом, который гармонизирует исцеление со светом науки.",
+    // ADDED CONTENT START
+    heroFitonovaTitle: "Сегодня: Новая надежда с Fitonova",
+    heroFitonovaParagraph:
+      "Все это путешествие продолжается сегодня с подразделением медицинских услуг Fitonova. Fitonova — это больше, чем просто клиника… Это воплощение веры, поиска и открытий, которые Талат Моллаоглу нес на протяжении многих лет. Здесь каждый клиент рассматривается не просто как пациент, а как человек с уникальной историей. Решения разрабатываются не шаблонно; а с использованием персонализированных, научных, естественных и надежных подходов. Девиз Fitonova — его суть: «Новая надежда от природы». Потому что надежда может быть найдена как в листе растения, так и в глазах человека… Важно найти ее с правильными знаниями, правильным методом.",
+    // ADDED CONTENT END
+    heroJourneyTitle: "Путешествие продолжается",
+    heroJourneyParagraph:
+      "Сегодня Талат Моллаоглу продолжает исследовать, учиться и развиваться с тем же любопытством. В каждом его новом начинании есть только одна цель: предложить более качественную жизнь, здоровье и надежду большему числу людей. С накоплением прошлого, опытом сегодняшнего дня и видением будущего; его история продолжается… И каждый, кто становится свидетелем этой истории, в какой-то момент осознает одно и то же:",
+    heroJourneyQuote: "Иногда величайшее изобретение — это снова прислушаться к природе.",
+    // </CHANGE>
     heroSubtitle: "Откройте для себя целостный подход к здоровью, который питает ваше тело, разум и душу",
     startJourney: "Начните свое путешествие",
     learnMore: "Узнать больше",

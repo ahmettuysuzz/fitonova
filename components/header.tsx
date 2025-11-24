@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import { LanguageSwitcher } from "@/components/language-switcher"
 import { useTranslation } from "@/lib/i18n/translations"
 import { useState } from "react"
+import Image from "next/image"
 
 export function Header() {
   const t = useTranslation()
@@ -13,7 +14,15 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-green-50/90 backdrop-blur-lg border-b border-green-200/50 shadow-sm">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
-          <div></div>
+          <a href="#home" className="flex items-center">
+            <Image
+              src="/images/fitonova-logo.png"
+              alt="Fitonova Sağlık Hizmet Birimi"
+              width={60}
+              height={60}
+              className="w-12 h-12 lg:w-14 lg:h-14 rounded-full object-cover shadow-sm hover:scale-105 transition-transform duration-300"
+            />
+          </a>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-12">
