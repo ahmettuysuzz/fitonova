@@ -20,6 +20,15 @@ const translations = {
 
     // Hero
     heroTitle: "Bir Yolculuğun Adı: Talat Mollaoğlu",
+    heroSlide1Title: "Kanserle Mücadelede Doğanın İyileştirici Formülü",
+    heroSlide1Alt: "Kanser Türleri",
+    heroSlide2Title: "Sedef Çok Olabilir, Çare Doğada Tek",
+    heroSlide2Alt: "Sedef Tedavisi",
+    heroSlide3Title: "Doğanın En Eski Şifası, Modern Yaşamın İhtiyacı",
+    heroSlide3Alt: "Hacamat Tedavisi",
+    heroSlide4Title: "Sülük Tedavisi: İyileştiren Mikro Mucize",
+    heroSlide4Alt: "Sülük Tedavisi",
+    // </CHANGE>
     heroParagraph1:
       'Bazı insanlar vardır... Hayattan bir çizgi değildir; merakla başlayan, mücadeleyle şekillenen, başarıyla parlayan bir yolculuktur. Talat Mollaoğlu\'nun hikâyesi de tam olarak böyledir. Genç yaşlarında, insanların ve dünyanın ihtiyaçlarını anlamaya çalışan bir gözlemciydi o. Kimi zaman bir laboratuvar masasında, kimi zaman atölyede, kimi zaman ise sadece doğanın sessizliğinde... Çözümler aradı. Sorular sordu: "Neden böyle olmak zorunda? Daha iyi bir yol yok mu?"',
     heroParagraph2:
@@ -177,6 +186,15 @@ const translations = {
 
     // Hero
     heroTitle: "The Name of a Journey: Talat Mollaoğlu",
+    heroSlide1Title: "Nature's Healing Formula in the Fight Against Cancer",
+    heroSlide1Alt: "Cancer Types",
+    heroSlide2Title: "Many Psoriasis Cases, One Cure in Nature",
+    heroSlide2Alt: "Psoriasis Treatment",
+    heroSlide3Title: "Nature's Oldest Remedy, Modern Life's Need",
+    heroSlide3Alt: "Cupping Therapy",
+    heroSlide4Title: "Leech Therapy: The Micro Miracle That Heals",
+    heroSlide4Alt: "Leech Therapy",
+    // </CHANGE>
     heroParagraph1:
       "Some people exist... Life is not a line; it is a journey that begins with curiosity, is shaped by struggle, and shines with success. This is exactly Talat Mollaoğlu's story. In his youth, he was an observer trying to understand the needs of people and the world. Sometimes at a laboratory desk, sometimes in a workshop, sometimes just in the silence of nature... He sought solutions. He asked questions: \"Why does it have to be this way? Isn't there a better way?\"",
     heroParagraph2:
@@ -337,6 +355,15 @@ const translations = {
 
     // Hero
     heroTitle: "اسم الرحلة: طلعت ملا أوغلو",
+    heroSlide1Title: "صيغة الشفاء الطبيعية في مكافحة السرطان",
+    heroSlide1Alt: "أنواع السرطان",
+    heroSlide2Title: "الصدفية كثيرة، والعلاج في الطبيعة واحد",
+    heroSlide2Alt: "علاج الصدفية",
+    heroSlide3Title: "أقدم علاج طبيعي، حاجة الحياة العصرية",
+    heroSlide3Alt: "العلاج بالحجامة",
+    heroSlide4Title: "العلاج بالعلق: المعجزة الصغيرة الشافية",
+    heroSlide4Alt: "العلاج بالعلق",
+    // </CHANGE>
     heroParagraph1:
       'بعض الناس موجودون... الحياة ليست خطًا؛ إنها رحلة تبدأ بالفضول، تتشكل بالنضال، وتتألق بالنجاح. هذه هي بالضبط قصة طلعت ملا أوغلو. في شبابه، كان مراقبًا يحاول فهم احتياجات الناس والعالم. أحيانًا على طاولة المختبر، وأحيانًا في ورشة العمل، وأحيانًا فقط في صمت الطبيعة... لقد بحث عن حلول. طرح أسئلة: "لماذا يجب أن يكون الأمر كذلك؟ أليس هناك طريقة أفضل؟"',
     heroParagraph2:
@@ -489,6 +516,16 @@ const translations = {
 
     // Hero
     heroTitle: "Der Name einer Reise: Talat Mollaoğlu",
+    // Adding hero slider translations for German
+    heroSlide1Title: "Natürliche Heilformel im Kampf gegen Krebs",
+    heroSlide1Alt: "Krebsarten",
+    heroSlide2Title: "Viele Psoriasis-Fälle, eine Heilung in der Natur",
+    heroSlide2Alt: "Psoriasis-Behandlung",
+    heroSlide3Title: "Ältestes Heilmittel der Natur, Bedürfnis des modernen Lebens",
+    heroSlide3Alt: "Schröpftherapie",
+    heroSlide4Title: "Blutegeltherapie: Das heilende Mikrowunder",
+    heroSlide4Alt: "Blutegeltherapie",
+    // </CHANGE>
     heroParagraph1:
       'Manche Menschen existieren... Das Leben ist keine Linie; es ist eine Reise, die mit Neugier beginnt, durch Kampf geformt wird und mit Erfolg glänzt. Das ist genau die Geschichte von Talat Mollaoğlu. In seiner Jugend war er ein Beobachter, der versuchte, die Bedürfnisse der Menschen und der Welt zu verstehen. Manchmal am Labortisch, manchmal in der Werkstatt, manchmal einfach in der Stille der Natur... Er suchte nach Lösungen. Er stellte Fragen: "Warum muss es so sein? Gibt es keinen besseren Weg?"',
     heroParagraph2:
@@ -647,6 +684,16 @@ const translations = {
 
     // Hero
     heroTitle: "Le nom d'un voyage : Talat Mollaoğlu",
+    // Adding hero slider translations for French
+    heroSlide1Title: "La formule de guérison de la nature dans la lutte contre le cancer",
+    heroSlide1Alt: "Types de cancer",
+    heroSlide2Title: "Beaucoup de cas de psoriasis, une seule guérison dans la nature",
+    heroSlide2Alt: "Traitement du psoriasis",
+    heroSlide3Title: "Le plus ancien remède de la nature, le besoin de la vie moderne",
+    heroSlide3Alt: "Thérapie par ventouses",
+    heroSlide4Title: "Thérapie par sangsues : le micro-miracle qui guérit",
+    heroSlide4Alt: "Thérapie par sangsues",
+    // </CHANGE>
     heroParagraph1:
       "Certaines personnes existent... La vie n'est pas une ligne ; c'est un voyage qui commence par la curiosité, est façonné par la lutte et brille par le succès. C'est exactement l'histoire de Talat Mollaoğlu. Dans sa jeunesse, il était un observateur qui essayait de comprendre les besoins des gens et du monde. Parfois à un bureau de laboratoire, parfois dans un atelier, parfois juste dans le silence de la nature... Il cherchait des solutions. Il posait des questions : \"Pourquoi cela doit-il être ainsi ? N'y a-t-il pas un meilleur moyen ?\"",
     heroParagraph2:
@@ -804,6 +851,16 @@ const translations = {
 
     // Hero
     heroTitle: "一段旅程的名字：塔拉特·莫拉奥卢",
+    // Adding hero slider translations for Chinese
+    heroSlide1Title: "癌症治疗中的自然疗愈配方",
+    heroSlide1Alt: "癌症类型",
+    heroSlide2Title: "银屑病成因多，自然界单一疗法",
+    heroSlide2Alt: "银屑病治疗",
+    heroSlide3Title: "自然界最古老的疗法，现代生活的需求",
+    heroSlide3Alt: "拔罐疗法",
+    heroSlide4Title: "蚂蟥疗法：治愈的微小奇迹",
+    heroSlide4Alt: "蚂蟥疗法",
+    // </CHANGE>
     heroParagraph1:
       "有些人的存在...生活不是一条线；它是一段始于好奇、由奋斗塑造、以成功闪耀的旅程。这正是塔拉特·莫拉奥卢的故事。在他年轻时，他是一位试图了解人们和世界需求的观察者。有时在实验室桌前，有时在车间里，有时仅仅在大自然的寂静中... 他寻找解决方案。他提出问题：“为什么非得这样？难道没有更好的办法吗？”",
     heroParagraph2:
@@ -844,7 +901,7 @@ const translations = {
     servicesBullet4: "在不孕症治疗中，使用自然调节激素平衡并重新激活生殖功能的补充应用。",
     servicesBullet5: "对于背部、颈部和关节疼痛，通过修复神经和肌肉组织并减少炎症的自然疗法方法实现最终解决方案。",
     servicesBullet6: "拔罐疗法从身体中去除毒素，加速血液循环，并提供一般排毒效果。",
-    servicesBullet7: "水蛭疗法（水蛭疗法）旨在平衡循环系统、减轻疼痛并支持血管健康。",
+    servicesBullet7: "蚂蟥疗法（蚂蟥疗法）旨在平衡循环系统、减轻疼痛并支持血管健康。",
     servicesConclusion: "在Fitonova，每种疾病不仅被视为医疗状况，而且被视为重新获得健康的旅程的开始。",
     servicesApproach: "我们以科学、自然和以结果为导向的方法为每位患者管理这一旅程。",
 
@@ -867,9 +924,9 @@ const translations = {
     doctor4Specialty: "医学生物化学专家",
     doctor4Bio: "医学生物化学和实验室诊断方法专家。致力于通过科学分析支持疾病的生化诊断和治疗过程。",
     doctor5Name: "埃尔坎·德米尔",
-    doctor5Specialty: "拔罐、水蛭疗法和按摩专家",
+    doctor5Specialty: "拔罐、蚂蟥疗法和按摩专家",
     doctor5Bio:
-      "拔罐疗法（拔罐）、水蛭疗法（水蛭疗法）和治疗性按摩专科医生。将传统治疗方法与现代医学方法相结合，以改善患者的疼痛管理、循环问题和整体健康状况。",
+      "拔罐疗法（拔罐）、蚂蟥疗法（蚂蟥疗法）和治疗性按摩专科医生。将传统治疗方法与现代医学方法相结合，以改善患者的疼痛管理、循环问题和整体健康状况。",
 
     // Gallery
     galleryTitle: "我们的画廊",
@@ -943,6 +1000,16 @@ const translations = {
 
     // Hero
     heroTitle: "旅の名前：タラト・モラオール",
+    // Adding hero slider translations for Japanese
+    heroSlide1Title: "癌との闘いにおける自然の治癒処方",
+    heroSlide1Alt: "癌の種類",
+    heroSlide2Title: "乾癬は多い、自然界に一つの治療法",
+    heroSlide2Alt: "乾癬治療",
+    heroSlide3Title: "自然界最古の治療法、現代生活の必要性",
+    heroSlide3Alt: "カッピング療法",
+    heroSlide4Title: "ヒル療法：癒しのマイクロミラクル",
+    heroSlide4Alt: "ヒル療法",
+    // </CHANGE>
     heroParagraph1:
       "ある人々は存在します...人生は線ではありません。それは好奇心から始まり、闘争によって形成され、成功によって輝く旅です。これがまさにタラト・モラオールの物語です。若い頃、彼は人々と世界のニーズを理解しようとする観察者でした。時には実験室の机で、時には工房で、時にはただ自然の静寂の中で... 彼は解決策を探しました。彼は質問をしました：「なぜこうならなければならないのですか？ もっと良い方法はありませんか？」",
     heroParagraph2:
@@ -1096,6 +1163,16 @@ const translations = {
 
     // Hero
     heroTitle: "Название путешествия: Талат Моллаоглу",
+    // Adding hero slider translations for Russian
+    heroSlide1Title: "Формула исцеления природы в борьбе с раком",
+    heroSlide1Alt: "Типы рака",
+    heroSlide2Title: "Много случаев псориаза, одно лекарство в природе",
+    heroSlide2Alt: "Лечение псориаза",
+    heroSlide3Title: "Древнейшее лекарство природы, потребность современной жизни",
+    heroSlide3Alt: "Банночная терапия",
+    heroSlide4Title: "Пиявка терапия: Микро-чудо, которое исцеляет",
+    heroSlide4Alt: "Пиявка терапия",
+    // </CHANGE>
     heroParagraph1:
       "Некоторые люди существуют... Жизнь — это не линия; это путешествие, которое начинается с любопытства, формируется борьбой и сияет успехом. Это именно история Талата Моллаоглу. В молодости он был наблюдателем, пытавшимся понять потребности людей и мира. Иногда за лабораторным столом, иногда в мастерской, иногда просто в тишине природы... Он искал решения. Он задавал вопросы: «Почему так должно быть? Нет ли лучшего пути?»",
     heroParagraph2:
@@ -1242,4 +1319,5 @@ export function useTranslation() {
   return translations[language]
 }
 
+export { translations }
 export default translations

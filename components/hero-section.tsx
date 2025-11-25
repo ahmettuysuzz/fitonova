@@ -3,6 +3,9 @@
 import { useEffect, useState } from "react"
 import Image from "next/image"
 import { ChevronLeft, ChevronRight } from "lucide-react"
+import { useLanguage } from "@/lib/i18n/language-context"
+import { translations } from "@/lib/i18n/translations"
+// </CHANGE>
 
 const slides = [
   {
@@ -29,6 +32,32 @@ const slides = [
 
 export function HeroSection() {
   const [currentSlide, setCurrentSlide] = useState(0)
+  const { language } = useLanguage()
+  const t = translations[language]
+
+  const slides = [
+    {
+      image: "/images/cancer-types.jpg",
+      title: t.heroSlide1Title,
+      alt: t.heroSlide1Alt,
+    },
+    {
+      image: "/images/psoriasis-legs.jpg",
+      title: t.heroSlide2Title,
+      alt: t.heroSlide2Alt,
+    },
+    {
+      image: "/images/cupping-therapy.jpg",
+      title: t.heroSlide3Title,
+      alt: t.heroSlide3Alt,
+    },
+    {
+      image: "/images/leech-therapy.jpg",
+      title: t.heroSlide4Title,
+      alt: t.heroSlide4Alt,
+    },
+  ]
+  // </CHANGE>
 
   useEffect(() => {
     const timer = setInterval(() => {
