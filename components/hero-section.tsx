@@ -5,7 +5,6 @@ import Image from "next/image"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { useLanguage } from "@/lib/i18n/language-context"
 import { translations } from "@/lib/i18n/translations"
-// </CHANGE>
 
 const slides = [
   {
@@ -27,6 +26,11 @@ const slides = [
     image: "/images/leech-therapy.jpg",
     title: "Sülük Tedavisi: İyileştiren Mikro Mucize",
     alt: "Sülük Tedavisi",
+  },
+  {
+    image: "/images/talat-mollaoglu-youth.jpg",
+    title: "Talat Mollaoğlu: Doğanın Şifası'nın Önderi",
+    alt: "Talat Mollaoğlu",
   },
 ]
 
@@ -56,8 +60,12 @@ export function HeroSection() {
       title: t.heroSlide4Title,
       alt: t.heroSlide4Alt,
     },
+    {
+      image: "/images/talat-mollaoglu-youth.jpg",
+      title: t.heroSlide5Title,
+      alt: t.heroSlide5Alt,
+    },
   ]
-  // </CHANGE>
 
   useEffect(() => {
     const timer = setInterval(() => {

@@ -28,6 +28,8 @@ const translations = {
     heroSlide3Alt: "Hacamat Tedavisi",
     heroSlide4Title: "Sülük Tedavisi: İyileştiren Mikro Mucize",
     heroSlide4Alt: "Sülük Tedavisi",
+    heroSlide5Title: "Bilimin ve Keşfin Adı: Talat Mollaoğlu",
+    heroSlide5Alt: "Talat Mollaoğlu",
     // </CHANGE>
     heroParagraph1:
       'Bazı insanlar vardır... Hayattan bir çizgi değildir; merakla başlayan, mücadeleyle şekillenen, başarıyla parlayan bir yolculuktur. Talat Mollaoğlu\'nun hikâyesi de tam olarak böyledir. Genç yaşlarında, insanların ve dünyanın ihtiyaçlarını anlamaya çalışan bir gözlemciydi o. Kimi zaman bir laboratuvar masasında, kimi zaman atölyede, kimi zaman ise sadece doğanın sessizliğinde... Çözümler aradı. Sorular sordu: "Neden böyle olmak zorunda? Daha iyi bir yol yok mu?"',
@@ -185,15 +187,17 @@ const translations = {
     navDocuments: "Our Documents", // Added documents menu link
 
     // Hero
-    heroTitle: "The Name of a Journey: Talat Mollaoğlu",
+    heroTitle: "A Journey Named: Talat Mollaoğlu",
     heroSlide1Title: "Nature's Healing Formula in the Fight Against Cancer",
     heroSlide1Alt: "Cancer Types",
-    heroSlide2Title: "Many Psoriasis Cases, One Cure in Nature",
+    heroSlide2Title: "Psoriasis May Be Many, Nature's Cure Is One",
     heroSlide2Alt: "Psoriasis Treatment",
-    heroSlide3Title: "Nature's Oldest Remedy, Modern Life's Need",
+    heroSlide3Title: "Nature's Ancient Remedy, Modern Life's Necessity",
     heroSlide3Alt: "Cupping Therapy",
-    heroSlide4Title: "Leech Therapy: The Micro Miracle That Heals",
+    heroSlide4Title: "Leech Therapy: The Healing Micro Miracle",
     heroSlide4Alt: "Leech Therapy",
+    heroSlide5Title: "The Name of Science and Discovery: Talat Mollaoğlu",
+    heroSlide5Alt: "Talat Mollaoğlu",
     // </CHANGE>
     heroParagraph1:
       "Some people exist... Life is not a line; it is a journey that begins with curiosity, is shaped by struggle, and shines with success. This is exactly Talat Mollaoğlu's story. In his youth, he was an observer trying to understand the needs of people and the world. Sometimes at a laboratory desk, sometimes in a workshop, sometimes just in the silence of nature... He sought solutions. He asked questions: \"Why does it have to be this way? Isn't there a better way?\"",
@@ -355,7 +359,7 @@ const translations = {
 
     // Hero
     heroTitle: "اسم الرحلة: طلعت ملا أوغلو",
-    heroSlide1Title: "صيغة الشفاء الطبيعية في مكافحة السرطان",
+    heroSlide1Title: "صيغة الطبيعة العلاجية في مكافحة السرطان",
     heroSlide1Alt: "أنواع السرطان",
     heroSlide2Title: "الصدفية كثيرة، والعلاج في الطبيعة واحد",
     heroSlide2Alt: "علاج الصدفية",
@@ -363,6 +367,8 @@ const translations = {
     heroSlide3Alt: "العلاج بالحجامة",
     heroSlide4Title: "العلاج بالعلق: المعجزة الصغيرة الشافية",
     heroSlide4Alt: "العلاج بالعلق",
+    heroSlide5Title: "اسم العلم والاكتشاف: طلعت مولا أوغلو",
+    heroSlide5Alt: "طلعت مولا أوغلو",
     // </CHANGE>
     heroParagraph1:
       'بعض الناس موجودون... الحياة ليست خطًا؛ إنها رحلة تبدأ بالفضول، تتشكل بالنضال، وتتألق بالنجاح. هذه هي بالضبط قصة طلعت ملا أوغلو. في شبابه، كان مراقبًا يحاول فهم احتياجات الناس والعالم. أحيانًا على طاولة المختبر، وأحيانًا في ورشة العمل، وأحيانًا فقط في صمت الطبيعة... لقد بحث عن حلول. طرح أسئلة: "لماذا يجب أن يكون الأمر كذلك؟ أليس هناك طريقة أفضل؟"',
@@ -525,6 +531,8 @@ const translations = {
     heroSlide3Alt: "Schröpftherapie",
     heroSlide4Title: "Blutegeltherapie: Das heilende Mikrowunder",
     heroSlide4Alt: "Blutegeltherapie",
+    heroSlide5Title: "Der Name von Wissenschaft und Entdeckung: Talat Mollaoğlu",
+    heroSlide5Alt: "Talat Mollaoğlu",
     // </CHANGE>
     heroParagraph1:
       'Manche Menschen existieren... Das Leben ist keine Linie; es ist eine Reise, die mit Neugier beginnt, durch Kampf geformt wird und mit Erfolg glänzt. Das ist genau die Geschichte von Talat Mollaoğlu. In seiner Jugend war er ein Beobachter, der versuchte, die Bedürfnisse der Menschen und der Welt zu verstehen. Manchmal am Labortisch, manchmal in der Werkstatt, manchmal einfach in der Stille der Natur... Er suchte nach Lösungen. Er stellte Fragen: "Warum muss es so sein? Gibt es keinen besseren Weg?"',
@@ -693,6 +701,8 @@ const translations = {
     heroSlide3Alt: "Thérapie par ventouses",
     heroSlide4Title: "Thérapie par sangsues : le micro-miracle qui guérit",
     heroSlide4Alt: "Thérapie par sangsues",
+    heroSlide5Title: "Le nom de la science et de la découverte : Talat Mollaoğlu",
+    heroSlide5Alt: "Talat Mollaoğlu",
     // </CHANGE>
     heroParagraph1:
       "Certaines personnes existent... La vie n'est pas une ligne ; c'est un voyage qui commence par la curiosité, est façonné par la lutte et brille par le succès. C'est exactement l'histoire de Talat Mollaoğlu. Dans sa jeunesse, il était un observateur qui essayait de comprendre les besoins des gens et du monde. Parfois à un bureau de laboratoire, parfois dans un atelier, parfois juste dans le silence de la nature... Il cherchait des solutions. Il posait des questions : \"Pourquoi cela doit-il être ainsi ? N'y a-t-il pas un meilleur moyen ?\"",
@@ -860,6 +870,8 @@ const translations = {
     heroSlide3Alt: "拔罐疗法",
     heroSlide4Title: "蚂蟥疗法：治愈的微小奇迹",
     heroSlide4Alt: "蚂蟥疗法",
+    heroSlide5Title: "科学与发现之名：塔拉特·莫拉奥卢",
+    heroSlide5Alt: "塔拉特·莫拉奥卢",
     // </CHANGE>
     heroParagraph1:
       "有些人的存在...生活不是一条线；它是一段始于好奇、由奋斗塑造、以成功闪耀的旅程。这正是塔拉特·莫拉奥卢的故事。在他年轻时，他是一位试图了解人们和世界需求的观察者。有时在实验室桌前，有时在车间里，有时仅仅在大自然的寂静中... 他寻找解决方案。他提出问题：“为什么非得这样？难道没有更好的办法吗？”",
@@ -1009,6 +1021,8 @@ const translations = {
     heroSlide3Alt: "カッピング療法",
     heroSlide4Title: "ヒル療法：癒しのマイクロミラクル",
     heroSlide4Alt: "ヒル療法",
+    heroSlide5Title: "科学と発見の名前：タラト・モラオール",
+    heroSlide5Alt: "タラト・モラオール",
     // </CHANGE>
     heroParagraph1:
       "ある人々は存在します...人生は線ではありません。それは好奇心から始まり、闘争によって形成され、成功によって輝く旅です。これがまさにタラト・モラオールの物語です。若い頃、彼は人々と世界のニーズを理解しようとする観察者でした。時には実験室の机で、時には工房で、時にはただ自然の静寂の中で... 彼は解決策を探しました。彼は質問をしました：「なぜこうならなければならないのですか？ もっと良い方法はありませんか？」",
@@ -1172,6 +1186,8 @@ const translations = {
     heroSlide3Alt: "Банночная терапия",
     heroSlide4Title: "Пиявка терапия: Микро-чудо, которое исцеляет",
     heroSlide4Alt: "Пиявка терапия",
+    heroSlide5Title: "Имя науки и открытий: Талат Моллаоглу",
+    heroSlide5Alt: "Талат Моллаоглу",
     // </CHANGE>
     heroParagraph1:
       "Некоторые люди существуют... Жизнь — это не линия; это путешествие, которое начинается с любопытства, формируется борьбой и сияет успехом. Это именно история Талата Моллаоглу. В молодости он был наблюдателем, пытавшимся понять потребности людей и мира. Иногда за лабораторным столом, иногда в мастерской, иногда просто в тишине природы... Он искал решения. Он задавал вопросы: «Почему так должно быть? Нет ли лучшего пути?»",
