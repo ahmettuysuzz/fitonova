@@ -6,34 +6,6 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 import { useLanguage } from "@/lib/i18n/language-context"
 import { translations } from "@/lib/i18n/translations"
 
-const slides = [
-  {
-    image: "/images/cancer-types.jpg",
-    title: "Kanserle Mücadelede Doğanın İyileştirici Formülü",
-    alt: "Kanser Türleri",
-  },
-  {
-    image: "/images/psoriasis-legs.jpg",
-    title: "Sedef Çok Olabilir, Çare Doğada Tek",
-    alt: "Sedef Tedavisi",
-  },
-  {
-    image: "/images/cupping-therapy.jpg",
-    title: "Doğanın En Eski Şifası, Modern Yaşamın İhtiyacı",
-    alt: "Hacamat Tedavisi",
-  },
-  {
-    image: "/images/leech-therapy.jpg",
-    title: "Sülük Tedavisi: İyileştiren Mikro Mucize",
-    alt: "Sülük Tedavisi",
-  },
-  {
-    image: "/images/talat-mollaoglu-youth.jpg",
-    title: "Talat Mollaoğlu: Doğanın Şifası'nın Önderi",
-    alt: "Talat Mollaoğlu",
-  },
-]
-
 export function HeroSection() {
   const [currentSlide, setCurrentSlide] = useState(0)
   const { language } = useLanguage()
@@ -113,13 +85,12 @@ export function HeroSection() {
                 ))}
               </div>
 
-              {/* Text Section */}
-              <div className="px-8 py-12 md:py-0">
+              <div className="px-8 py-12 md:py-0 relative min-h-[200px]">
                 {slides.map((slide, index) => (
                   <div
                     key={index}
                     className={`transition-opacity duration-1000 ${
-                      index === currentSlide ? "opacity-100" : "opacity-0 absolute"
+                      index === currentSlide ? "opacity-100 relative z-10" : "opacity-0 absolute inset-0 invisible"
                     }`}
                   >
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-emerald-900 leading-tight">

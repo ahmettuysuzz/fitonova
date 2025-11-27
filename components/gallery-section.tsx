@@ -8,34 +8,34 @@ export function GallerySection() {
 
   const galleryImages = [
     {
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Ventosaterapia%20%F0%9F%A4%8D%F0%9F%92%9A-F1o5SRgti4PUFnWF4Pk9R5pEKChX6e.jpg",
+      src: "/images/hacamat-yap.jpg",
       alt: "Hacamat tedavisi - Cupping therapy",
-      query: "cupping therapy traditional medicine",
+      objectFit: "contain" as const,
     },
     {
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-PJ0foAZbkCKri8HYoq27KJerVZisRk.png",
-      alt: "Solunum sistemi ve akciğer sağlığı",
-      query: "respiratory system lungs health bronchial tree",
+      src: "/images/hacamat2.jpg",
+      alt: "Hacamat tedavisi - Cupping therapy session",
+      objectFit: "contain" as const,
     },
     {
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-PFdToSbdABesKClEuLhVXYK7rIeWKD.png",
-      alt: "Klinik danışma odası",
-      query: "clinic consultation room",
+      src: "/images/hacamat3.jpeg",
+      alt: "Hacamat tedavisi - Bacak tedavisi",
+      objectFit: "contain" as const,
     },
     {
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-SEUHl4c45UZIHmaPUn8TdTIy2JdEwB.png",
-      alt: "Klinik tedavi odası",
-      query: "clinic treatment room",
-    },
-    {
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-xnD2leRbTg8UARkn3xm8SbTLnJUyiJ.png",
+      src: "/images/suluk1.jpg",
       alt: "Sülük tedavisi - Leech therapy",
-      query: "leech therapy hirudotherapy traditional medicine",
+      objectFit: "contain" as const,
     },
     {
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-MtIqs6ahbN4GAWlrdta8cFZqaF0cOa.png",
-      alt: "Sindirim sistemi sağlığı ve bağırsak mikrobiyomu",
-      query: "digestive system gut health microbiome bacteria",
+      src: "/images/suluk2.jpg",
+      alt: "Sülük tedavisi - Karın bölgesi tedavisi",
+      objectFit: "contain" as const,
+    },
+    {
+      src: "/images/hacamat5.jpg",
+      alt: "Hacamat tedavisi - Sırt bölgesi tedavisi",
+      objectFit: "contain" as const,
     },
   ]
 
@@ -57,7 +57,7 @@ export function GallerySection() {
                 src={image.src || "/placeholder.svg"}
                 alt={image.alt}
                 fill
-                className="object-cover transition-transform duration-300 group-hover:scale-110"
+                className={`${image.objectFit === "contain" ? "object-contain" : "object-cover"} transition-transform duration-300 group-hover:scale-105`}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </div>

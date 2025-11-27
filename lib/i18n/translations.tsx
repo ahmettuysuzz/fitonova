@@ -16,7 +16,7 @@ const translations = {
     navGallery: "Galeri",
     navAppointment: "Randevu Al",
     makeAppointment: "Randevu Al",
-    navDocuments: "Belgelerimiz", // Added documents menu link
+    navDocuments: "Belgelerimiz",
 
     // Hero
     heroTitle: "Bir Yolculuğun Adı: Talat Mollaoğlu",
@@ -31,32 +31,69 @@ const translations = {
     heroSlide5Title: "Bilimin ve Keşfin Adı: Talat Mollaoğlu",
     heroSlide5Alt: "Talat Mollaoğlu",
     // </CHANGE>
-    heroParagraph1:
-      'Bazı insanlar vardır... Hayattan bir çizgi değildir; merakla başlayan, mücadeleyle şekillenen, başarıyla parlayan bir yolculuktur. Talat Mollaoğlu\'nun hikâyesi de tam olarak böyledir. Genç yaşlarında, insanların ve dünyanın ihtiyaçlarını anlamaya çalışan bir gözlemciydi o. Kimi zaman bir laboratuvar masasında, kimi zaman atölyede, kimi zaman ise sadece doğanın sessizliğinde... Çözümler aradı. Sorular sordu: "Neden böyle olmak zorunda? Daha iyi bir yol yok mu?"',
-    heroParagraph2:
-      "Bu sorular, onu yıllar içinde yeni icatlara, yüzlerce deneye, sayısız araştırmaya götürdü. Her adımı, yalnızca bir problemi çözmek için değil, insanlık için daha iyisini bulma arzusuyla atıldı. Bir dönem yüksek teknoloji ve mühendisliğe yöneldi; çevreyi koruyan icatlar geliştirdi, yakıt tüketimini azaltan yeniliklerle adını duyurdu. Bu başarılar ona bir şey gösterdi: Eğer doğayı koruyabiliyorsak, insanı da koruyabiliriz. Ve tam burada yolculuğunun yeni bir kapısı açıldı.",
-    heroSectionTitle: "Bilimin Işığından Doğanın Şifa Kaynağına",
-    heroParagraph3:
-      "Uzun yıllar boyunca yaptığı çalışmalar, onu en sade ama en derin gerçeğe götürdü: İnsan, doğanın bir parçasıdır — ve doğanın sunduğu iyiliği, insana şifa olarak sunmak mümkündür. Böylece Talat Mollaoğlu; tüm birikimini, tecrübesini ve araştırmalarını bu kez fitoterapi ve doğal tedavi yöntemlerine adadı.",
-    heroParagraph4: "Bu alanda geçen 30 yıl aşkın süre boyunca:",
-    heroListItem1: "Bitkisel tedavilerin bilimsel yönünü pekiştirdi,",
-    heroListItem2: "Araştırmalarını modern tıp anlayışıyla uyumlu hâle getirdi,",
-    heroListItem3: "Binlerce insanın yaşamına umut, konfor ve şifa taşıdı.",
-    heroParagraph5:
-      "Artık onun ismi, yalnızca bir mucitle değil; şifayı bilimin ışığıyla harmanlayan bir bilgeyle özdeşleşti.",
-    // ADDED CONTENT START
-    heroFitonovaTitle: "Bugün: Fitonova ile Yeni Bir Umut",
-    heroFitonovaParagraph:
-      "Tüm bu yolculuk, bugün Fitonova Sağlık Hizmet Birimi ile devam ediyor. Fitonova; bir klinikten fazlası… Talat Mollaoğlu'nun yıllar boyunca taşıdığı inancın, arayışın ve keşfin vücut bulmuş hâli. Burada, her danışan yalnızca bir hasta olarak değil; kendine özgü bir hikâyeye sahip bir insan olarak görülüyor. Çözümler ezberden değil; kişiye özel, bilimsel, doğal ve güvenilir yaklaşımlarla tasarlanıyor. Fitonova'nın mottosu da bunun özüdür: \"Doğadan Gelen Yeni Umut.\" Çünkü umut; bir bitkinin yaprağında da bulunabilir, bir insanın gözlerinde de… Önemli olan onu doğru bilgiyle, doğru yöntemle bulabilmek.",
-    // ADDED CONTENT END
-    heroJourneyTitle: "Yolculuk Devam Ediyor",
-    heroJourneyParagraph:
-      "Bugün Talat Mollaoğlu, hâlâ aynı merakla araştırıyor, öğreniyor ve geliştiriyor. Her yeni çalışmasında tek bir hedef var: Daha fazla insana yaşam kalitesi, sağlık ve umut sunmak. Geçmişin birikimi, bugünün uzmanlığı ve geleceğin vizyonuyla; hikâyesi devam ediyor… Ve bu hikâyeye şahit olan herkes, bir noktada aynı şeyi fark ediyor:",
-    heroJourneyQuote: "Bazen en büyük yenilik, doğaya yeniden kulak vermektir.",
+    learnMoreButton: "Daha Fazla Bilgi",
+    backToHome: "Ana Sayfaya Dön",
+    cancerTreatmentTitle: "Kanser Tedavisi",
+    cancerTreatmentIntro:
+      "Kanser; vücuttaki hücrelerin kontrolsüz çoğalması ile gelişen, her bireyde farklı seyreden karmaşık bir hastalıktır. Bu yolculuk, fiziksel olduğu kadar duygusal ve psikolojik boyutlar da içerir. Bu nedenle tedavi sürecine yalnızca hastalık odaklı değil, insanı merkeze alan bütüncül bir yaklaşımla bakmak önemlidir.",
+    cancerFitonovaTitle: "Fitonova'da Kanser Yaklaşımı",
+    cancerFitonovaApproach:
+      "Fitonova, modern tıp tedavilerini reddetmez. Aksine, onların gücünü doğanın tamamlayıcı potansiyeliyle desteklemeyi hedefler. Bilimsel çalışmalarda yer alan bitkisel aktif maddeler, bağışıklık sistemini güçlendiren doğal bileşenler ve metabolik dengeyi destekleyici protokoller, uzman değerlendirmesiyle kişiye özel uygulanır.",
+    // </CHANGE>
+    cancerHerbalSupportTitle: "Kanser Tedavisinde Bitkisel Destek Neler Sağlar?",
+    cancerHerbalBenefit1: "Bağışıklığı güçlendirmeye yardımcı olabilir",
+    cancerHerbalBenefit2:
+      "Tedavinin yan etkilerinden kaynaklanan halsizlik, iştahsızlık ve uyku bozukluklarının giderilmesini destekleyebilir",
+    cancerHerbalBenefit3: "Hücresel savunmayı artırmaya katkıda bulunabilir",
+    cancerHerbalBenefit4: "Tedavi sürecinde fiziksel ve zihinsel dayanıklılığı güçlendirebilir",
+    cancerHerbalConclusion:
+      "Bu yaklaşımın temel hedefi; kişinin yaşam kalitesini koruyarak iyileşme sürecini desteklemektir.",
+    cancerSpiritualTitle: "Manevi ve Psikolojik Destek",
+    cancerSpiritualIntro:
+      "Kanser sadece bedensel bir hastalık değildir. Bu süreç; umut, korku, güç, yorgunluk ve yeniden doğuş arasında gidip gelen bir insani yolculuktur. Bu yüzden Fitonova'da:",
+    cancerSpiritualBenefit1: "Hastanın duygusal gücünü korumaya yönelik danışmanlık",
+    cancerSpiritualBenefit2: "Tedavi sürecinde motivasyonu artıran destek programları",
+    cancerSpiritualBenefit3: "Aile ve çevreye yönelik bilgilendirme",
+    cancerSpiritualBenefit4: "Moral ve iyileşme isteğini güçlendiren yaklaşım",
+    cancerSpiritualConclusion: "uygulanır. Çünkü bizce her hasta bir dosya değil; bir hikâyedir.",
+    psoriasisTitle: "Sedef Hastalığını Anlamak",
+    psoriasisIntro:
+      "Sedef (Psoriasis), bağışıklık sisteminin aşırı tepki vermesi sonucu cilt hücrelerinin normalden çok daha hızlı çoğalmasıyla ortaya çıkan kronik bir cilt hastalığıdır. Klasik olarak deride kızarıklık, pullanma ve kaşıntı ile kendini gösterse de yalnızca deriyi değil; kişinin psikolojisini, sosyal yaşamını ve özgüvenini de etkileyebilen çok boyutlu bir tablodur. Bu nedenle tedavi sürecine sadece cilt yüzeyinden değil, vücudun denge mekanizmalarından yaklaşmak önemlidir.",
+    psoriasisFitonovaTitle: "Fitonova'da Sedef Yaklaşımı",
+    psoriasisFitonovaIntro:
+      "Sedef, yalnızca cilt üzerinde görünen bir hastalık değildir; bağışıklık sistemi, stres, beslenme, hormonal denge ve yaşamsal faktörler bu tablonun şekillenmesinde önemli rol oynar. Fitonova'da amaç, sorunu bastırmak değil; vücudu dengelemeyi desteklemektir. Yaklaşımımız şu prensiplere dayanır:",
+    psoriasisFitonovaBenefit1: "Bağışıklık sisteminin düzenlenmesine yardımcı doğal destekler",
+    psoriasisFitonovaBenefit2: "Hücresel iltihabi yanıtın dengelenmesini hedefleyen bitkisel bileşenler",
+    psoriasisFitonovaBenefit3: "Cilt bariyerini destekleyici ve yenilenmeyi teşvik eden doğal içerikler",
+    psoriasisFitonovaBenefit4: "Sedefi tetikleyen faktörlerin kişiye özel belirlenmesi",
+    psoriasisFitonovaBenefit5: "Sürdürülebilir yaşam kalitesi",
+    psoriasisFitonovaConclusion:
+      "Fitonova, modern tıp tedavilerini reddetmez — onları tamamlayıcı, destekleyici ve güçlendirici bir rol üstlenir.",
     // </CHANGE>
     heroSubtitle: "Bedeninizi, zihninizi ve ruhunuzu besleyen bütünsel bir sağlık yaklaşımını keşfedin",
     startJourney: "Yolculuğunuza Başlayın",
     learnMore: "Daha Fazla Bilgi",
+
+    // About
+    aboutTitle: "Hakkımızda",
+    aboutText1:
+      "Fitonova, modern tıbbın bilimsel gücünü doğanın yenileyici potansiyeliyle birleştiren bütünsel bir sağlık merkezidir. Amacımız yalnızca hastalığı geçici olarak baskılamak değil; nedenlerini ortadan kaldırarak kalıcı ve kesin çözüme ulaşmaktır. Her bireyin beden, zihin ve ruh bütünlüğünü yeniden kurmayı, sağlığı sürdürülebilir hale getirmeyi hedefliyoruz.\n\nAlanında uzman hekimlerimiz, onkoloji başta olmak üzere birçok hastalık grubunda bilimsel teşhis ve tedavi yöntemlerini, bitkisel ve doğal protokollerle bir araya getirir. Bu yaklaşım, hücresel düzeyde iyileşmeyi destekleyen, vücudun kendi savunma sistemini yeniden aktive eden entegre bir tedavi modeli sunar.",
+    aboutText2:
+      "Her hastamız için kişiye özel bir tedavi planı oluşturulur; bu plan laboratuvar sonuçları, yaşam alışkanlıkları ve hastalık geçmişi dikkate alınarak titizlikle hazırlanır. Tedavi süreci, bilimsel analizler ve düzenli değerlendirmeler ile yakından takip edilir; böylece hastalığın tekrarlama riski en aza indirilir ve kalıcı iyileşme hedeflenir.\n\nFitonova'da amaç yalnızca tedavi etmek değil, iyileşmeyi kesinleştirmek ve bireyin yaşam kalitesini en yüksek düzeye taşımaktır.",
+    valuesTitle: "Değerlerimiz",
+    value1: "Etik, güvenilir ve şeffaf hizmet anlayışı",
+    value2: "Bilimsel bilgi ile doğanın gücünü harmanlamak",
+    value3: "Kişiye özel ve bütüncül tedavi yaklaşımı",
+    value4: "Sürekli gelişim ve hasta memnuniyeti odaklı çalışma",
+    philosophyTitle: "Felsefemiz",
+    philosophyText:
+      "Biz, doğanın sunduğu imkanların modern tıp ile birleştiğinde daha etkili sonuçlar vereceğine inanıyoruz. Bu nedenle her tedavi sürecimiz; kanıta dayalı tıp ilkelerine uygun olarak, güvenli ve etik standartlarda yürütülür.",
+    missionTitle: "Misyonumuz",
+    missionText:
+      "Hastalarımıza en yüksek yaşam kalitesini sunmak, modern tıbbın verilerini ve doğal tedavi yaklaşımlarını bir araya getirerek umut veren çözümler üretmek.",
+    visionTitle: "Vizyonumuz",
+    visionText:
+      "Doğal ve bilimsel yöntemleri bir arada kullanan yenilikçi tedavi modelleriyle, ulusal ve uluslararası düzeyde örnek gösterilen bir sağlık merkezi olmak.",
 
     // Services
     servicesTitle: "Tedavi Ettiğimiz Hastalıklar",
@@ -116,27 +153,6 @@ const translations = {
     // Gallery
     galleryTitle: "Galerimiz",
     gallerySubtitle: "Topluluğumuzdan sağlık, dönüşüm ve sağlıklı yaşam anlarını keşfedin",
-
-    // About
-    aboutTitle: "Hakkımızda",
-    aboutText1:
-      "Fitonova, modern tıbbın bilimsel gücünü doğanın yenileyici potansiyeliyle birleştiren bütünsel bir sağlık merkezidir. Amacımız yalnızca hastalığı geçici olarak baskılamak değil; nedenlerini ortadan kaldırarak kalıcı ve kesin çözüme ulaşmaktır. Her bireyin beden, zihin ve ruh bütünlüğünü yeniden kurmayı, sağlığı sürdürülebilir hale getirmeyi hedefliyoruz.\n\nAlanında uzman hekimlerimiz, onkoloji başta olmak üzere birçok hastalık grubunda bilimsel teşhis ve tedavi yöntemlerini, bitkisel ve doğal protokollerle bir araya getirir. Bu yaklaşım, hücresel düzeyde iyileşmeyi destekleyen, vücudun kendi savunma sistemini yeniden aktive eden entegre bir tedavi modeli sunar.",
-    aboutText2:
-      "Her hastamız için kişiye özel bir tedavi planı oluşturulur; bu plan laboratuvar sonuçları, yaşam alışkanlıkları ve hastalık geçmişi dikkate alınarak titizlikle hazırlanır. Tedavi süreci, bilimsel analizler ve düzenli değerlendirmeler ile yakından takip edilir; böylece hastalığın tekrarlama riski en aza indirilir ve kalıcı iyileşme hedeflenir.\n\nFitonova'da amaç yalnızca tedavi etmek değil, iyileşmeyi kesinleştirmek ve bireyin yaşam kalitesini en yüksek düzeye taşımaktır.",
-    valuesTitle: "Değerlerimiz",
-    value1: "Etik, güvenilir ve şeffaf hizmet anlayışı",
-    value2: "Bilimsel bilgi ile doğanın gücünü harmanlamak",
-    value3: "Kişiye özel ve bütüncül tedavi yaklaşımı",
-    value4: "Sürekli gelişim ve hasta memnuniyeti odaklı çalışma",
-    philosophyTitle: "Felsefemiz",
-    philosophyText:
-      "Biz, doğanın sunduğu imkanların modern tıp ile birleştiğinde daha etkili sonuçlar vereceğine inanıyoruz. Bu nedenle her tedavi sürecimiz; kanıta dayalı tıp ilkelerine uygun olarak, güvenli ve etik standartlarda yürütülür.",
-    missionTitle: "Misyonumuz",
-    missionText:
-      "Hastalarımıza en yüksek yaşam kalitesini sunmak, modern tıbbın verilerini ve doğal tedavi yaklaşımlarını bir araya getirerek umut veren çözümler üretmek.",
-    visionTitle: "Vizyonumuz",
-    visionText:
-      "Doğal ve bilimsel yöntemleri bir arada kullanan yenilikçi tedavi modelleriyle, ulusal ve uluslararası düzeyde örnek gösterilen bir sağlık merkezi olmak.",
 
     // CTA
     ctaTitle: "Randevu Almaya Hazır mısınız?",
@@ -199,32 +215,69 @@ const translations = {
     heroSlide5Title: "The Name of Science and Discovery: Talat Mollaoğlu",
     heroSlide5Alt: "Talat Mollaoğlu",
     // </CHANGE>
-    heroParagraph1:
-      "Some people exist... Life is not a line; it is a journey that begins with curiosity, is shaped by struggle, and shines with success. This is exactly Talat Mollaoğlu's story. In his youth, he was an observer trying to understand the needs of people and the world. Sometimes at a laboratory desk, sometimes in a workshop, sometimes just in the silence of nature... He sought solutions. He asked questions: \"Why does it have to be this way? Isn't there a better way?\"",
-    heroParagraph2:
-      "These questions led him to new inventions, hundreds of experiments, and countless research over the years. Each step was taken not just to solve a problem, but with the desire to find something better for humanity. At one point, he turned to high technology and engineering; he developed inventions that protect the environment and made a name for himself with innovations that reduce fuel consumption. These successes showed him something: If we can protect nature, we can also protect humans. And right here, a new door opened in his journey.",
-    heroSectionTitle: "From the Light of Science to Nature's Source of Healing",
-    heroParagraph3:
-      "His work over many years led him to the simplest yet deepest truth: Humans are part of nature — and it is possible to offer the goodness that nature provides as healing to humans. Thus, Talat Mollaoğlu dedicated all his knowledge, experience, and research to phytotherapy and natural treatment methods.",
-    heroParagraph4: "During more than 30 years in this field:",
-    heroListItem1: "He strengthened the scientific aspect of herbal treatments,",
-    heroListItem2: "He made his research compatible with modern medical understanding,",
-    heroListItem3: "He brought hope, comfort, and healing to the lives of thousands of people.",
-    heroParagraph5:
-      "Now his name is identified not only with an inventor, but with a sage who harmonizes healing with the light of science.",
-    // ADDED CONTENT START
-    heroFitonovaTitle: "Today: New Hope with Fitonova",
-    heroFitonovaParagraph:
-      "This whole journey continues today with Fitonova Health Service Unit. Fitonova is more than a clinic… It is the embodiment of the belief, quest, and discovery that Talat Mollaoğlu has carried for years. Here, every client is seen not just as a patient, but as a human being with a unique story. Solutions are designed not by rote; but with personalized, scientific, natural, and reliable approaches. Fitonova's motto is the essence of this: 'New Hope from Nature.' Because hope can be found in the leaf of a plant, and in the eyes of a human... What matters is to find it with the right knowledge, the right method.",
-    // ADDED CONTENT END
-    heroJourneyTitle: "The Journey Continues",
-    heroJourneyParagraph:
-      "Today, Talat Mollaoğlu continues to research, learn, and develop with the same curiosity. In his every new endeavor, there is but one goal: to offer quality of life, health, and hope to more people. With the accumulation of the past, the expertise of today, and the vision of the future; his story continues… And everyone who witnesses this story realizes the same thing at some point:",
-    heroJourneyQuote: "Sometimes the greatest innovation is listening to nature again.",
+    learnMoreButton: "Learn More",
+    backToHome: "Back to Home",
+    cancerTreatmentTitle: "Cancer Treatment",
+    cancerTreatmentIntro:
+      "Cancer is a complex disease that develops through the uncontrolled proliferation of cells in the body, with a different course in each individual. This journey includes emotional and psychological dimensions as well as physical ones. Therefore, it is important to approach the treatment process not only with a disease-focused perspective, but with a holistic approach that puts the person at the center.",
+    cancerFitonovaTitle: "Fitonova's Approach to Cancer",
+    cancerFitonovaApproach:
+      "Fitonova does not reject modern medical treatments. On the contrary, it aims to support their power with the complementary potential of nature. Herbal active ingredients that are part of scientific studies, natural components that strengthen the immune system, and protocols that support metabolic balance are applied individually after expert evaluation.",
     // </CHANGE>
-    heroSubtitle: "Discover a holistic health approach that nourishes your body, mind, and spirit",
+    cancerHerbalSupportTitle: "What Does Herbal Support Provide in Cancer Treatment?",
+    cancerHerbalBenefit1: "Can help strengthen immunity",
+    cancerHerbalBenefit2:
+      "Can support the alleviation of weakness, loss of appetite and sleep disorders caused by side effects of treatment",
+    cancerHerbalBenefit3: "Can contribute to increasing cellular defense",
+    cancerHerbalBenefit4: "Can strengthen physical and mental resilience during the treatment process",
+    cancerHerbalConclusion:
+      "The main goal of this approach is to support the healing process while maintaining the person's quality of life.",
+    cancerSpiritualTitle: "Spiritual and Psychological Support",
+    cancerSpiritualIntro:
+      "Cancer is not just a physical illness. This process is a human journey that fluctuates between hope, fear, strength, fatigue, and rebirth. That's why in Fitonova:",
+    cancerSpiritualBenefit1: "Counseling aimed at preserving the patient's emotional strength",
+    cancerSpiritualBenefit2: "Support programs that increase motivation during the treatment process",
+    cancerSpiritualBenefit3: "Information for family and environment",
+    cancerSpiritualBenefit4: "An approach that strengthens morale and the will to heal",
+    cancerSpiritualConclusion: "is applied. Because in our opinion, every patient is not a file; but a story.",
+    psoriasisTitle: "Understanding Psoriasis",
+    psoriasisIntro:
+      "Psoriasis is a chronic skin disease caused by the immune system overreacting, leading to skin cells multiplying much faster than normal. While classically characterized by redness, scaling, and itching of the skin, it is a multifaceted condition that can affect not only the skin but also a person's psychology, social life, and self-confidence. Therefore, it is important to approach the treatment process not just from the skin's surface, but from the body's balance mechanisms.",
+    psoriasisFitonovaTitle: "Fitonova's Approach to Psoriasis",
+    psoriasisFitonovaIntro:
+      "Psoriasis is not just a skin condition; the immune system, stress, diet, hormonal balance, and vital factors play a significant role in shaping this condition. At Fitonova, the aim is not to suppress the problem, but to support the body's balance. Our approach is based on the following principles:",
+    psoriasisFitonovaBenefit1: "Natural supports to help regulate the immune system",
+    psoriasisFitonovaBenefit2: "Herbal components targeting the balance of cellular inflammatory response",
+    psoriasisFitonovaBenefit3: "Natural ingredients that support the skin barrier and promote regeneration",
+    psoriasisFitonovaBenefit4: "Personalized identification of factors triggering psoriasis",
+    psoriasisFitonovaBenefit5: "Sustainable quality of life",
+    psoriasisFitonovaConclusion:
+      "Fitonova does not reject modern medical treatments—it takes a complementary, supportive, and strengthening role.",
+    // </CHANGE>
+    heroSubtitle: "Discover a holistic approach to health that nourishes your body, mind, and spirit",
     startJourney: "Start Your Journey",
     learnMore: "Learn More",
+
+    // About
+    aboutTitle: "About Us",
+    aboutText1:
+      "Fitonova is a holistic health center that combines the scientific power of modern medicine with the regenerative potential of nature. Our goal is not just to temporarily suppress the disease, but to achieve a permanent and definitive solution by eliminating its causes. We aim to rebuild the body, mind, and spirit integrity of each individual and make health sustainable.\n\nOur specialist physicians combine scientific diagnosis and treatment methods with herbal and natural protocols in many disease groups, primarily oncology. This approach offers an integrated treatment model that supports healing at the cellular level and reactivates the body's own defense system.",
+    aboutText2:
+      "A personalized treatment plan is created for each of our patients; this plan is carefully prepared taking into account laboratory results, lifestyle habits, and medical history. The treatment process is closely monitored with scientific analyses and regular evaluations; thus, the risk of disease recurrence is minimized and permanent healing is targeted.\n\nAt Fitonova, the goal is not only to treat, but to ensure healing and elevate the individual's quality of life to the highest level.",
+    valuesTitle: "Our Values",
+    value1: "Ethical, reliable, and transparent service approach",
+    value2: "Blending scientific knowledge with the power of nature",
+    value3: "Personalized and holistic treatment approach",
+    value4: "Continuous development and patient satisfaction-focused work",
+    philosophyTitle: "Our Philosophy",
+    philosophyText:
+      "We believe that the opportunities offered by nature will produce more effective results when combined with modern medicine. Therefore, each of our treatment processes is conducted in accordance with evidence-based medical principles, in safe and ethical standards.",
+    missionTitle: "Our Mission",
+    missionText:
+      "To offer our patients the highest quality of life, to produce hopeful solutions by bringing together modern medical data and natural treatment approaches.",
+    visionTitle: "Our Vision",
+    visionText:
+      "To become a health center that is exemplary at national and international levels with innovative treatment models that use natural and scientific methods together.",
 
     // Services
     servicesTitle: "Diseases We Treat",
@@ -284,27 +337,6 @@ const translations = {
     // Gallery
     galleryTitle: "Our Gallery",
     gallerySubtitle: "Discover moments of health, transformation, and healthy living from our community",
-
-    // About
-    aboutTitle: "About Us",
-    aboutText1:
-      "Fitonova is a holistic health center that combines the scientific power of modern medicine with the regenerative potential of nature. Our goal is not just to temporarily suppress the disease, but to achieve a permanent and definitive solution by eliminating its causes. We aim to rebuild the body, mind, and spirit integrity of each individual and make health sustainable.\n\nOur specialist physicians combine scientific diagnosis and treatment methods with herbal and natural protocols in many disease groups, primarily oncology. This approach offers an integrated treatment model that supports healing at the cellular level and reactivates the body's own defense system.",
-    aboutText2:
-      "A personalized treatment plan is created for each of our patients; this plan is carefully prepared taking into account laboratory results, lifestyle habits, and medical history. The treatment process is closely monitored with scientific analyses and regular evaluations; thus, the risk of disease recurrence is minimized and permanent healing is targeted.\n\nAt Fitonova, the goal is not only to treat, but to ensure healing and elevate the individual's quality of life to the highest level.",
-    valuesTitle: "Our Values",
-    value1: "Ethical, reliable, and transparent service approach",
-    value2: "Blending scientific knowledge with the power of nature",
-    value3: "Personalized and holistic treatment approach",
-    value4: "Continuous development and patient satisfaction-focused work",
-    philosophyTitle: "Our Philosophy",
-    philosophyText:
-      "We believe that the opportunities offered by nature will produce more effective results when combined with modern medicine. Therefore, each of our treatment processes is conducted in accordance with evidence-based medical principles, in safe and ethical standards.",
-    missionTitle: "Our Mission",
-    missionText:
-      "To offer our patients the highest quality of life, to produce hopeful solutions by bringing together modern medical data and natural treatment approaches.",
-    visionTitle: "Our Vision",
-    visionText:
-      "To become a health center that is exemplary at national and international levels with innovative treatment models that use natural and scientific methods together.",
 
     // CTA
     ctaTitle: "Ready to Book an Appointment?",
@@ -370,31 +402,66 @@ const translations = {
     heroSlide5Title: "اسم العلم والاكتشاف: طلعت مولا أوغلو",
     heroSlide5Alt: "طلعت مولا أوغلو",
     // </CHANGE>
-    heroParagraph1:
-      'بعض الناس موجودون... الحياة ليست خطًا؛ إنها رحلة تبدأ بالفضول، تتشكل بالنضال، وتتألق بالنجاح. هذه هي بالضبط قصة طلعت ملا أوغلو. في شبابه، كان مراقبًا يحاول فهم احتياجات الناس والعالم. أحيانًا على طاولة المختبر، وأحيانًا في ورشة العمل، وأحيانًا فقط في صمت الطبيعة... لقد بحث عن حلول. طرح أسئلة: "لماذا يجب أن يكون الأمر كذلك؟ أليس هناك طريقة أفضل؟"',
-    heroParagraph2:
-      "قادته هذه الأسئلة إلى اختراعات جديدة ومئات التجارب وأبحاث لا حصر لها على مر السنين. كانت كل خطوة تُتخذ ليس فقط لحل مشكلة، ولكن برغبة في إيجاد شيء أفضل للإنسانية. وهنا بالضبط، فتح باب جديد في رحلته.",
-    heroSectionTitle: "من نور العلم إلى مصدر الشفاء الطبيعي",
-    heroParagraph3:
-      "عمله على مدى سنوات عديدة قاده إلى الحقيقة الأبسط والأعمق: البشر جزء من الطبيعة — ومن الممكن تقديم الخير الذي توفره الطبيعة كعلاج للبشر. وهكذا، كرس طلعت ملا أوغلو كل معرفته وخبرته وأبحاثه في هذه المرة للعلاج النباتي وطرق العلاج الطبيعي.",
-    heroParagraph4: "خلال أكثر من 30 عامًا في هذا المجال:",
-    heroListItem1: "عزز الجانب العلمي للعلاجات العشبية،",
-    heroListItem2: "جعل أبحاثه متوافقة مع الفهم الطبي الحديث،",
-    heroListItem3: "جلب الأمل والراحة والشفاء لحياة آلاف الناس.",
-    heroParagraph5: "الآن اسمه يُعرف ليس فقط بالمخترع، ولكن بالحكيم الذي ينسق الشفاء مع نور العلم.",
-    // ADDED CONTENT START
-    heroFitonovaTitle: "اليوم: أمل جديد مع فيتونوفا",
-    heroFitonovaParagraph:
-      "تستمر هذه الرحلة بأكملها اليوم مع وحدة خدمة فيتونوفا الصحية. فيتونوفا أكثر من مجرد عيادة... إنها تجسيد للإيمان والبحث والاكتشاف الذي حمله طلعت ملا أوغلو لسنوات. هنا، يُنظر إلى كل عميل ليس فقط كمريض، ولكن كإنسان له قصة فريدة. يتم تصميم الحلول ليس بشكل تلقيدي؛ ولكن بنهج شخصي وعلمي وطبيعي وموثوق. شعار فيتونوفا هو جوهر هذا: 'أمل جديد من الطبيعة.' لأن الأمل يمكن العثور عليه في ورقة النبات، وفي عيون الإنسان... المهم هو العثور عليه بالمعرفة الصحيحة، بالطريقة الصحيحة.",
-    // ADDED CONTENT END
-    heroJourneyTitle: "الرحلة مستمرة",
-    heroJourneyParagraph:
-      "اليوم، لا يزال طلعت ملا أوغلو يبحث ويتعلم ويطور بنفس الفضول. في كل مسعى جديد له، هناك هدف واحد فقط: تقديم جودة الحياة والصحة والأمل لمزيد من الناس. مع تراكم الماضي، وخبرة اليوم، ورؤية المستقبل؛ تستمر قصته… وكل من يشهد هذه القصة يدرك الشيء نفسه في مرحلة ما:",
-    heroJourneyQuote: "أحيانًا يكون أكبر ابتكار هو الاستماع إلى الطبيعة مرة أخرى.",
+    learnMoreButton: "معرفة المزيد",
+    backToHome: "العودة إلى الصفحة الرئيسية",
+    cancerTreatmentTitle: "علاج السرطان",
+    cancerTreatmentIntro:
+      "السرطان هو مرض معقد يتطور من خلال التكاثر غير المنضبط للخلايا في الجسم، مع مسار مختلف في كل فرد. تتضمن هذه الرحلة أبعادًا عاطفية ونفسية بالإضافة إلى الأبعاد الجسدية. لذلك، من المهم التعامل مع عملية العلاج ليس فقط بمنظور يركز على المرض، ولكن بنهج شامل يضع الشخص في المركز.",
+    cancerFitonovaTitle: "نهج فيتونوفا للسرطان",
+    cancerFitonovaApproach:
+      "لا ترفض فيتونوفا علاجات الطب الحديث. على العكس من ذلك، تهدف إلى دعم قوتها بالإمكانيات التكميلية للطبيعة. يتم تطبيق المكونات النشطة النباتية الموجودة في الدراسات العلمية، والمكونات الطبيعية التي تقوي جهاز المناعة، والبروتوكولات التي تدعم التوازن الأيضي بشكل فردي بعد تقييم الخبراء.",
     // </CHANGE>
-    heroSubtitle: "اكتشف نهجًا صحيًا شاملاً يغذي جسمك وعقلك وروحك",
+    cancerHerbalSupportTitle: "ماذا يقدم الدعم العشبي في علاج السرطان؟",
+    cancerHerbalBenefit1: "يمكن أن يساعد في تقوية المناعة",
+    cancerHerbalBenefit2: "يمكن أن يدعم تخفيف الضعف وفقدان الشهية واضطرابات النوم الناجمة عن الآثار الجانبية للعلاج",
+    cancerHerbalBenefit3: "يمكن أن يساهم في زيادة الدفاع الخلوي",
+    cancerHerbalBenefit4: "يمكن أن يقوي المرونة الجسدية والعقلية أثناء عملية العلاج",
+    cancerHerbalConclusion: "الهدف الرئيسي لهذا النهج هو دعم عملية الشفاء مع الحفاظ على جودة حياة الشخص.",
+    cancerSpiritualTitle: "الدعم الروحي والنفسي",
+    cancerSpiritualIntro:
+      "السرطان ليس مجرد مرض جسدي. هذه العملية هي رحلة إنسانية تتأرجح بين الأمل والخوف والقوة والإرهاق وإعادة الميلاد. لهذا السبب في فيتونوفا:",
+    cancerSpiritualBenefit1: "استشارات تهدف إلى الحفاظ على القوة العاطفية للمريض",
+    cancerSpiritualBenefit2: "برامج دعم تزيد من الدافعية خلال عملية العلاج",
+    cancerSpiritualBenefit3: "معلومات للعائلة والبيئة",
+    cancerSpiritualBenefit4: "نهج يعزز الروح المعنوية والرغبة في الشفاء",
+    cancerSpiritualConclusion: "يتم تطبيقه. لأننا نعتقد أن كل مريض ليس ملفًا، بل قصة.",
+    psoriasisTitle: "فهم الصدفية",
+    psoriasisIntro:
+      "الصدفية مرض جلدي مزمن يحدث نتيجة رد فعل مناعي مفرط، مما يؤدي إلى تكاثر خلايا الجلد بشكل أسرع من المعتاد. على الرغم من أنها تظهر تقليديًا على شكل احمرار وتقشر وحكة في الجلد، إلا أنها حالة متعددة الأوجه يمكن أن تؤثر ليس فقط على الجلد، ولكن أيضًا على نفسية الشخص وحياته الاجتماعية وثقته بنفسه. لذلك، من المهم التعامل مع عملية العلاج ليس فقط من سطح الجلد، ولكن من آليات توازن الجسم.",
+    psoriasisFitonovaTitle: "نهج فيتونوفا للصدفية",
+    psoriasisFitonovaIntro:
+      "الصدفية ليست مجرد حالة جلدية؛ يلعب جهاز المناعة والتوتر والنظام الغذائي والتوازن الهرموني والعوامل الحيوية دورًا هامًا في تشكيل هذه الحالة. في فيتونوفا، الهدف ليس قمع المشكلة، بل دعم توازن الجسم. نهجنا مبني على المبادئ التالية:",
+    psoriasisFitonovaBenefit1: "الدعم الطبيعي للمساعدة في تنظيم جهاز المناعة",
+    psoriasisFitonovaBenefit2: "المكونات العشبية التي تستهدف توازن الاستجابة الالتهابية الخلوية",
+    psoriasisFitonovaBenefit3: "المكونات الطبيعية التي تدعم حاجز الجلد وتعزز التجديد",
+    psoriasisFitonovaBenefit4: "التحديد الشخصي للعوامل المسببة للصدفية",
+    psoriasisFitonovaBenefit5: "جودة حياة مستدامة",
+    psoriasisFitonovaConclusion: "فيتونوفا لا ترفض علاجات الطب الحديث - بل تلعب دورًا تكميليًا وداعمًا ومعززًا.",
+    // </CHANGE>
+    heroSubtitle: "اكتشف نهجًا شاملاً للصحة يغذي جسمك وعقلك وروحك",
     startJourney: "ابدأ رحلتك",
     learnMore: "اعرف المزيد",
+
+    // About
+    aboutTitle: "من نحن",
+    aboutText1:
+      "فيتونوفا هو مركز صحي شامل يجمع بين القوة العلمية للطب الحديث والإمكانات التجديدية للطبيعة. هدفنا ليس فقط قمع المرض مؤقتًا، ولكن تحقيق حل دائم ونهائي من خلال القضاء على أسبابه. نهدف إلى إعادة بناء سلامة الجسم والعقل والروح لكل فرد وجعل الصحة مستدامة.\n\nينفذ أطباؤنا المتخصصون طرق التشخيص والعلاج العلمية مع البروتوكولات العشبية والطبيعية في العديد من مجموعات الأمراض، في المقام الأول علم الأورام. يقدم هذا النهج نموذج علاج متكامل يدعم الشفاء على المستوى الخلوي ويعيد تنشيط نظام الدفاع الخاص بالجسم.",
+    aboutText2:
+      "يتم إنشاء خطة علاج شخصية لكل من مرضانا؛ يتم إعداد هذه الخطة بعناية مع مراعاة نتائج المختبر وعادات نمط الحياة والتاريخ الطبي. تتم مراقبة عملية العلاج عن كثب من خلال التحليلات العلمية والتقييمات المنتظمة؛ وبالتالي، يتم تقليل خطر تكرار المرض إلى الحد الأدنى ويتم استهداف الشفاء الدائم.\n\nفي فيتونوفا، الهدف ليس فقط العلاج، ولكن ضمان الشفاء ورفع جودة حياة الفرد إلى أعلى مستوى.",
+    valuesTitle: "قيمنا",
+    value1: "نهج خدمة أخلاقي وموثوق وشفاف",
+    value2: "مزج المعرفة العلمية مع قوة الطبيعة",
+    value3: "نهج علاج شخصي وشامل",
+    value4: "التطوير المستمر والعمل المركز على رضا المرضى",
+    philosophyTitle: "فلسفتنا",
+    philosophyText:
+      "نحن نؤمن بأن الفرص التي تقدمها الطبيعة ستنتج نتائج أكثر فعالية عند دمجها مع الطب الحديث. لذلك، يتم إجراء كل من عمليات العلاج لدينا وفقًا لمبادئ الطب القائم على الأدلة، في معايير آمنة وأخلاقية.",
+    missionTitle: "مهمتنا",
+    missionText:
+      "تقديم أعلى جودة حياة لمرضانا، وإنتاج حلول مليئة بالأمل من خلال الجمع بين البيانات الطبية الحديثة ونهج العلاج الطبيعي.",
+    visionTitle: "رؤيتنا",
+    visionText:
+      "أن نصبح مركزًا صحيًا مثاليًا على المستويين الوطني والدولي مع نماذج علاج مبتكرة تستخدم الأساليب الطبيعية والعلمية معًا.",
 
     // Services
     servicesTitle: "الأمراض التي نعالجها",
@@ -450,27 +517,6 @@ const translations = {
     // Gallery
     galleryTitle: "معرضنا",
     gallerySubtitle: "اكتشف لحظات الصحة والتحول والحياة الصحية من مجتمعنا",
-
-    // About
-    aboutTitle: "من نحن",
-    aboutText1:
-      "فيتونوفا هو مركز صحي شامل يجمع بين القوة العلمية للطب الحديث والإمكانات التجديدية للطبيعة. هدفنا ليس فقط قمع المرض مؤقتًا، ولكن تحقيق حل دائم ونهائي من خلال القضاء على أسبابه. نهدف إلى إعادة بناء سلامة الجسم والعقل والروح لكل فرد وجعل الصحة مستدامة.\n\nيجمع أطباؤنا المتخصصون بين طرق التشخيص والعلاج العلمية مع البروتوكولات العشبية والطبيعية في العديد من مجموعات الأمراض، في المقام الأول علم الأورام. يقدم هذا النهج نموذج علاج متكامل يدعم الشفاء على المستوى الخلوي ويعيد تنشيط نظام الدفاع الخاص بالجسم.",
-    aboutText2:
-      "يتم إنشاء خطة علاج شخصية لكل من مرضانا؛ يتم إعداد هذه الخطة بعناية مع مراعاة نتائج المختبر وعادات نمط الحياة والتاريخ الطبي. تتم مراقبة عملية العلاج عن كثب من خلال التحليلات العلمية والتقييمات المنتظمة؛ وبالتالي، يتم تقليل خطر تكرار المرض إلى الحد الأدنى ويتم استهداف الشفاء الدائم.\n\nفي فيتونوفا، الهدف ليس فقط العلاج، ولكن ضمان الشفاء ورفع جودة حياة الفرد إلى أعلى مستوى.",
-    valuesTitle: "قيمنا",
-    value1: "نهج خدمة أخلاقي وموثوق وشفاف",
-    value2: "مزج المعرفة العلمية مع قوة الطبيعة",
-    value3: "نهج علاج شخصي وشامل",
-    value4: "التطوير المستمر والعمل المركز على رضا المرضى",
-    philosophyTitle: "فلسفتنا",
-    philosophyText:
-      "نحن نؤمن بأن الفرص التي تقدمها الطبيعة ستنتج نتائج أكثر فعالية عند دمجها مع الطب الحديث. لذلك، يتم إجراء كل من عمليات العلاج لدينا وفقًا لمبادئ الطب القائم على الأدلة، في معايير آمنة وأخلاقية.",
-    missionTitle: "مهمتنا",
-    missionText:
-      "تقديم أعلى جودة حياة لمرضانا، وإنتاج حلول مليئة بالأمل من خلال الجمع بين البيانات الطبية الحديثة ونهج العلاج الطبيعي.",
-    visionTitle: "رؤيتنا",
-    visionText:
-      "أن نصبح مركزًا صحيًا مثاليًا على المستويين الوطني والدولي مع نماذج علاج مبتكرة تستخدم الأساليب الطبيعية والعلمية معًا.",
 
     // CTA
     ctaTitle: "هل أنت مستعد لحجز موعد؟",
@@ -534,32 +580,73 @@ const translations = {
     heroSlide5Title: "Der Name von Wissenschaft und Entdeckung: Talat Mollaoğlu",
     heroSlide5Alt: "Talat Mollaoğlu",
     // </CHANGE>
-    heroParagraph1:
-      'Manche Menschen existieren... Das Leben ist keine Linie; es ist eine Reise, die mit Neugier beginnt, durch Kampf geformt wird und mit Erfolg glänzt. Das ist genau die Geschichte von Talat Mollaoğlu. In seiner Jugend war er ein Beobachter, der versuchte, die Bedürfnisse der Menschen und der Welt zu verstehen. Manchmal am Labortisch, manchmal in der Werkstatt, manchmal einfach in der Stille der Natur... Er suchte nach Lösungen. Er stellte Fragen: "Warum muss es so sein? Gibt es keinen besseren Weg?"',
-    heroParagraph2:
-      "Diese Fragen führten ihn über die Jahre zu neuen Erfindungen, Hunderten von Experimenten und unzähligen Forschungen. Jeder Schritt wurde nicht nur unternommen, um ein Problem zu lösen, sondern mit dem Wunsch, etwas Besseres für die Menschheit zu finden. An einem Punkt wandte er sich der Hochtechnologie und dem Ingenieurwesen zu; er entwickelte Erfindungen, die die Umwelt schützen, und machte sich mit Innovationen, die den Kraftstoffverbrauch senken, einen Namen. Diese Erfolge zeigten ihm etwas: Wenn wir die Natur schützen können, können wir auch Menschen schützen. Und genau hier öffnete sich eine neue Tür in seiner Reise.",
-    heroSectionTitle: "Vom Licht der Wissenschaft zur Quelle der Heilung der Natur",
-    heroParagraph3:
-      "Seine Arbeit über viele Jahre führte ihn zur einfachsten und doch tiefsten Wahrheit: Menschen sind Teil der Natur — und es ist möglich, die Güte, die die Natur bietet, als Heilung für Menschen anzubieten. So widmete Talat Mollaoğlu sein gesamtes Wissen, seine Erfahrung und seine Forschung diesmal der Phytotherapie und den natürlichen Behandlungsmethoden.",
-    heroParagraph4: "Während mehr als 30 Jahren in diesem Bereich:",
-    heroListItem1: "Stärkte er den wissenschaftlichen Aspekt pflanzlicher Behandlungen,",
-    heroListItem2: "Machte er seine Forschung mit modernem medizinischem Verständnis kompatibel,",
-    heroListItem3: "Brachte er Hoffnung, Trost und Heilung in das Leben Tausender Menschen.",
-    heroParagraph5:
-      "Jetzt ist sein Name nicht nur mit einem Erfinder identifiziert, sondern mit einem Weisen, der Heilung mit dem Licht der Wissenschaft harmonisiert.",
-    // ADDED CONTENT START
-    heroFitonovaTitle: "Heute: Neue Hoffnung mit Fitonova",
-    heroFitonovaParagraph:
-      "Diese gesamte Reise wird heute mit der Fitonova Gesundheitsdienstleistungseinheit fortgesetzt. Fitonova ist mehr als eine Klinik... Es ist die Verkörperung des Glaubens, der Suche und der Entdeckung, die Talat Mollaoğlu jahrelang in sich trug. Hier wird jeder Klient nicht nur als Patient betrachtet, sondern als Mensch mit einer einzigartigen Geschichte. Lösungen werden nicht auswendig entworfen; sondern mit personalisierten, wissenschaftlichen, natürlichen und zuverlässigen Ansätzen. Das Motto von Fitonova ist die Essenz davon: 'Neue Hoffnung aus der Natur.' Denn Hoffnung kann im Blatt einer Pflanze gefunden werden, und in den Augen eines Menschen... Wichtig ist, sie mit dem richtigen Wissen, der richtigen Methode zu finden.",
-    // ADDED CONTENT END
-    heroJourneyTitle: "Die Reise geht weiter",
-    heroJourneyParagraph:
-      "Heute forscht Talat Mollaoğlu weiterhin mit der gleichen Neugier, lernt und entwickelt sich weiter. In jedem neuen Unterfangen gibt es nur ein Ziel: mehr Menschen Lebensqualität, Gesundheit und Hoffnung zu bieten. Mit der Anhäufung der Vergangenheit, der Expertise von heute und der Vision der Zukunft; seine Geschichte geht weiter… Und jeder, der Zeuge dieser Geschichte wird, erkennt irgendwann dasselbe:",
-    heroJourneyQuote: "Manchmal ist die größte Innovation, wieder auf die Natur zu hören.",
+    learnMoreButton: "Mehr erfahren",
+    backToHome: "Zurück zur Startseite",
+    cancerTreatmentTitle: "Krebsbehandlung",
+    cancerTreatmentIntro:
+      "Krebs ist eine komplexe Krankheit, die durch unkontrolliertes Zellwachstum im Körper entsteht und bei jedem Einzelnen unterschiedlich verläuft. Diese Reise beinhaltet nicht nur physische, sondern auch emotionale und psychologische Dimensionen. Daher ist es wichtig, den Behandlungsprozess nicht nur krankheitsorientiert, sondern mit einem ganzheitlichen Ansatz, der den Menschen in den Mittelpunkt stellt, zu betrachten.",
+    cancerFitonovaTitle: "Fitonova's Ansatz bei Krebs",
+    cancerFitonovaApproach:
+      "Fitonova lehnt moderne medizinische Behandlungen nicht ab. Im Gegenteil, es zielt darauf ab, ihre Kraft mit dem komplementären Potenzial der Natur zu unterstützen. Pflanzliche Wirkstoffe, die Teil wissenschaftlicher Studien sind, natürliche Komponenten, die das Immunsystem stärken, und Stoffwechselgleichgewicht unterstützende Protokolle werden nach Expertenbewertung individuell angewendet.",
+    // </CHANGE>
+    cancerHerbalSupportTitle: "Was bietet pflanzliche Unterstützung bei der Krebsbehandlung?",
+    cancerHerbalBenefit1: "Kann helfen, das Immunsystem zu stärken",
+    cancerHerbalBenefit2:
+      "Kann die Linderung von Schwäche, Appetitlosigkeit und Schlafstörungen, die durch Nebenwirkungen der Behandlung verursacht werden, unterstützen",
+    cancerHerbalBenefit3: "Kann zur Stärkung der zellulären Abwehr beitragen",
+    cancerHerbalBenefit4:
+      "Kann die körperliche und geistige Widerstandsfähigkeit während des Behandlungsprozesses stärken",
+    cancerHerbalConclusion:
+      "Das Hauptziel dieses Ansatzes ist es, den Heilungsprozess zu unterstützen und gleichzeitig die Lebensqualität des Menschen zu erhalten.",
+    cancerSpiritualTitle: "Spirituelle und psychologische Unterstützung",
+    cancerSpiritualIntro:
+      "Krebs ist nicht nur eine körperliche Krankheit. Dieser Prozess ist eine menschliche Reise, die zwischen Hoffnung, Angst, Stärke, Müdigkeit und Wiedergeburt schwankt. Deshalb wird bei Fitonova:",
+    cancerSpiritualBenefit1: "Beratung zur Erhaltung der emotionalen Kraft des Patienten",
+    cancerSpiritualBenefit2: "Unterstützungsprogramme zur Steigerung der Motivation während des Behandlungsprozesses",
+    cancerSpiritualBenefit3: "Informationen für Familie und Umfeld",
+    cancerSpiritualBenefit4: "Ein Ansatz, der den Moral und den Heilungswillen stärkt",
+    cancerSpiritualConclusion:
+      "angewendet. Denn unserer Meinung nach ist jeder Patient keine Akte, sondern eine Geschichte.",
+    psoriasisTitle: "Psoriasis verstehen",
+    psoriasisIntro:
+      "Psoriasis ist eine chronische Hauterkrankung, die durch eine Überreaktion des Immunsystems verursacht wird, was zu einer viel schnelleren Vermehrung der Hautzellen als normal führt. Obwohl sie klassischerweise durch Rötungen, Schuppenbildung und Juckreiz der Haut gekennzeichnet ist, ist sie eine vielschichtige Erkrankung, die nicht nur die Haut, sondern auch die Psyche, das soziale Leben und das Selbstvertrauen eines Menschen beeinflussen kann. Daher ist es wichtig, den Behandlungsprozess nicht nur von der Hautoberfläche aus anzugehen, sondern von den Regulationsmechanismen des Körpers.",
+    psoriasisFitonovaTitle: "Fitonova's Ansatz bei Psoriasis",
+    psoriasisFitonovaIntro:
+      "Psoriasis ist nicht nur eine Hauterkrankung; das Immunsystem, Stress, Ernährung, hormonelles Gleichgewicht und vitale Faktoren spielen eine wichtige Rolle bei der Gestaltung dieser Erkrankung. Bei Fitonova besteht das Ziel darin, das Problem nicht zu unterdrücken, sondern das Gleichgewicht des Körpers zu unterstützen. Unser Ansatz basiert auf folgenden Prinzipien:",
+    psoriasisFitonovaBenefit1: "Natürliche Unterstützung zur Regulierung des Immunsystems",
+    psoriasisFitonovaBenefit2:
+      "Pflanzliche Komponenten, die auf das Gleichgewicht der zellulären Entzündungsreaktion abzielen",
+    psoriasisFitonovaBenefit3:
+      "Natürliche Inhaltsstoffe, die die Hautbarriere unterstützen und die Regeneration fördern",
+    psoriasisFitonovaBenefit4: "Individuelle Bestimmung von Psoriasis auslösenden Faktoren",
+    psoriasisFitonovaBenefit5: "Nachhaltige Lebensqualität",
+    psoriasisFitonovaConclusion:
+      "Fitonova lehnt moderne medizinische Behandlungen nicht ab — es übernimmt eine komplementäre, unterstützende und stärkende Rolle.",
     // </CHANGE>
     heroSubtitle: "Entdecken Sie einen ganzheitlichen Gesundheitsansatz, der Ihren Körper, Geist und Seele nährt",
     startJourney: "Beginnen Sie Ihre Reise",
     learnMore: "Mehr erfahren",
+
+    // About
+    aboutTitle: "Über uns",
+    aboutText1:
+      "Fitonova ist ein ganzheitliches Gesundheitszentrum, das die wissenschaftliche Kraft der modernen Medizin mit dem regenerativen Potenzial der Natur verbindet. Unser Ziel ist es nicht nur, die Krankheit vorübergehend zu unterdrücken, sondern eine dauerhafte und endgültige Lösung zu erreichen, indem wir ihre Ursachen beseitigen. Wir streben danach, die Integrität von Körper, Geist und Seele jedes Einzelnen wiederherzustellen und die Gesundheit nachhaltig zu machen.\n\nUnsere Fachärzte kombinieren wissenschaftliche Diagnose- und Behandlungsmethoden mit pflanzlichen und natürlichen Protokollen in vielen Krankheitsgruppen, hauptsächlich in der Onkologie. Dieser Ansatz bietet ein integriertes Behandlungsmodell, das die Heilung auf zellulärer Ebene unterstützt und das körpereigene Abwehrsystem reaktiviert.",
+    aboutText2:
+      "Für jeden unserer Patienten wird ein personalisierter Behandlungsplan erstellt; dieser Plan wird sorgfältig unter Berücksichtigung von Laborergebnissen, Lebensgewohnheiten und Krankengeschichte erstellt. Der Behandlungsprozess wird mit wissenschaftlichen Analysen und regelmäßigen Bewertungen genau überwacht; somit wird das Risiko eines Krankheitsrückfalls minimiert und eine dauerhafte Heilung angestrebt.\n\nBei Fitonova ist das Ziel nicht nur zu behandeln, sondern die Heilung sicherzustellen und die Lebensqualität des Einzelnen auf das höchste Niveau zu heben.",
+    valuesTitle: "Unsere Werte",
+    value1: "Ethischer, zuverlässiger und transparenter Serviceansatz",
+    value2: "Wissenschaftliches Wissen mit der Kraft der Natur verbinden",
+    value3: "Personalisierter und ganzheitlicher Behandlungsansatz",
+    value4: "Kontinuierliche Entwicklung und patientenzufriedenheitsorientierte Arbeit",
+    philosophyTitle: "Unsere Philosophie",
+    philosophyText:
+      "Wir glauben, dass die von der Natur gebotenen Möglichkeiten effektivere Ergebnisse erzielen, wenn sie mit moderner Medizin kombiniert werden. Daher wird jeder unserer Behandlungsprozesse in Übereinstimmung mit evidenzbasierten medizinischen Prinzipien in sicheren und ethischen Standards durchgeführt.",
+    missionTitle: "Unsere Mission",
+    missionText:
+      "Unseren Patienten die höchste Lebensqualität zu bieten, hoffnungsvolle Lösungen zu produzieren, indem wir moderne medizinische Daten und natürliche Behandlungsansätze zusammenbringen.",
+    visionTitle: "Unsere Vision",
+    visionText:
+      "Ein Gesundheitszentrum zu werden, das auf nationaler und internationaler Ebene mit innovativen Behandlungsmodellen, die natürliche und wissenschaftliche Methoden zusammen verwenden, beispielhaft ist.",
 
     // Services
     servicesTitle: "Krankheiten, die wir behandeln",
@@ -620,27 +707,6 @@ const translations = {
     galleryTitle: "Unsere Galerie",
     gallerySubtitle:
       "Entdecken Sie Momente der Gesundheit, Transformation und des gesunden Lebens aus unserer Gemeinschaft",
-
-    // About
-    aboutTitle: "Über uns",
-    aboutText1:
-      "Fitonova ist ein ganzheitliches Gesundheitszentrum, das die wissenschaftliche Kraft der modernen Medizin mit dem regenerativen Potenzial der Natur verbindet. Unser Ziel ist es nicht nur, die Krankheit vorübergehend zu unterdrücken, sondern eine dauerhafte und endgültige Lösung zu erreichen, indem wir ihre Ursachen beseitigen. Wir streben danach, die Integrität von Körper, Geist und Seele jedes Einzelnen wiederherzustellen und die Gesundheit nachhaltig zu machen.\n\nUnsere Fachärzte kombinieren wissenschaftliche Diagnose- und Behandlungsmethoden mit pflanzlichen und natürlichen Protokollen in vielen Krankheitsgruppen, hauptsächlich in der Onkologie. Dieser Ansatz bietet ein integriertes Behandlungsmodell, das die Heilung auf zellulärer Ebene unterstützt und das körpereigene Abwehrsystem reaktiviert.",
-    aboutText2:
-      "Für jeden unserer Patienten wird ein personalisierter Behandlungsplan erstellt; dieser Plan wird sorgfältig unter Berücksichtigung von Laborergebnissen, Lebensgewohnheiten und Krankengeschichte erstellt. Der Behandlungsprozess wird mit wissenschaftlichen Analysen und regelmäßigen Bewertungen genau überwacht; somit wird das Risiko eines Krankheitsrückfalls minimiert und eine dauerhafte Heilung angestrebt.\n\nBei Fitonova ist das Ziel nicht nur zu behandeln, sondern die Heilung sicherzustellen und die Lebensqualität des Einzelnen auf das höchste Niveau zu heben.",
-    valuesTitle: "Unsere Werte",
-    value1: "Ethischer, zuverlässiger und transparenter Serviceansatz",
-    value2: "Wissenschaftliches Wissen mit der Kraft der Natur verbinden",
-    value3: "Personalisierter und ganzheitlicher Behandlungsansatz",
-    value4: "Kontinuierliche Entwicklung und patientenzufriedenheitsorientierte Arbeit",
-    philosophyTitle: "Unsere Philosophie",
-    philosophyText:
-      "Wir glauben, dass die von der Natur gebotenen Möglichkeiten effektivere Ergebnisse erzielen, wenn sie mit moderner Medizin kombiniert werden. Daher wird jeder unserer Behandlungsprozesse in Übereinstimmung mit evidenzbasierten medizinischen Prinzipien in sicheren und ethischen Standards durchgeführt.",
-    missionTitle: "Unsere Mission",
-    missionText:
-      "Unseren Patienten die höchste Lebensqualität zu bieten, hoffnungsvolle Lösungen zu produzieren, indem wir moderne medizinische Daten und natürliche Behandlungsansätze zusammenbringen.",
-    visionTitle: "Unsere Vision",
-    visionText:
-      "Ein Gesundheitszentrum zu werden, das auf nationaler und internationaler Ebene mit innovativen Behandlungsmodellen, die natürliche und wissenschaftliche Methoden zusammen verwenden, beispielhaft ist.",
 
     // CTA
     ctaTitle: "Bereit, einen Termin zu buchen?",
@@ -704,32 +770,71 @@ const translations = {
     heroSlide5Title: "Le nom de la science et de la découverte : Talat Mollaoğlu",
     heroSlide5Alt: "Talat Mollaoğlu",
     // </CHANGE>
-    heroParagraph1:
-      "Certaines personnes existent... La vie n'est pas une ligne ; c'est un voyage qui commence par la curiosité, est façonné par la lutte et brille par le succès. C'est exactement l'histoire de Talat Mollaoğlu. Dans sa jeunesse, il était un observateur qui essayait de comprendre les besoins des gens et du monde. Parfois à un bureau de laboratoire, parfois dans un atelier, parfois juste dans le silence de la nature... Il cherchait des solutions. Il posait des questions : \"Pourquoi cela doit-il être ainsi ? N'y a-t-il pas un meilleur moyen ?\"",
-    heroParagraph2:
-      "Ces questions l'ont conduit à de nouvelles inventions, des centaines d'expériences et d'innombrables recherches au fil des ans. Chaque pas a été fait non seulement pour résoudre un problème, mais avec le désir de trouver quelque chose de meilleur pour l'humanité. À un moment donné, il s'est tourné vers la haute technologie et l'ingénierie ; il a développé des inventions qui protègent l'environnement et s'est fait connaître par des innovations qui réduisent la consommation de carburant. Ces succès lui ont montré quelque chose : Si nous pouvons protéger la nature, nous pouvons aussi protéger les humains. Et juste ici, une nouvelle porte s'est ouverte dans son voyage.",
-    heroSectionTitle: "De la lumière de la science à la source de guérison de la nature",
-    heroParagraph3:
-      "Son travail sur de nombreuses années l'a conduit à la vérité la plus simple mais la plus profonde : Les humains font partie de la nature — et il est possible d'offrir la bonté que la nature offre comme guérison aux humains. Ainsi, Talat Mollaoğlu a dédié toutes ses connaissances, son expérience et ses recherches cette fois à la phytothérapie et aux méthodes de traitement naturelles.",
-    heroParagraph4: "Pendant plus de 30 ans dans ce domaine :",
-    heroListItem1: "Il a renforcé l'aspect scientifique des traitements à base de plantes,",
-    heroListItem2: "Il a rendu ses recherches compatibles avec la compréhension médicale moderne,",
-    heroListItem3: "Il a apporté espoir, confort et guérison dans la vie de milliers de personnes.",
-    heroParagraph5:
-      "Maintenant, son nom est identifié non seulement avec un inventeur, mais avec un sage qui harmonise la guérison avec la lumière de la science.",
-    // ADDED CONTENT START
-    heroFitonovaTitle: "Aujourd'hui : Un nouvel espoir avec Fitonova",
-    heroFitonovaParagraph:
-      "Ce voyage continue aujourd'hui avec l'Unité de Service de Santé Fitonova. Fitonova est plus qu'une clinique... C'est l'incarnation de la croyance, de la quête et de la découverte que Talat Mollaoğlu a portées pendant des années. Ici, chaque client est vu non pas seulement comme un patient, mais comme un être humain avec une histoire unique. Les solutions sont conçues non pas par cœur ; mais avec des approches personnalisées, scientifiques, naturelles et fiables. La devise de Fitonova en est l'essence : 'Un Nouvel Espoir Vient de la Nature.' Car l'espoir peut être trouvé dans la feuille d'une plante, et dans les yeux d'un humain... L'important est de le trouver avec les bonnes connaissances, la bonne méthode.",
-    // ADDED CONTENT END
-    heroJourneyTitle: "Le voyage continue",
-    heroJourneyParagraph:
-      "Aujourd'hui, Talat Mollaoğlu continue de rechercher, d'apprendre et de développer avec la même curiosité. Dans chacun de ses nouveaux efforts, il n'y a qu'un seul objectif : offrir une meilleure qualité de vie, la santé et l'espoir à plus de personnes. Avec l'accumulation du passé, l'expertise d'aujourd'hui et la vision de l'avenir; son histoire continue… Et tous ceux qui sont témoins de cette histoire réalisent la même chose à un moment donné :",
-    heroJourneyQuote: "Parfois, la plus grande innovation est de réécouter la nature.",
+    learnMoreButton: "En savoir plus",
+    backToHome: "Retour à l'accueil",
+    cancerTreatmentTitle: "Traitement du cancer",
+    cancerTreatmentIntro:
+      "Le cancer est une maladie complexe qui se développe avec la prolifération incontrôlée des cellules dans le corps, évoluant différemment chez chaque individu. Ce voyage implique des dimensions émotionnelles et psychologiques ainsi que physiques. Par conséquent, il est important d'aborder le processus de traitement non pas uniquement axé sur la maladie, mais avec une approche holistique centrée sur l'être humain.",
+    cancerFitonovaTitle: "L'approche Fitonova face au cancer",
+    cancerFitonovaApproach:
+      "Fitonova ne rejette pas les traitements médicaux modernes. Au contraire, elle vise à soutenir leur puissance grâce au potentiel complémentaire de la nature. Les ingrédients actifs à base de plantes issus d'études scientifiques, les composants naturels qui renforcent le système immunitaire et les protocoles qui soutiennent l'équilibre métabolique sont appliqués individuellement après évaluation par des experts.",
+    // </CHANGE>
+    cancerHerbalSupportTitle: "Que fournit le soutien à base de plantes dans le traitement du cancer ?",
+    cancerHerbalBenefit1: "Peut aider à renforcer le système immunitaire",
+    cancerHerbalBenefit2:
+      "Peut soutenir l'atténuation de la faiblesse, de la perte d'appétit et des troubles du sommeil causés par les effets secondaires du traitement",
+    cancerHerbalBenefit3: "Peut contribuer à renforcer la défense cellulaire",
+    cancerHerbalBenefit4: "Peut renforcer la résilience physique et mentale pendant le processus de traitement",
+    cancerHerbalConclusion:
+      "L'objectif principal de cette approche est de soutenir le processus de guérison tout en maintenant la qualité de vie de la personne.",
+    cancerSpiritualTitle: "Soutien spirituel et psychologique",
+    cancerSpiritualIntro:
+      "Le cancer n'est pas seulement une maladie physique. Ce processus est un voyage humain qui oscille entre l'espoir, la peur, la force, la fatigue et la renaissance. C'est pourquoi chez Fitonova :",
+    cancerSpiritualBenefit1: "Conseils visant à préserver la force émotionnelle du patient",
+    cancerSpiritualBenefit2: "Programmes de soutien qui augmentent la motivation pendant le processus de traitement",
+    cancerSpiritualBenefit3: "Informations pour la famille et l'environnement",
+    cancerSpiritualBenefit4: "Une approche qui renforce le moral et la volonté de guérir",
+    cancerSpiritualConclusion:
+      "est appliquée. Car selon nous, chaque patient n'est pas un dossier ; mais une histoire.",
+    psoriasisTitle: "Comprendre le psoriasis",
+    psoriasisIntro:
+      "Le psoriasis est une maladie cutanée chronique causée par une réaction excessive du système immunitaire, entraînant une multiplication des cellules cutanées beaucoup plus rapide que la normale. Bien que classiquement caractérisé par des rougeurs, des squames et des démangeaisons de la peau, il s'agit d'une affection multidimensionnelle qui peut affecter non seulement la peau, mais aussi la psychologie, la vie sociale et la confiance en soi d'une personne. Par conséquent, il est important d'aborder le processus de traitement non pas seulement de la surface de la peau, mais à partir des mécanismes d'équilibre du corps.",
+    psoriasisFitonovaTitle: "L'approche Fitonova face au psoriasis",
+    psoriasisFitonovaIntro:
+      "Le psoriasis n'est pas seulement une affection cutanée ; le système immunitaire, le stress, l'alimentation, l'équilibre hormonal et les facteurs vitaux jouent un rôle important dans la formation de cette condition. Chez Fitonova, l'objectif n'est pas de supprimer le problème, mais de soutenir l'équilibre du corps. Notre approche est basée sur les principes suivants :",
+    psoriasisFitonovaBenefit1: "Soutiens naturels pour aider à réguler le système immunitaire",
+    psoriasisFitonovaBenefit2:
+      "Composants à base de plantes ciblant l'équilibre de la réponse inflammatoire cellulaire",
+    psoriasisFitonovaBenefit3: "Ingrédients naturels qui soutiennent la barrière cutanée et favorisent la régénération",
+    psoriasisFitonovaBenefit4: "Identification personnalisée des facteurs déclencheurs du psoriasis",
+    psoriasisFitonovaBenefit5: "Qualité de vie durable",
+    psoriasisFitonovaConclusion:
+      "Fitonova ne rejette pas les traitements médicaux modernes — elle adopte un rôle complémentaire, de soutien et de renforcement.",
     // </CHANGE>
     heroSubtitle: "Découvrez une approche de santé holistique qui nourrit votre corps, votre esprit et votre âme",
     startJourney: "Commencez votre voyage",
     learnMore: "En savoir plus",
+
+    // About
+    aboutTitle: "À propos de nous",
+    aboutText1:
+      "Fitonova est un centre de santé holistique qui combine la puissance scientifique de la médecine moderne avec le potentiel régénérateur de la nature. Notre objectif n'est pas seulement de supprimer temporairement la maladie, mais d'atteindre une solution permanente et définitive en éliminant ses causes. Nous visons à reconstruire l'intégrité du corps, de l'esprit et de l'âme de chaque individu et à rendre la santé durable.\n\nNos médecins spécialistes combinent des méthodes de diagnostic et de traitement scientifiques avec des protocoles à base de plantes et naturels dans de nombreux groupes de maladies, principalement l'oncologie. Cette approche offre un modèle de traitement intégré qui soutient la guérison au niveau cellulaire et réactive le système de défense propre du corps.",
+    aboutText2:
+      "Un plan de traitement personnalisé est créé pour chacun de nos patients; ce plan est soigneusement préparé en tenant compte des résultats de laboratoire, des habitudes de vie et des antécédents médicaux. Le processus de traitement est étroitement surveillé avec des analyses scientifiques et des évaluations régulières; ainsi, le risque de récidive de la maladie est minimisé et une guérison permanente est ciblée.\n\nChez Fitonova, l'objectif n'est pas seulement de traiter, mais d'assurer la guérison et d'élever la qualité de vie de l'individu au plus haut niveau.",
+    valuesTitle: "Nos valeurs",
+    value1: "Approche de service éthique, fiable et transparente",
+    value2: "Mélanger les connaissances scientifiques avec la puissance de la nature",
+    value3: "Approche de traitement personnalisée et holistique",
+    value4: "Développement continu et travail axé sur la satisfaction des patients",
+    philosophyTitle: "Notre philosophie",
+    philosophyText:
+      "Nous croyons que les opportunités offertes par la nature produiront des résultats plus efficaces lorsqu'elles sont combinées avec la médecine moderne. Par conséquent, chacun de nos processus de traitement est mené conformément aux principes de la médecine fondée sur des preuves, dans des normes sûres et éthiques.",
+    missionTitle: "Notre mission",
+    missionText:
+      "Offrir à nos patients la plus haute qualité de vie, produire des solutions pleines d'espoir en rassemblant les données médicales modernes et les approches de traitement naturel.",
+    visionTitle: "Notre vision",
+    visionText:
+      "Devenir un centre de santé exemplary aux niveaux national et international avec des modèles de traitement innovants qui utilisent ensemble des méthodes naturelles et scientifiques.",
 
     // Services
     servicesTitle: "Maladies que nous traitons",
@@ -750,7 +855,7 @@ const translations = {
     servicesBullet4:
       "Dans le traitement de l'infertilité, des applications complémentaires sont utilisées qui régulent naturellement l'équilibre hormonal et réactivent les fonctions reproductives.",
     servicesBullet5:
-      "Pour les douleurs au dos, au cou et aux articulations, des solutions définitives sont obtenues grâce à des méthodes de thérapie naturelle qui réparent les tissus nerveux et musculaires et réduisent l'inflammation.",
+      "Pour les douleurs au dos, au neck et aux articulations, des solutions définitives sont obtenues grâce à des méthodes de thérapie naturelle qui réparent les tissus nerveux et musculaires et réduisent l'inflammation.",
     servicesBullet6:
       "La thérapie par ventouses élimine les toxines du corps, accélère la circulation sanguine et fournit un effet de désintoxication général.",
     servicesBullet7:
@@ -789,27 +894,6 @@ const translations = {
     // Gallery
     galleryTitle: "Notre galerie",
     gallerySubtitle: "Découvrez des moments de santé, de transformation et de vie saine de notre communauté",
-
-    // About
-    aboutTitle: "À propos de nous",
-    aboutText1:
-      "Fitonova est un centre de santé holistique qui combine la puissance scientifique de la médecine moderne avec le potentiel régénérateur de la nature. Notre objectif n'est pas seulement de supprimer temporairement la maladie, mais d'atteindre une solution permanente et définitive en éliminant ses causes. Nous visons à reconstruire l'intégrité du corps, de l'esprit et de l'âme de chaque individu et à rendre la santé durable.\n\nNos médecins spécialistes combinent des méthodes de diagnostic et de traitement scientifiques avec des protocoles à base de plantes et naturels dans de nombreux groupes de maladies, principalement l'oncologie. Cette approche offre un modèle de traitement intégré qui soutient la guérison au niveau cellulaire et réactive le système de défense propre du corps.",
-    aboutText2:
-      "Un plan de traitement personnalisé est créé pour chacun de nos patients; ce plan est soigneusement préparé en tenant compte des résultats de laboratoire, des habitudes de vie et des antécédents médicaux. Le processus de traitement est étroitement surveillé avec des analyses scientifiques et des évaluations régulières; ainsi, le risque de récidive de la maladie est minimisé et une guérison permanente est ciblée.\n\nChez Fitonova, l'objectif n'est pas seulement de traiter, mais d'assurer la guérison et d'élever la qualité de vie de l'individu au plus haut niveau.",
-    valuesTitle: "Nos valeurs",
-    value1: "Approche de service éthique, fiable et transparente",
-    value2: "Mélanger les connaissances scientifiques avec la puissance de la nature",
-    value3: "Approche de traitement personnalisée et holistique",
-    value4: "Développement continu et travail axé sur la satisfaction des patients",
-    philosophyTitle: "Notre philosophie",
-    philosophyText:
-      "Nous croyons que les opportunités offertes par la nature produiront des résultats plus efficaces lorsqu'elles sont combinées avec la médecine moderne. Par conséquent, chacun de nos processus de traitement est mené conformément aux principes de la médecine fondée sur des preuves, dans des normes sûres et éthiques.",
-    missionTitle: "Notre mission",
-    missionText:
-      "Offrir à nos patients la plus haute qualité de vie, produire des solutions pleines d'espoir en rassemblant les données médicales modernes et les approches de traitement naturel.",
-    visionTitle: "Notre vision",
-    visionText:
-      "Devenir un centre de santé exemplary aux niveaux national et international avec des modèles de traitement innovants qui utilisent ensemble des méthodes naturelles et scientifiques.",
 
     // CTA
     ctaTitle: "Prêt à prendre rendez-vous?",
@@ -873,31 +957,64 @@ const translations = {
     heroSlide5Title: "科学与发现之名：塔拉特·莫拉奥卢",
     heroSlide5Alt: "塔拉特·莫拉奥卢",
     // </CHANGE>
-    heroParagraph1:
-      "有些人的存在...生活不是一条线；它是一段始于好奇、由奋斗塑造、以成功闪耀的旅程。这正是塔拉特·莫拉奥卢的故事。在他年轻时，他是一位试图了解人们和世界需求的观察者。有时在实验室桌前，有时在车间里，有时仅仅在大自然的寂静中... 他寻找解决方案。他提出问题：“为什么非得这样？难道没有更好的办法吗？”",
-    heroParagraph2:
-      "这些问题使他在多年中发明了新东西，进行了数百次实验和无数的研究。每一步都不仅仅是为了解决问题，而是希望为人类找到更好的东西。在某个阶段，他转向了高科技和工程领域；他发明了保护环境的发明，并以减少燃料消耗的创新而闻名。这些成功让他明白了一件事：如果我们能保护自然，我们也能保护人类。就在这时，他的旅程开启了一个新的篇章。",
-    heroSectionTitle: "从科学之光到自然疗愈之源",
-    heroParagraph3:
-      "他多年的工作使他认识到最简单但最深刻的真理：人类是自然的一部分——可以将自然提供的美好作为治疗提供给人类。因此，塔拉特·莫拉奥卢将他所有的知识、经验和研究，这一次都献给了植物疗法和自然治疗方法。",
-    heroParagraph4: "在这个领域超过30年的时间里：",
-    heroListItem1: "他加强了草药治疗的科学方面，",
-    heroListItem2: "他使他的研究与现代医学理解相兼容，",
-    heroListItem3: "他为成千上万的人带来了希望、安慰和治愈。",
-    heroParagraph5: "现在他的名字不仅与发明家有关，还与一位将治愈与科学之光和谐统一的智者有关。",
-    // ADDED CONTENT START
-    heroFitonovaTitle: "今天：菲托诺瓦带来新的希望",
-    heroFitonovaParagraph:
-      "这一切旅程今天仍在菲托诺瓦健康服务部继续。菲托诺瓦不仅仅是一家诊所……它是塔拉特·莫拉奥卢多年来所承载的信念、探索和发现的体现。在这里，每一位客户不仅仅被视为一名患者，而是一位拥有独特故事的人。解决方案并非凭空设计；而是以个性化、科学、自然和可靠的方法进行。菲托诺瓦的座右铭是其精髓：“来自自然的希望”。因为希望可以在植物的叶片中找到，也可以在人的眼中找到……重要的是要用正确的知识、正确的方法来找到它。",
-    // ADDED CONTENT END
-    heroJourneyTitle: "旅程仍在继续",
-    heroJourneyParagraph:
-      "如今，塔拉特·莫拉奥卢仍然怀着同样的好奇心进行研究、学习和发展。在他每一次新的努力中，只有一个目标：为更多人提供生活质量、健康和希望。凭借过去的积累、今天的专业知识和未来的愿景；他的故事还在继续……而每一个见证这个故事的人，在某个时刻都会意识到同一件事：",
-    heroJourneyQuote: "有时，最大的创新就是再次倾听自然。",
+    learnMoreButton: "了解更多",
+    backToHome: "返回首页",
+    cancerTreatmentTitle: "癌症治疗",
+    cancerTreatmentIntro:
+      "癌症是一种复杂的疾病，其特征是体内细胞失控增殖，并且在每个人身上表现不同。这场旅程不仅包含身体上的，还包含情感和心理上的层面。因此，重要的是要以一种以人为中心的整体方法来对待治疗过程，而不仅仅是关注疾病本身。",
+    cancerFitonovaTitle: "菲托诺瓦的癌症治疗方法",
+    cancerFitonovaApproach:
+      "菲托诺瓦不排斥现代医学治疗。相反，它旨在通过自然的辅助潜力来增强其力量。科学研究中发现的植物活性成分、增强免疫系统的天然成分以及支持新陈代谢平衡的方案，都会在专家评估后为患者量身定制。",
+    // </CHANGE>
+    cancerHerbalSupportTitle: "草药支持在癌症治疗中提供什么？",
+    cancerHerbalBenefit1: "有助于增强免疫力",
+    cancerHerbalBenefit2: "可支持缓解治疗副作用引起的虚弱、食欲不振和睡眠障碍",
+    cancerHerbalBenefit3: "可促进细胞防御能力的增强",
+    cancerHerbalBenefit4: "可在治疗过程中增强身心韧性",
+    cancerHerbalConclusion: "这种方法的主要目标是在保持患者生活质量的同时支持愈合过程。",
+    cancerSpiritualTitle: "精神和心理支持",
+    cancerSpiritualIntro:
+      "癌症不仅仅是一种身体疾病。这个过程是一段在希望、恐惧、力量、疲惫和重生之间摇摆的人类旅程。因此，在Fitonova：",
+    cancerSpiritualBenefit1: "旨在维护患者情感力量的咨询",
+    cancerSpiritualBenefit2: "治疗过程中提高动力的支持计划",
+    cancerSpiritualBenefit3: "家庭和环境信息",
+    cancerSpiritualBenefit4: "一种增强士气和治愈意愿的方法",
+    cancerSpiritualConclusion: "被应用。因为在我们看来，每个患者不是一份文件；而是一个故事。",
+    psoriasisTitle: "理解银屑病",
+    psoriasisIntro:
+      "银屑病是一种慢性皮肤病，由免疫系统过度反应引起，导致皮肤细胞的增殖速度远超正常。虽然经典表现为皮肤发红、脱屑和瘙痒，但它是一种多方面的疾病，不仅影响皮肤，还可能影响个人的心理、社交生活和自信心。因此，重要的是要从身体的平衡机制出发来处理治疗过程，而不仅仅是皮肤表面。",
+    psoriasisFitonovaTitle: "菲托诺瓦的银屑病治疗方法",
+    psoriasisFitonovaIntro:
+      "银屑病不仅仅是一种皮肤状况；免疫系统、压力、饮食、荷尔蒙平衡和生命因素在塑造这种状况方面起着重要作用。在Fitonova，我们的目标不是压制问题，而是支持身体的平衡。我们的方法基于以下原则：",
+    psoriasisFitonovaBenefit1: "有助于调节免疫系统的自然支持",
+    psoriasisFitonovaBenefit2: "针对细胞炎症反应平衡的植物成分",
+    psoriasisFitonovaBenefit3: "支持皮肤屏障和促进再生的天然成分",
+    psoriasisFitonovaBenefit4: "银屑病诱发因素的个性化识别",
+    psoriasisFitonovaBenefit5: "可持续的生活质量",
+    psoriasisFitonovaConclusion: "菲托诺瓦不排斥现代医学治疗——它发挥着补充、支持和加强的作用。",
     // </CHANGE>
     heroSubtitle: "发现滋养您的身体、思想和灵魂的整体健康方法",
     startJourney: "开始您的旅程",
     learnMore: "了解更多",
+
+    // About
+    aboutTitle: "关于我们",
+    aboutText1:
+      "Fitonova是一个整体健康中心，将现代医学的科学力量与自然的再生潜力相结合。我们的目标不仅是暂时抑制疾病，而是通过消除其原因来实现永久和明确的解决方案。我们旨在重建每个人的身体、思想和灵魂的完整性，并使健康可持续。\n\n我们的专科医生在许多疾病组中将科学诊断和治疗方法与草本和自然方案相结合，主要是肿瘤学。这种方法提供了一个综合治疗模型，支持细胞水平的愈合并重新激活身体自身的防御系统。",
+    aboutText2:
+      "为我们的每位患者创建个性化治疗计划；该计划经过仔细准备，考虑到实验室结果、生活习惯和病史。治疗过程通过科学分析和定期评估进行密切监测；因此，疾病复发的风险被最小化，并针对永久愈合。\n\n在Fitonova，目标不仅是治疗，而是确保愈合并将个人的生活质量提升到最高水平。",
+    valuesTitle: "我们的价值观",
+    value1: "道德、可靠和透明的服务方法",
+    value2: "将科学知识与自然力量相结合",
+    value3: "个性化和整体治疗方法",
+    value4: "持续发展和以患者满意度为中心的工作",
+    philosophyTitle: "我们的哲学",
+    philosophyText:
+      "我们相信，当与现代医学结合时，自然提供的机会将产生更有效的结果。因此，我们的每个治疗过程都按照循证医学原则进行，符合安全和道德标准。",
+    missionTitle: "我们的使命",
+    missionText: "为我们的患者提供最高的生活质量，通过将现代医学数据和自然治疗方法结合起来，产生充满希望的解决方案。",
+    visionTitle: "我们的愿景",
+    visionText: "成为一个在国家和国际层面上以创新治疗模式为榜样的健康中心，该模式将自然和科学方法结合使用。",
 
     // Services
     servicesTitle: "我们治疗的疾病",
@@ -944,25 +1061,6 @@ const translations = {
     galleryTitle: "我们的画廊",
     gallerySubtitle: "从我们的社区中发现健康、转变和健康生活的时刻",
 
-    // About
-    aboutTitle: "关于我们",
-    aboutText1:
-      "Fitonova是一个整体健康中心，将现代医学的科学力量与自然的再生潜力相结合。我们的目标不仅是暂时抑制疾病，而是通过消除其原因来实现永久和明确的解决方案。我们旨在重建每个人的身体、思想和灵魂的完整性，并使健康可持续。\n\n我们的专科医生在许多疾病组中将科学诊断和治疗方法与草本和自然方案相结合，主要是肿瘤学。这种方法提供了一个综合治疗模型，支持细胞水平的愈合并重新激活身体自身的防御系统。",
-    aboutText2:
-      "为我们的每位患者创建个性化治疗计划；该计划经过仔细准备，考虑到实验室结果、生活习惯和病史。治疗过程通过科学分析和定期评估进行密切监测；因此，疾病复发的风险被最小化，并针对永久愈合。\n\n在Fitonova，目标不仅是治疗，而是确保愈合并将个人的生活质量提升到最高水平。",
-    valuesTitle: "我们的价值观",
-    value1: "道德、可靠和透明的服务方法",
-    value2: "将科学知识与自然力量相结合",
-    value3: "个性化和整体治疗方法",
-    value4: "持续发展和以患者满意度为中心的工作",
-    philosophyTitle: "我们的哲学",
-    philosophyText:
-      "我们相信，当与现代医学结合时，自然提供的机会将产生更有效的结果。因此，我们的每个治疗过程都按照循证医学原则进行，符合安全和道德标准。",
-    missionTitle: "我们的使命",
-    missionText: "为我们的患者提供最高的生活质量，通过将现代医学数据和自然治疗方法结合起来，产生充满希望的解决方案。",
-    visionTitle: "我们的愿景",
-    visionText: "成为一个在国家和国际层面上以创新治疗模式为榜样的健康中心，该模式将自然和科学方法结合使用。",
-
     // CTA
     ctaTitle: "准备好预约了吗？",
     ctaSubtitle: "致电我们安排与我们的植物疗法专家的咨询。",
@@ -978,7 +1076,7 @@ const translations = {
     // Footer
     footerTagline: "您在整体健康和福祉方面值得信赖的合作伙伴。",
     footerAddress: "地址",
-    footerAddressText: "穆拉特雷斯街努赫库尤街255/2号巴拉尔巴什/于斯屈达尔",
+    footerAddressText: "穆拉特雷斯街努赫库尤街255/2巴拉尔巴什/于斯屈达尔",
     footerContact: "联系",
     footerSocialMedia: "社交媒体",
     footerCopyright: "© 2025 Fitonova健康服务单位。保留所有权利。",
@@ -1024,31 +1122,69 @@ const translations = {
     heroSlide5Title: "科学と発見の名前：タラト・モラオール",
     heroSlide5Alt: "タラト・モラオール",
     // </CHANGE>
-    heroParagraph1:
-      "ある人々は存在します...人生は線ではありません。それは好奇心から始まり、闘争によって形成され、成功によって輝く旅です。これがまさにタラト・モラオールの物語です。若い頃、彼は人々と世界のニーズを理解しようとする観察者でした。時には実験室の机で、時には工房で、時にはただ自然の静寂の中で... 彼は解決策を探しました。彼は質問をしました：「なぜこうならなければならないのですか？ もっと良い方法はありませんか？」",
-    heroParagraph2:
-      "これらの質問は、彼を何年にもわたって新しい発明、何百もの実験、そして無数の研究へと導きました。各ステップは、問題を解決するためだけでなく、人類のためにより良いものを見つけたいという願望から踏み出されました。ある時点で、彼はハイテクとエンジニアリングに転向しました。環境を保護する発明を開発し、燃料消費を削減する革新で名を馳せました。これらの成功は彼に何かを示しました：自然を保護できるなら、人間も保護できる。そしてまさにここで、彼の旅に新しい扉が開かれました。",
-    heroSectionTitle: "科学の光から自然の癒しの源へ",
-    heroParagraph3:
-      "長年にわたる彼の仕事は、彼を最も単純でありながら最も深い真実へと導きました：人間は自然の一部であり、自然が提供する善を人間に癒しとして提供することは可能です。こうして、タラト・モラオールは、彼のすべての知識、経験、そして研究を、今回は植物療法と自然療法に捧げました。",
-    heroParagraph4: "この分野で30年以上の間：",
-    heroListItem1: "彼はハーブ治療の科学的側面を強化し、",
-    heroListItem2: "彼は彼の研究を現代の医学的理解と互換性のあるものにし、",
-    heroListItem3: "彼は何千人もの人々の生活に希望、快適さ、そして癒しをもたらしました。",
-    heroParagraph5: "今や彼の名前は発明家だけでなく、癒しを科学の光と調和させる賢者と同一視されています。",
-    // ADDED CONTENT START
-    heroFitonovaTitle: "今日：Fitonovaによる新たな希望",
-    heroFitonovaParagraph:
-      "この旅は本日、Fitonova健康サービスユニットで続いています。Fitonovaは単なるクリニックではありません… それはタラト・モラオールが長年抱いてきた信念、探求、そして発見の具現化です。ここでは、すべてのクライアントは単なる患者としてではなく、ユニークな物語を持つ人間として見られます。解決策は定型的に設計されるのではなく、個別化され、科学的、自然的、そして信頼できるアプローチで設計されます。Fitonovaのモットーはその本質です：「自然からの新たな希望」。希望は植物の葉にも、人間の目にも見出されるからです… 重要なのは、正しい知識、正しい方法で見つけることです。",
-    // ADDED CONTENT END
-    heroJourneyTitle: "旅は続く",
-    heroJourneyParagraph:
-      "今日、タラト・モラオールは、同じ好奇心を持って研究、学習、そして開発を続けています。彼のすべての新しい努力において、ただ一つの目標があります：より多くの人々に生活の質、健康、そして希望を提供すること。過去の蓄積、今日の専門知識、そして未来のビジョンをもって；彼の物語は続いています… そして、この物語を目撃したすべての人は、ある時点で同じことに気づきます：",
-    heroJourneyQuote: "時には、最も偉大な革新は、再び自然に耳を傾けることです。",
+    learnMoreButton: "もっと詳しく",
+    backToHome: "ホームに戻る",
+    cancerTreatmentTitle: "癌治療",
+    cancerTreatmentIntro:
+      "癌は、体内の細胞が無秩序に増殖することによって発生する複雑な疾患であり、個人によって進行が異なります。この旅には、身体的な側面だけでなく、感情的および心理的な側面も含まれます。したがって、治療プロセスには、病気だけに焦点を当てるのではなく、人間を中心に据えた全体的なアプローチで臨むことが重要です。",
+    cancerFitonovaTitle: "Fitonovaの癌へのアプローチ",
+    cancerFitonovaApproach:
+      "Fitonovaは現代医学の治療法を否定しません。むしろ、自然の補完的な可能性をもってその力をサポートすることを目指しています。科学的研究に含まれる植物由来の有効成分、免疫システムを強化する天然成分、そして代謝バランスをサポートするプロトコルは、専門家の評価に基づいて個別に適用されます。",
+    // </CHANGE>
+    cancerHerbalSupportTitle: "癌治療におけるハーブサポートは何を提供しますか？",
+    cancerHerbalBenefit1: "免疫力を強化するのに役立ちます",
+    cancerHerbalBenefit2: "治療の副作用による衰弱、食欲不振、睡眠障害の緩和をサポートできます",
+    cancerHerbalBenefit3: "細胞防御の強化に貢献できます",
+    cancerHerbalBenefit4: "治療プロセス中の身体的および精神的な回復力を強化できます",
+    cancerHerbalConclusion:
+      "このアプローチの主な目的は、個人の生活の質を維持しながら、治癒プロセスをサポートすることです。",
+    cancerSpiritualTitle: "精神的および心理的サポート",
+    cancerSpiritualIntro:
+      "癌は単なる身体的な病気ではありません。このプロセスは、希望、恐れ、強さ、疲労、そして再生の間を揺れ動く人間の旅です。だからこそFitonovaでは：",
+    cancerSpiritualBenefit1: "患者の感情的な強さを維持するためのカウンセリング",
+    cancerSpiritualBenefit2: "治療プロセス中のモチベーションを高めるサポートプログラム",
+    cancerSpiritualBenefit3: "家族と周囲への情報提供",
+    cancerSpiritualBenefit4: "士気と回復への意欲を高めるアプローチ",
+    cancerSpiritualConclusion:
+      "が適用されます。なぜなら、私たちの意見では、すべての患者はファイルではなく、物語なのです。",
+    psoriasisTitle: "乾癬を理解する",
+    psoriasisIntro:
+      "乾癬は、免疫システムが過剰反応することによって引き起こされる慢性的な皮膚疾患であり、皮膚細胞が通常よりもはるかに速く増殖します。古典的には皮膚の発赤、鱗屑、かゆみを特徴としますが、皮膚だけでなく、個人の心理、社会生活、自己肯定感にも影響を与える可能性のある多面的な状態です。したがって、治療プロセスには、皮膚の表面からだけでなく、体のバランスメカニズムからアプローチすることが重要です。",
+    psoriasisFitonovaTitle: "Fitonovaの乾癬へのアプローチ",
+    psoriasisFitonovaIntro:
+      "乾癬は単なる皮膚疾患ではありません。免疫システム、ストレス、食事、ホルモンバランス、そして生命要因がこの状態の形成に重要な役割を果たします。Fitonovaでは、問題を押さえつけるのではなく、体のバランスをサポートすることを目的としています。私たちのアプローチは次の原則に基づいています：",
+    psoriasisFitonovaBenefit1: "免疫システムを調節するのを助ける自然なサポート",
+    psoriasisFitonovaBenefit2: "細胞の炎症反応のバランスをターゲットとする植物成分",
+    psoriasisFitonovaBenefit3: "皮膚バリアをサポートし、再生を促進する天然成分",
+    psoriasisFitonovaBenefit4: "乾癬を誘発する要因の個別特定",
+    psoriasisFitonovaBenefit5: "持続可能な生活の質",
+    psoriasisFitonovaConclusion:
+      "Fitonovaは現代医学の治療法を否定しません—それらは補完的、支持的、そして強化的な役割を果たします。",
     // </CHANGE>
     heroSubtitle: "あなたの体、心、魂を養う総合的な健康アプローチを発見してください",
     startJourney: "あなたの旅を始めましょう",
     learnMore: "もっと詳しく",
+
+    // About
+    aboutTitle: "私たちについて",
+    aboutText1:
+      "Fitonovaは、現代医学の科学的力と自然の再生可能性を組み合わせた総合的な健康センターです。私たちの目標は、病気を一時的に抑制するだけでなく、その原因を排除することによって永続的で決定的な解決策を達成することです。私たちは、各個人の体、心、魂の完全性を再構築し、健康を持続可能にすることを目指しています。\n\n私たちの専門医は、主に腫瘍学を含む多くの病気グループで科学的診断と治療方法をハーブと自然のプロトコルと組み合わせています。このアプローチは、細胞レベルでの治癒をサポートし、体自身の防御システムを再活性化する統合治療モデルを提供します。",
+    aboutText2:
+      "各患者のために個別化された治療計画が作成されます。この計画は、実験室の結果、生活習慣、病歴を考慮して慎重に準備されます。治療プロセスは、科学的分析と定期的な評価によって密接に監視されます。したがって、病気の再発リスクが最小化され、永続的な治癒が目標とされます。\n\nFitonovaでは、目標は治療するだけでなく、治癒を確実にし、個人の生活の質を最高レベルに引き上げることです。",
+    valuesTitle: "私たちの価値観",
+    value1: "倫理的、信頼性が高く、透明なサービスアプローチ",
+    value2: "科学的知識と自然の力を融合する",
+    value3: "個別化された総合的な治療アプローチ",
+    value4: "継続的な開発と患者満足度重視の作業",
+    philosophyTitle: "私たちの哲学",
+    philosophyText:
+      "私たちは、自然が提供する機会が現代医学と組み合わされたときにより効果的な結果を生み出すと信じています。したがって、私たちの各治療プロセスは、エビデンスに基づく医学原則に従って、安全で倫理的な基準で実施されます。",
+    missionTitle: "私たちの使命",
+    missionText:
+      "患者に最高の生活の質を提供し、現代医学データと自然治療アプローチを組み合わせて希望に満ちた解決策を生み出すこと。",
+    visionTitle: "私たちのビジョン",
+    visionText:
+      "自然と科学的方法を一緒に使用する革新的な治療モデルで、国内および国際レベルで模範的な健康センターになること。",
 
     // Services
     servicesTitle: "私たちが治療する病気",
@@ -1056,7 +1192,7 @@ const translations = {
       "現代医学の診断力と自然の再生エネルギーを組み合わせて、多くの病気に対する永続的で決定的な解決策を提供します。",
     servicesGoal: "私たちの目標は、症状を和らげるだけでなく、病気の根本原因を排除し、体のバランスを回復することです。",
     servicesDiseases:
-      "私たちの専門医は、主に腫瘍学（すべてのタイプの癌）、湿疹、乾癬、壊疽、脳腫瘍、慢性疼痛、ホルモンの不均衡、不妊症など、さまざまな病気グループで包括的な治療プログラムを実施しています。",
+      "私たちの専門医は、主に腫瘍学（すべてのタイプの癌）、湿疹、乾癬、壊疽、脳腫瘍、慢性疼痛、ホルモン不均衡、不妊症など、さまざまな病気グループで包括的な治療プログラムを実施しています。",
     servicesProtocols:
       "各病気の個別化された治療プロトコルは、科学的分析によって決定され、細胞の再生をサポートするハーブ成分と現代医学のエビデンスに基づく方法とともに適用されます。",
     servicesBullet1:
@@ -1105,27 +1241,6 @@ const translations = {
     // Gallery
     galleryTitle: "私たちのギャラリー",
     gallerySubtitle: "私たちのコミュニティから健康、変革、健康的な生活の瞬間を発見してください",
-
-    // About
-    aboutTitle: "私たちについて",
-    aboutText1:
-      "Fitonovaは、現代医学の科学的力と自然の再生可能性を組み合わせた総合的な健康センターです。私たちの目標は、病気を一時的に抑制するだけでなく、その原因を排除することによって永続的で決定的な解決策を達成することです。私たちは、各個人の体、心、魂の完全性を再構築し、健康を持続可能にすることを目指しています。\n\n私たちの専門医は、主に腫瘍学を含む多くの病気グループで科学的診断と治療方法をハーブと自然のプロトコルと組み合わせています。このアプローチは、細胞レベルでの治癒をサポートし、体自身の防御システムを再活性化する統合治療モデルを提供します。",
-    aboutText2:
-      "各患者のために個別化された治療計画が作成されます。この計画は、実験室の結果、生活習慣、病歴を考慮して慎重に準備されます。治療プロセスは、科学的分析と定期的な評価によって密接に監視されます。したがって、病気の再発リスクが最小化され、永続的な治癒が目標とされます。\n\nFitonovaでは、目標は治療するだけでなく、治癒を確実にし、個人の生活の質を最高レベルに引き上げることです。",
-    valuesTitle: "私たちの価値観",
-    value1: "倫理的、信頼性が高く、透明なサービスアプローチ",
-    value2: "科学的知識と自然の力を融合する",
-    value3: "個別化された総合的な治療アプローチ",
-    value4: "継続的な開発と患者満足度重視の作業",
-    philosophyTitle: "私たちの哲学",
-    philosophyText:
-      "私たちは、自然が提供する機会が現代医学と組み合わされたときにより効果的な結果を生み出すと信じています。したがって、私たちの各治療プロセスは、エビデンスに基づく医学原則に従って、安全で倫理的な基準で実施されます。",
-    missionTitle: "私たちの使命",
-    missionText:
-      "患者に最高の生活の質を提供し、現代医学データと自然治療アプローチを組み合わせて希望に満ちた解決策を生み出すこと。",
-    visionTitle: "私たちのビジョン",
-    visionText:
-      "自然と科学的方法を一緒に使用する革新的な治療モデルで、国内および国際レベルで模範的な健康センターになること。",
 
     // CTA
     ctaTitle: "予約する準備はできましたか？",
@@ -1177,7 +1292,6 @@ const translations = {
 
     // Hero
     heroTitle: "Название путешествия: Талат Моллаоглу",
-    // Adding hero slider translations for Russian
     heroSlide1Title: "Формула исцеления природы в борьбе с раком",
     heroSlide1Alt: "Типы рака",
     heroSlide2Title: "Много случаев псориаза, одно лекарство в природе",
@@ -1189,32 +1303,70 @@ const translations = {
     heroSlide5Title: "Имя науки и открытий: Талат Моллаоглу",
     heroSlide5Alt: "Талат Моллаоглу",
     // </CHANGE>
-    heroParagraph1:
-      "Некоторые люди существуют... Жизнь — это не линия; это путешествие, которое начинается с любопытства, формируется борьбой и сияет успехом. Это именно история Талата Моллаоглу. В молодости он был наблюдателем, пытавшимся понять потребности людей и мира. Иногда за лабораторным столом, иногда в мастерской, иногда просто в тишине природы... Он искал решения. Он задавал вопросы: «Почему так должно быть? Нет ли лучшего пути?»",
-    heroParagraph2:
-      "Эти вопросы привели его к новым изобретениям, сотням экспериментов и бесчисленным исследованиям на протяжении многих лет. Каждый шаг был сделан не только для решения проблемы, но и с желанием найти что-то лучшее для человечества. В какой-то момент он занялся высокими технологиями и инженерией; он разработал изобретения, защищающие окружающую среду, и прославился инновациями, снижающими расход топлива. Эти успехи показали ему кое-что: если мы можем защитить природу, мы можем защитить и людей. И именно здесь открылась новая дверь в его путешествии.",
-    heroSectionTitle: "От света науки к источнику исцеления природы",
-    heroParagraph3:
-      "Его работа на протяжении многих лет привела его к самой простой, но самой глубокой истине: люди — часть природы, и можно предложить то благо, которое предлагает природа, как исцеление для людей. Таким образом, Талат Моллаоглу посвятил все свои знания, опыт и исследования в этот раз фитотерапии и методам естественного лечения.",
-    heroParagraph4: "За более чем 30 лет в этой области:",
-    heroListItem1: "Он усилил научный аспект травяных процедур,",
-    heroListItem2: "Он сделал свои исследования совместимыми с современным медицинским пониманием,",
-    heroListItem3: "Он принес надежду, комфорт и исцеление в жизни тысяч людей.",
-    heroParagraph5:
-      "Теперь его имя ассоциируется не только с изобретателем, но и с мудрецом, который гармонизирует исцеление со светом науки.",
-    // ADDED CONTENT START
-    heroFitonovaTitle: "Сегодня: Новая надежда с Fitonova",
-    heroFitonovaParagraph:
-      "Все это путешествие продолжается сегодня с подразделением медицинских услуг Fitonova. Fitonova — это больше, чем просто клиника… Это воплощение веры, поиска и открытий, которые Талат Моллаоглу нес на протяжении многих лет. Здесь каждый клиент рассматривается не просто как пациент, а как человек с уникальной историей. Решения разрабатываются не шаблонно; а с использованием персонализированных, научных, естественных и надежных подходов. Девиз Fitonova — его суть: «Новая надежда от природы». Потому что надежда может быть найдена как в листе растения, так и в глазах человека… Важно найти ее с правильными знаниями, правильным методом.",
-    // ADDED CONTENT END
-    heroJourneyTitle: "Путешествие продолжается",
-    heroJourneyParagraph:
-      "Сегодня Талат Моллаоглу продолжает исследовать, учиться и развиваться с тем же любопытством. В каждом его новом начинании есть только одна цель: предложить более качественную жизнь, здоровье и надежду большему числу людей. С накоплением прошлого, опытом сегодняшнего дня и видением будущего; его история продолжается… И каждый, кто становится свидетелем этой истории, в какой-то момент осознает одно и то же:",
-    heroJourneyQuote: "Иногда величайшее изобретение — это снова прислушаться к природе.",
+    learnMoreButton: "Узнать больше",
+    backToHome: "Вернуться на главную",
+    cancerTreatmentTitle: "Лечение рака",
+    cancerTreatmentIntro:
+      "Рак — это сложное заболевание, которое развивается из-за неконтролируемого размножения клеток в организме и протекает у каждого человека по-разному. Это путешествие включает в себя не только физические, но и эмоциональные и психологические аспекты. Поэтому важно подходить к процессу лечения не только с точки зрения болезни, но и с целостным подходом, ориентированным на человека.",
+    cancerFitonovaTitle: "Подход Fitonova к лечению рака",
+    cancerFitonovaApproach:
+      "Fitonova не отвергает современные методы лечения. Напротив, он стремится поддержать их силу дополнительным потенциалом природы. Растительные активные ингредиенты, участвующие в научных исследованиях, натуральные компоненты, укрепляющие иммунную систему, и протоколы, поддерживающие метаболический баланс, применяются индивидуально после оценки экспертов.",
+    // </CHANGE>
+    cancerHerbalSupportTitle: "Что обеспечивает растительная поддержка при лечении рака?",
+    cancerHerbalBenefit1: "Может помочь укрепить иммунитет",
+    cancerHerbalBenefit2:
+      "Может способствовать облегчению слабости, потери аппетита и нарушений сна, вызванных побочными эффектами лечения",
+    cancerHerbalBenefit3: "Может способствовать усилению клеточной защиты",
+    cancerHerbalBenefit4: "Может укрепить физическую и умственную устойчивость в процессе лечения",
+    cancerHerbalConclusion:
+      "Основная цель этого подхода - поддержать процесс исцеления при сохранении качества жизни человека.",
+    cancerSpiritualTitle: "Духовная и психологическая поддержка",
+    cancerSpiritualIntro:
+      "Рак - это не просто физическое заболевание. Этот процесс - человеческое путешествие, колеблющееся между надеждой, страхом, силой, усталостью и возрождением. Поэтому в Fitonova:",
+    cancerSpiritualBenefit1: "Консультации, направленные на поддержание эмоциональной силы пациента",
+    cancerSpiritualBenefit2: "Программы поддержки, повышающие мотивацию в процессе лечения",
+    cancerSpiritualBenefit3: "Информация для семьи и окружения",
+    cancerSpiritualBenefit4: "Подход, укрепляющий моральный дух и желание исцелиться",
+    cancerSpiritualConclusion: "применяется. Потому что, по нашему мнению, каждый пациент - это не досье, а история.",
+    psoriasisTitle: "Понимание псориаза",
+    psoriasisIntro:
+      "Псориаз — это хроническое кожное заболевание, вызванное чрезмерной реакцией иммунной системы, которая приводит к гораздо более быстрому размножению клеток кожи, чем обычно. Хотя классически он характеризуется покраснением, шелушением и зудом кожи, это многогранное состояние, которое может влиять не только на кожу, но и на психологию человека, его социальную жизнь и уверенность в себе. Поэтому важно подходить к процессу лечения не только с поверхности кожи, но и с механизмов баланса организма.",
+    psoriasisFitonovaTitle: "Подход Fitonova к лечению псориаза",
+    psoriasisFitonovaIntro:
+      "Псориаз — это не просто кожное заболевание; иммунная система, стресс, диета, гормональный баланс и жизненно важные факторы играют важную роль в формировании этого состояния. В Fitonova цель состоит не в том, чтобы подавить проблему, а в том, чтобы поддержать баланс организма. Наш подход основан на следующих принципах:",
+    psoriasisFitonovaBenefit1: "Натуральная поддержка для помощи в регуляции иммунной системы",
+    psoriasisFitonovaBenefit2:
+      "Растительные компоненты, направленные на балансировку клеточного воспалительного ответа",
+    psoriasisFitonovaBenefit3: "Натуральные ингредиенты, поддерживающие кожный барьер и способствующие регенерации",
+    psoriasisFitonovaBenefit4: "Индивидуальное определение факторов, провоцирующих псориаз",
+    psoriasisFitonovaBenefit5: "Устойчивое качество жизни",
+    psoriasisFitonovaConclusion:
+      "Fitonova не отвергает современные методы лечения — оно играет дополнительную, поддерживающую и укрепляющую роль.",
     // </CHANGE>
     heroSubtitle: "Откройте для себя целостный подход к здоровью, который питает ваше тело, разум и душу",
     startJourney: "Начните свое путешествие",
     learnMore: "Узнать больше",
+
+    // About
+    aboutTitle: "О нас",
+    aboutText1:
+      "Fitonova - это целостный центр здоровья, который сочетает научную силу современной медицины с регенеративным потенциалом природы. Наша цель - не просто временно подавить болезнь, но достичь постоянного и окончательного решения, устранив ее причины. Мы стремимся восстановить целостность тела, разума и души каждого человека и сделать здоровье устойчивым.\n\nНаши врачи-специалисты сочетают научные методы диагностики и лечения с растительными и натуральными протоколами во многих группах заболеваний, в первую очередь в онкологии. Этот подход предлагает интегрированную модель лечения, которая поддерживает заживление на клеточном уровне и реактивирует собственную защитную систему организма.",
+    aboutText2:
+      "Для каждого из наших пациентов создается персонализированный план лечения; этот план тщательно подготовлен с учетом лабораторных результатов, привычек образа жизни и истории болезни. Процесс лечения тщательно контролируется с помощью научных анализов и регулярных оценок; таким образом, риск рецидива заболевания сводится к минимуму, и целью является постоянное заживление.\n\nВ Fitonova цель состоит не только в лечении, но и в обеспечении заживления и повышении качества жизни человека до самого высокого уровня.",
+    valuesTitle: "Наши ценности",
+    value1: "Этичный, надежный и прозрачный подход к обслуживанию",
+    value2: "Сочетание научных знаний с силой природы",
+    value3: "Персонализированный и целостный подход к лечению",
+    value4: "Постоянное развитие и работа, ориентированная на удовлетворенность пациентов",
+    philosophyTitle: "Наша философия",
+    philosophyText:
+      "Мы верим, что возможности, предлагаемые природой, дадут более эффективные результаты в сочетании с современной медициной. Поэтому каждый из наших процессов лечения проводится в соответствии с принципами доказательной медицины, в безопасных и этических стандартах.",
+    missionTitle: "Наша миссия",
+    missionText:
+      "Предложить нашим пациентам высочайшее качество жизни, производить обнадеживающие решения, объединяя современные медицинские данные и подходы к естественному лечению.",
+    visionTitle: "Наше видение",
+    visionText:
+      "Стать центром здоровья, который является образцовым на национальном и международном уровнях с инновационными моделями лечения, которые используют естественные и научные методы вместе.",
 
     // Services
     servicesTitle: "Болезни, которые мы лечим",
@@ -1274,27 +1426,6 @@ const translations = {
     // Gallery
     galleryTitle: "Наша галерея",
     gallerySubtitle: "Откройте для себя моменты здоровья, трансформации и здорового образа жизни из нашего сообщества",
-
-    // About
-    aboutTitle: "О нас",
-    aboutText1:
-      "Fitonova - это целостный центр здоровья, который сочетает научную силу современной медицины с регенеративным потенциалом природы. Наша цель - не просто временно подавить болезнь, но достичь постоянного и окончательного решения, устранив ее причины. Мы стремимся восстановить целостность тела, разума и души каждого человека и сделать здоровье устойчивым.\n\nНаши врачи-специалисты сочетают научные методы диагностики и лечения с растительными и натуральными протоколами во многих группах заболеваний, в первую очередь в онкологии. Этот подход предлагает интегрированную модель лечения, которая поддерживает заживление на клеточном уровне и реактивирует собственную защитную систему организма.",
-    aboutText2:
-      "Для каждого из наших пациентов создается персонализированный план лечения; этот план тщательно подготовлен с учетом лабораторных результатов, привычек образа жизни и истории болезни. Процесс лечения тщательно контролируется с помощью научных анализов и регулярных оценок; таким образом, риск рецидива заболевания сводится к минимуму, и целью является постоянное заживление.\n\nВ Fitonova цель состоит не только в лечении, но и в обеспечении заживления и повышении качества жизни человека до самого высокого уровня.",
-    valuesTitle: "Наши ценности",
-    value1: "Этичный, надежный и прозрачный подход к обслуживанию",
-    value2: "Сочетание научных знаний с силой природы",
-    value3: "Персонализированный и целостный подход к лечению",
-    value4: "Постоянное развитие и работа, ориентированная на удовлетворенность пациентов",
-    philosophyTitle: "Наша философия",
-    philosophyText:
-      "Мы верим, что возможности, предлагаемые природой, дадут более эффективные результаты в сочетании с современной медициной. Поэтому каждый из наших процессов лечения проводится в соответствии с принципами доказательной медицины, в безопасных и этических стандартах.",
-    missionTitle: "Наша миссия",
-    missionText:
-      "Предложить нашим пациентам высочайшее качество жизни, производить обнадеживающие решения, объединяя современные медицинские данные и подходы к естественному лечению.",
-    visionTitle: "Наше видение",
-    visionText:
-      "Стать центром здоровья, который является образцовым на национальном и международном уровнях с инновационными моделями лечения, которые используют естественные и научные методы вместе.",
 
     // CTA
     ctaTitle: "Готовы записаться на прием?",
