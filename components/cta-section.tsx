@@ -1,6 +1,6 @@
 "use client"
 
-import { Phone } from 'lucide-react'
+import { Phone } from "lucide-react"
 import { useTranslation } from "@/lib/i18n/translations"
 
 export function CTASection() {
@@ -22,7 +22,9 @@ export function CTASection() {
                 <div className="text-left">
                   <p className="text-sm text-muted-foreground mb-1">{t.callUs}</p>
                   <a
-                    href="tel:+905058692629"
+                    href="https://wa.me/905058692629"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-xl md:text-2xl font-bold text-primary hover:underline whitespace-nowrap"
                   >
                     +90 505 869 26 29
