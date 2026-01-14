@@ -154,6 +154,10 @@ const translations = {
     galleryTitle: "Galerimiz",
     gallerySubtitle: "Topluluğumuzdan sağlık, dönüşüm ve sağlıklı yaşam anlarını keşfedin",
 
+    // Testimonials
+    testimonialsTitle: "Mucizevi Dokunuşlar",
+    // </CHANGE>
+
     // CTA
     ctaTitle: "Randevu Almaya Hazır mısınız?",
     ctaSubtitle: "Fitoterapi uzmanlarımızla danışma randevunuzu planlamak için bizi arayın.",
@@ -337,6 +341,8 @@ const translations = {
     // Gallery
     galleryTitle: "Our Gallery",
     gallerySubtitle: "Discover moments of health, transformation, and healthy living from our community",
+    testimonialsTitle: "Miraculous Touches",
+    // </CHANGE>
 
     // CTA
     ctaTitle: "Ready to Book an Appointment?",
@@ -518,6 +524,10 @@ const translations = {
     galleryTitle: "معرضنا",
     gallerySubtitle: "اكتشف لحظات الصحة والتحول والحياة الصحية من مجتمعنا",
 
+    // Testimonials
+    testimonialsTitle: "اللمسات المعجزة",
+    // </CHANGE>
+
     // CTA
     ctaTitle: "هل أنت مستعد لحجز موعد؟",
     ctaSubtitle: "اتصل بنا لجدولة استشارتك مع متخصصي العلاج النباتي لدينا.",
@@ -609,7 +619,7 @@ const translations = {
       "angewendet. Denn unserer Meinung nach ist jeder Patient keine Akte, sondern eine Geschichte.",
     psoriasisTitle: "Psoriasis verstehen",
     psoriasisIntro:
-      "Psoriasis ist eine chronische Hauterkrankung, die durch eine Überreaktion des Immunsystems verursacht wird, was zu einer viel schnelleren Vermehrung der Hautzellen als normal führt. Obwohl sie klassischerweise durch Rötungen, Schuppenbildung und Juckreiz der Haut gekennzeichnet ist, ist sie eine vielschichtige Erkrankung, die nicht nur die Haut, sondern auch die Psyche, das soziale Leben und das Selbstvertrauen eines Menschen beeinflussen kann. Daher ist es wichtig, den Behandlungsprozess nicht nur von der Hautoberfläche aus anzugehen, sondern von den Regulationsmechanismen des Körpers.",
+      "Psoriasis ist eine chronische Hauterkrankung, die durch eine Überreaktion des Immunsystems verursacht wird, was zu einer viel schnelleren Vermehrung der Hautzellen als normal führt. Obwohl sie klassisch durch Rötungen, Schuppenbildung und Juckreiz der Haut gekennzeichnet ist, ist sie eine vielschichtige Erkrankung, die nicht nur die Haut, sondern auch die Psyche, das soziale Leben und das Selbstvertrauen eines Menschen beeinflussen kann. Daher ist es wichtig, den Behandlungsprozess nicht nur von der Hautoberfläche aus anzugehen, sondern von den Regulationsmechanismen des Körpers.",
     psoriasisFitonovaTitle: "Fitonova's Ansatz bei Psoriasis",
     psoriasisFitonovaIntro:
       "Psoriasis ist nicht nur eine Hauterkrankung; das Immunsystem, Stress, Ernährung, hormonelles Gleichgewicht und vitale Faktoren spielen eine wichtige Rolle bei der Gestaltung dieser Erkrankung. Bei Fitonova besteht das Ziel darin, das Problem nicht zu unterdrücken, sondern das Gleichgewicht des Körpers zu unterstützen. Unser Ansatz basiert auf folgenden Prinzipien:",
@@ -707,6 +717,8 @@ const translations = {
     galleryTitle: "Unsere Galerie",
     gallerySubtitle:
       "Entdecken Sie Momente der Gesundheit, Transformation und des gesunden Lebens aus unserer Gemeinschaft",
+    testimonialsTitle: "Wundersame Berührungen",
+    // </CHANGE>
 
     // CTA
     ctaTitle: "Bereit, einen Termin zu buchen?",
@@ -894,6 +906,8 @@ const translations = {
     // Gallery
     galleryTitle: "Notre galerie",
     gallerySubtitle: "Découvrez des moments de santé, de transformation et de vie saine de notre communauté",
+    testimonialsTitle: "Touches Miraculeuses",
+    // </CHANGE>
 
     // CTA
     ctaTitle: "Prêt à prendre rendez-vous?",
@@ -1060,6 +1074,8 @@ const translations = {
     // Gallery
     galleryTitle: "我们的画廊",
     gallerySubtitle: "从我们的社区中发现健康、转变和健康生活的时刻",
+    testimonialsTitle: "奇迹之触",
+    // </CHANGE>
 
     // CTA
     ctaTitle: "准备好预约了吗？",
@@ -1241,6 +1257,8 @@ const translations = {
     // Gallery
     galleryTitle: "私たちのギャラリー",
     gallerySubtitle: "私たちのコミュニティから健康、変革、健康的な生活の瞬間を発見してください",
+    testimonialsTitle: "奇跡のタッチ",
+    // </CHANGE>
 
     // CTA
     ctaTitle: "予約する準備はできましたか？",
@@ -1426,6 +1444,8 @@ const translations = {
     // Gallery
     galleryTitle: "Наша галерея",
     gallerySubtitle: "Откройте для себя моменты здоровья, трансформации и здорового образа жизни из нашего сообщества",
+    testimonialsTitle: "Чудесные Прикосновения",
+    // </CHANGE>
 
     // CTA
     ctaTitle: "Готовы записаться на прием?",

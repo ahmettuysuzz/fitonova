@@ -4,6 +4,8 @@ import { ServicesSection } from "@/components/services-section"
 import { AboutSection } from "@/components/about-section"
 import { DoctorsSection } from "@/components/doctors-section"
 import { GallerySection } from "@/components/gallery-section"
+import { TestimonialsSection } from "@/components/testimonials-section"
+// </CHANGE>
 import { CTASection } from "@/components/cta-section"
 import { Footer } from "@/components/footer"
 
@@ -16,6 +18,8 @@ export default function HomePage() {
       <ServicesSection />
       <DoctorsSection />
       <GallerySection />
+      <TestimonialsSection />
+      {/* </CHANGE> */}
       <CTASection />
       <Footer />
     </main>
