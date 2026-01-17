@@ -14,7 +14,7 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-green-50/90 backdrop-blur-lg border-b border-green-200/50 shadow-sm">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
-          <a href="#home" className="flex items-center">
+          <a href="/" className="flex items-center">
             <Image
               src="/images/fitonova-logo.png"
               alt="Fitonova Sağlık Hizmet Birimi"
@@ -27,38 +27,45 @@ export function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-12">
             <a
-              href="#home"
+              href="/#home"
               className="relative text-sm font-semibold text-gray-700 hover:text-green-700 transition-colors group py-2"
             >
               {t.navHome}
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-600 transition-all duration-300 group-hover:w-full"></span>
             </a>
             <a
-              href="#about"
+              href="/#about"
               className="relative text-sm font-semibold text-gray-700 hover:text-green-700 transition-colors group py-2"
             >
               {t.navAboutUs}
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-600 transition-all duration-300 group-hover:w-full"></span>
             </a>
             <a
-              href="#services"
+              href="/#services"
               className="relative text-sm font-semibold text-gray-700 hover:text-green-700 transition-colors group py-2"
             >
               {t.navOurServices}
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-600 transition-all duration-300 group-hover:w-full"></span>
             </a>
             <a
-              href="#doctor"
+              href="/#doctor"
               className="relative text-sm font-semibold text-gray-700 hover:text-green-700 transition-colors group py-2"
             >
               {t.navOurDoctor}
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-600 transition-all duration-300 group-hover:w-full"></span>
             </a>
             <a
-              href="#gallery"
+              href="/#gallery"
               className="relative text-sm font-semibold text-gray-700 hover:text-green-700 transition-colors group py-2"
             >
               {t.navGallery}
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-600 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a
+              href="/video"
+              className="relative text-sm font-semibold text-gray-700 hover:text-green-700 transition-colors group py-2"
+            >
+              {t.navVideo}
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-600 transition-all duration-300 group-hover:w-full"></span>
             </a>
             <a
@@ -76,7 +83,7 @@ export function Header() {
               asChild
               className="hidden sm:flex rounded-full bg-green-600 hover:bg-green-700 shadow-md hover:shadow-lg transition-all"
             >
-              <a href="#appointment">{t.makeAppointment}</a>
+              <a href="/#appointment">{t.makeAppointment}</a>
             </Button>
 
             <button
@@ -103,39 +110,46 @@ export function Header() {
           <nav className="lg:hidden py-4 border-t border-green-200/50">
             <div className="flex flex-col gap-4">
               <a
-                href="#home"
+                href="/#home"
                 onClick={() => setMobileMenuOpen(false)}
                 className="text-sm font-semibold text-gray-700 hover:text-green-700 transition-colors py-2"
               >
                 {t.navHome}
               </a>
               <a
-                href="#about"
+                href="/#about"
                 onClick={() => setMobileMenuOpen(false)}
                 className="text-sm font-semibold text-gray-700 hover:text-green-700 transition-colors py-2"
               >
                 {t.navAboutUs}
               </a>
               <a
-                href="#services"
+                href="/#services"
                 onClick={() => setMobileMenuOpen(false)}
                 className="text-sm font-semibold text-gray-700 hover:text-green-700 transition-colors py-2"
               >
                 {t.navOurServices}
               </a>
               <a
-                href="#doctor"
+                href="/#doctor"
                 onClick={() => setMobileMenuOpen(false)}
                 className="text-sm font-semibold text-gray-700 hover:text-green-700 transition-colors py-2"
               >
                 {t.navOurDoctor}
               </a>
               <a
-                href="#gallery"
+                href="/#gallery"
                 onClick={() => setMobileMenuOpen(false)}
                 className="text-sm font-semibold text-gray-700 hover:text-green-700 transition-colors py-2"
               >
                 {t.navGallery}
+              </a>
+              <a
+                href="/video"
+                onClick={() => setMobileMenuOpen(false)}
+                className="text-sm font-semibold text-gray-700 hover:text-green-700 transition-colors py-2"
+              >
+                {t.navVideo}
               </a>
               <a
                 href="/belgelerimiz"
@@ -148,7 +162,7 @@ export function Header() {
                 asChild
                 className="sm:hidden rounded-full bg-green-600 hover:bg-green-700 shadow-md hover:shadow-lg transition-all mt-2"
               >
-                <a href="#appointment" onClick={() => setMobileMenuOpen(false)}>
+                <a href="/#appointment" onClick={() => setMobileMenuOpen(false)}>
                   {t.makeAppointment}
                 </a>
               </Button>

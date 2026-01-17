@@ -17,6 +17,7 @@ const translations = {
     navAppointment: "Randevu Al",
     makeAppointment: "Randevu Al",
     navDocuments: "Belgelerimiz",
+    navVideo: "Video",
 
     // Hero
     heroTitle: "Bir Yolculuğun Adı: Talat Mollaoğlu",
@@ -205,6 +206,7 @@ const translations = {
     navAppointment: "Book Appointment",
     makeAppointment: "Book Appointment",
     navDocuments: "Our Documents", // Added documents menu link
+    navVideo: "Video",
 
     // Hero
     heroTitle: "A Journey Named: Talat Mollaoğlu",
@@ -306,7 +308,7 @@ const translations = {
     servicesBullet6:
       "Cupping therapy removes toxins from the body, accelerates blood circulation, and provides a general detox effect.",
     servicesBullet7:
-      "Leech therapy (hirudotherapy) aims to balance the circulatory system, reduce pain, and support vascular health.",
+      "Leech therapy (hirudoterapi) aims to balance the circulatory system, reduce pain, and support vascular health.",
     servicesConclusion:
       "At Fitonova, every disease is seen not just as a medical condition, but as the beginning of a journey to regain health.",
     servicesApproach:
@@ -394,6 +396,7 @@ const translations = {
     navAppointment: "احجز موعد",
     makeAppointment: "احجز موعد",
     navDocuments: "وثائقنا", // Added documents menu link
+    navVideo: "فيديو",
 
     // Hero
     heroTitle: "اسم الرحلة: طلعت ملا أوغلو",
@@ -575,6 +578,7 @@ const translations = {
     navAppointment: "Termin buchen",
     makeAppointment: "Termin buchen",
     navDocuments: "Unsere Dokumente", // Added documents menu link
+    navVideo: "Video",
 
     // Hero
     heroTitle: "Der Name einer Reise: Talat Mollaoğlu",
@@ -767,6 +771,7 @@ const translations = {
     navAppointment: "Prendre rendez-vous",
     makeAppointment: "Prendre rendez-vous",
     navDocuments: "Nos documents", // Added documents menu link
+    navVideo: "Vidéo",
 
     // Hero
     heroTitle: "Le nom d'un voyage : Talat Mollaoğlu",
@@ -956,6 +961,7 @@ const translations = {
     navAppointment: "预约",
     makeAppointment: "预约",
     navDocuments: "我们的文件", // Added documents menu link
+    navVideo: "视频",
 
     // Hero
     heroTitle: "一段旅程的名字：塔拉特·莫拉奥卢",
@@ -1123,6 +1129,7 @@ const translations = {
     navAppointment: "予約する",
     makeAppointment: "予約する",
     navDocuments: "私たちの文書", // Added documents menu link
+    navVideo: "ビデオ",
 
     // Hero
     heroTitle: "旅の名前：タラト・モラオール",
@@ -1307,6 +1314,7 @@ const translations = {
     navAppointment: "Записаться на прием",
     makeAppointment: "Записаться на прием",
     navDocuments: "Наши документы", // Added documents menu link
+    navVideo: "Видео",
 
     // Hero
     heroTitle: "Название путешествия: Талат Моллаоглу",
